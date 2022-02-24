@@ -1,0 +1,14 @@
+max_path_length: 90
+num_rollouts: 5
+accept_threshold: 0.8
+env_name: 'FetchPickAndPlace-v1'
+env_base_xml_file: 'fetch/pick_and_place.xml'
+initial_policies:
+    grasp_from_rim_controller:
+        fn: policy.grasp_from_rim_controller_bbox:GraspFromRimControllerBBox
+        params:
+            max_path_length: 90
+#    grasp_from_center_controller:
+#        fn: policy.grasp_from_center_controller:GraspFromCenterController
+#        params:
+#            max_path_length: 110

@@ -1,0 +1,232 @@
+max_path_length: 150
+num_rollouts: 1
+accept_threshold: 0.8 #evaluate all
+# env_name: 'FetchPickAndPlace-v1'
+env_name: 'FetchPlacing-v1'
+env_base_xml_file: 'fetch/pick_and_place_stiff_table_kp10000.xml'
+n_robot_dof: 8
+#init_info: {'center_of_table': [1.3, 0.75, 0.4],
+#            'objs': {'object0': {'pos': "-0.03 0.1 0.1" }}
+#           }
+
+init_info: {'center_of_table': [1.3, 0.75, 0.4],
+            'objs': {'object0': {'pos': "-0.08#0.08 -0.15#0.15 0.1" }}
+           }
+
+#            'objs': {'object0': {'pos': "0.15 -0.1 0.2", 'euler_zyx': "60 -90 0" }}
+#init_info: {'center_of_table': [1.3, 0.75, 0.4],
+#            #'objs': {'object0': {'pos': "0.15 -0.1 0.2", 'euler_zyx': "60 -90 0" }}
+#            'objs': {'object0': {'pos': "0 -0.1 0.2", 'euler_zyx': "60 0 -90" }}
+#           }
+#-0.15#0.15 -0.15#
+#"-0.15#0.20 -0.3#0.3 0.1"
+#"0#360 0#90 0"
+
+render: False
+place: True
+bbox_indicator: False
+randomize_color: True
+
+use_detector: False
+
+detector:
+    fn: detector.Detector:Detector
+    params:
+        camera_radius: 0.65  # since we discussed we want cameras to be far
+        #camera_yaw: [0, 350, 36]  # 0-350 with gap of 36 in between
+        camera_yaw_list: [0, 60, 300]
+        camera_pitch: [40, 41, 2]  # [20, 40, 60]
+        camera_lookat_pos: [1.3, 0.75, 0.45]  ## wanted to make it a bit higher
+        table_top: [1.3, 0.75, 0.4]
+        table_T_camR: [0, 0, 0.05]  # copied from fish config
+
+        model_config_file: '/home/htung/2020/pytorch_disco//checkpoints/MUJOCO_OFFLINE/train_rgb_occ_det_as2/config.pkl'
+        ckpt_dict: "{'model': '/home/htung/2020/pytorch_disco/checkpoints/MUJOCO_OFFLINE/train_rgb_occ_det_as2/model-200000.pth'}"
+
+initial_policies:
+    #ddpg_fetch_cup_less_obs_159e56c18906830278d8f8c02c47cde0:
+    #    fn: policy.pytorch_policy:PytorchPolicy
+    #    params:
+    #        policy_model_path: "fetch_cup_less_obs/159e56c18906830278d8f8c02c47cde0"
+    #        #obs_arg: "25"
+    #
+    #ddpg_fetch_cups_b9004dcda66abf95b99d2a3bbaea842a:
+    #    fn: policy.pytorch_policy:PytorchPolicy
+    #    params:
+    #        policy_model_path: "cups/b9004dcda66abf95b99d2a3bbaea842a"
+    #        obs_arg: "25"
+           #model_name: save50 #can specify which one do you like, or I will take the latest one
+
+    grasp_params_controller_center_0_shallow:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 0, 1, 0, 0, -0.010, 1, -1]
+
+    grasp_params_controller_center_1_shallow:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 0, 1, 0, 0, -0.010, 1, -0.66]
+    grasp_params_controller_center_2_shallow:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 0, 1, 0, 0, -0.010, 1, -0.33]
+    grasp_params_controller_center_3_shallow:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 0, 1, 0, 0, -0.010, 1, 0]
+    grasp_params_controller_center_4_shallow:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 0, 1, 0, 0, -0.010, 1, 0.33]
+    grasp_params_controller_center_5_shallow:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 0, 1, 0, 0, -0.010, 1, 0.66]
+
+    grasp_params_controller_center_0:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 0, 1, 0, 0, -0.023, 1, -1]
+    grasp_params_controller_center_1:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 0, 1, 0, 0, -0.023, 1, -0.66]
+    grasp_params_controller_center_2:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 0, 1, 0, 0, -0.023, 1, -0.33]
+    grasp_params_controller_center_3:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 0, 1, 0, 0, -0.023, 1, 0]
+    grasp_params_controller_center_4:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 0, 1, 0, 0, -0.023, 1, 0.33]
+    grasp_params_controller_center_5:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 0, 1, 0, 0, -0.023, 1, 0.66]
+
+
+    grasp_params_controller_right_top_ele45_shalloww:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 1, 1, 0, -0.02, -0.004, 0.50, 1]
+
+    grasp_params_controller_right_top_ele45_shallow:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 1, 1, 0, 0, -0.010, 0.50, 1]
+
+    grasp_params_controller_right_top_ele54_shallow:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 1, 1, 0, 0, -0.010, 0.60, 1]
+
+
+    grasp_params_controller_right_top_ele63_shallow:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 1, 1, 0, 0, -0.010, 0.70, 1]
+
+    grasp_params_controller_right_top_ele81_shallow:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 1, 1, 0, 0, -0.010, 0.90, 1]
+
+    grasp_params_controller_right_top_ele45:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 1, 1, 0, 0, -0.023, 0.50, 1]
+
+    grasp_params_controller_right_top_ele54:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 1, 1, 0, 0, -0.023, 0.60, 1]
+
+
+    grasp_params_controller_right_top_ele63:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 1, 1, 0, 0, -0.023, 0.70, 1]
+
+    # grasp_params_controller_right_top_ele81:
+    #     fn: policy.grasp_params_controller:GraspParamsController
+    #     params:
+    #         max_path_length: 200
+    #         params: [0, 1, 1, 0, 0, -0.023, 0.90, 1]
+
+    grasp_params_controller_right_top_ele81:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 1, 1, 0, 0, -0.023, 0.90, 1]
+
+    grasp_params_controller_far_top_ele81:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [1, 0, 1, 0, 0, -0.023, 0.90, 1]
+
+    grasp_params_controller_left_top_ele81:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, -1, 1, 0, 0, -0.023, 0.90, 1]
+
+    grasp_params_controller_far_top_shallow:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [1, 0, 1, 0, 0, -0.010, 1, 1]
+
+    grasp_params_controller_right_top_shallow:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 1, 1, 0, 0, -0.010, 1, -1]
+
+    grasp_params_controller_left_top_shallow:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, -1, 1, 0, 0, -0.010, 1, 1]
+
+    grasp_params_controller_far_top:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [1, 0, 1, 0, 0, -0.023, 1, 1]
+
+    grasp_params_controller_right_top:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, 1, 1, 0, 0, -0.023, 1, -1]
+
+    grasp_params_controller_left_top:
+        fn: policy.grasp_params_controller:GraspParamsController
+        params:
+            max_path_length: 200
+            params: [0, -1, 1, 0, 0, -0.023, 1, 1]

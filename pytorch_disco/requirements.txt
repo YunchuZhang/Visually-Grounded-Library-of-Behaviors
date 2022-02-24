@@ -1,0 +1,10 @@
+click
+tensorboardX
+tensorflow-gpu
+munch
+sklearn
+transformations
+numba
+ipdb
+attrdict
+pyyaml

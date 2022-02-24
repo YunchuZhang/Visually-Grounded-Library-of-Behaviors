@@ -1,0 +1,17 @@
+objs:
+    '159e56c18906830278d8f8c02c47cde0_1':
+        class_id: 1
+        obj_xml_file: 'cups/159e56c18906830278d8f8c02c47cde0.xml'
+        scale: 1.2
+    '159e56c18906830278d8f8c02c47cde0_2':
+        class_id: 2
+        obj_xml_file: 'cups/159e56c18906830278d8f8c02c47cde0.xml'
+        scale: 1.2
+    '159e56c18906830278d8f8c02c47cde0_3':
+        class_id: 3
+        obj_xml_file: 'cups/159e56c18906830278d8f8c02c47cde0.xml'
+        scale: 1.2
+    '159e56c18906830278d8f8c02c47cde0_4':
+        class_id: 4
+        obj_xml_file: 'cups/159e56c18906830278d8f8c02c47cde0.xml'
+        scale: 1.2

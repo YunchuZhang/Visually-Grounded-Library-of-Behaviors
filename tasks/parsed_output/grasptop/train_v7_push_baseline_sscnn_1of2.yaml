@@ -1,0 +1,823 @@
+num_rollouts: 10
+num_visualize: 10
+max_path_length: 50
+accept_threshold: null
+num_threads: 5
+bbox_indicator: false
+env_name: FetchPush-v1
+env_base_xml_file: fetch/push.xml
+n_robot_dof: 4
+render: true
+randomize_color: true
+obs_type: bb
+clusters:
+  c0:
+    expert_name: sscnn
+    fn: policy.cnn_policy:CNNPolicy
+    params:
+      policy_name: sscnn
+      policy_model_path: logs/bc/v1_singleview_l3/ckpt/ep460-455399
+      params_path: bc/configs/default.yaml
+      camera_config_path: tasks/camera/camera_config.yaml
+      viewpoint: 2
+objs:
+  a4b0c73d0f12bc75533388d244d29c5c_u273_x11348:
+    obj_xml_file: cameras/a4b0c73d0f12bc75533388d244d29c5c.xml
+    class_id: 0
+    scale: [0.2008688215294815, 0.2791240351451338, 0.2008688215294815]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.521]
+    cluster_id: c0
+    success_rates_over_class: [0.5]
+  a4b0c73d0f12bc75533388d244d29c5c_u146_x13121:
+    obj_xml_file: cameras/a4b0c73d0f12bc75533388d244d29c5c.xml
+    class_id: 0
+    scale: [0.25222912048951684, 0.2828, 0.25222912048951684]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 2.544]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  a4b0c73d0f12bc75533388d244d29c5c_u210_x12616:
+    obj_xml_file: cameras/a4b0c73d0f12bc75533388d244d29c5c.xml
+    class_id: 0
+    scale: [0.2698071619666204, 0.2698071619666204, 0.21732063300761575]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -2.618]
+    cluster_id: c0
+    success_rates_over_class: [0.7]
+  a4b0c73d0f12bc75533388d244d29c5c_u272_x12341:
+    obj_xml_file: cameras/a4b0c73d0f12bc75533388d244d29c5c.xml
+    class_id: 0
+    scale: [0.2288373761298919, 0.2828, 0.2288373761298919]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.534]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  a4b0c73d0f12bc75533388d244d29c5c_u112_x11987:
+    obj_xml_file: cameras/a4b0c73d0f12bc75533388d244d29c5c.xml
+    class_id: 0
+    scale: [0.2445982092039822, 0.2445982092039822, 0.23003224729293226]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 1.949]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  b92acfcd92408529d863a5ae2bdfd29_u127_x10399:
+    obj_xml_file: cameras/b92acfcd92408529d863a5ae2bdfd29.xml
+    class_id: 0
+    scale: [0.18611021331235333, 0.18611021331235333, 0.2517138428972054]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 2.223]
+    cluster_id: c0
+    success_rates_over_class: [0.9]
+  b92acfcd92408529d863a5ae2bdfd29_u159_x11746:
+    obj_xml_file: cameras/b92acfcd92408529d863a5ae2bdfd29.xml
+    class_id: 0
+    scale: [0.2745256326508058, 0.2151194038691641, 0.2151194038691641]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 2.782]
+    cluster_id: c0
+    success_rates_over_class: [0.7]
+  b92acfcd92408529d863a5ae2bdfd29_u034_x13386:
+    obj_xml_file: cameras/b92acfcd92408529d863a5ae2bdfd29.xml
+    class_id: 0
+    scale: [0.2601888980209354, 0.2601888980209354, 0.2828]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 0.586]
+    cluster_id: c0
+    success_rates_over_class: [0.5]
+  b92acfcd92408529d863a5ae2bdfd29_u220_x12405:
+    obj_xml_file: cameras/b92acfcd92408529d863a5ae2bdfd29.xml
+    class_id: 0
+    scale: [0.2584881475663113, 0.22732610634102743, 0.2584881475663113]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -2.439]
+    cluster_id: c0
+    success_rates_over_class: [0.6]
+  b92acfcd92408529d863a5ae2bdfd29_u253_x07367:
+    obj_xml_file: cameras/b92acfcd92408529d863a5ae2bdfd29.xml
+    class_id: 0
+    scale: [0.1503059763805336, 0.1503059763805336, 0.1414]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.862]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  e9e22de9e4c3c3c92a60bd875e075589_u289_x11538:
+    obj_xml_file: cameras/e9e22de9e4c3c3c92a60bd875e075589.xml
+    class_id: 0
+    scale: [0.3535, 0.25592862175123704, 0.25592862175123704]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.237]
+    cluster_id: c0
+    success_rates_over_class: [0.7]
+  e9e22de9e4c3c3c92a60bd875e075589_u039_x10219:
+    obj_xml_file: cameras/e9e22de9e4c3c3c92a60bd875e075589.xml
+    class_id: 0
+    scale: [0.2741864857465049, 0.2741864857465049, 0.2180443831605441]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 0.685]
+    cluster_id: c0
+    success_rates_over_class: [0.4]
+  e9e22de9e4c3c3c92a60bd875e075589_u293_x11231:
+    obj_xml_file: cameras/e9e22de9e4c3c3c92a60bd875e075589.xml
+    class_id: 0
+    scale: [0.27224512753200475, 0.27224512753200475, 0.29780668136945726]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.166]
+    cluster_id: c0
+    success_rates_over_class: [0.6]
+  e9e22de9e4c3c3c92a60bd875e075589_u160_x11027:
+    obj_xml_file: cameras/e9e22de9e4c3c3c92a60bd875e075589.xml
+    class_id: 0
+    scale: [0.28214370278481404, 0.26271870737784453, 0.28214370278481404]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 2.796]
+    cluster_id: c0
+    success_rates_over_class: [0.5]
+  e9e22de9e4c3c3c92a60bd875e075589_u105_x07963:
+    obj_xml_file: cameras/e9e22de9e4c3c3c92a60bd875e075589.xml
+    class_id: 0
+    scale: [0.17675, 0.21022491732198245, 0.21022491732198245]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 1.824]
+    cluster_id: c0
+    success_rates_over_class: [0.4]
+  f1540b3d6da38fbf1d908355fc20d631_u172_x08545:
+    obj_xml_file: cameras/f1540b3d6da38fbf1d908355fc20d631.xml
+    class_id: 0
+    scale: [0.2044732374771459, 0.15410116467305696, 0.15410116467305696]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 2.994]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  f1540b3d6da38fbf1d908355fc20d631_u303_x13660:
+    obj_xml_file: cameras/f1540b3d6da38fbf1d908355fc20d631.xml
+    class_id: 0
+    scale: [0.2684016793600041, 0.2684016793600041, 0.2828]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.99]
+    cluster_id: c0
+    success_rates_over_class: [0.6]
+  f1540b3d6da38fbf1d908355fc20d631_u188_x09724:
+    obj_xml_file: cameras/f1540b3d6da38fbf1d908355fc20d631.xml
+    class_id: 0
+    scale: [0.2340616852853281, 0.17469994536874678, 0.17469994536874678]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -3.005]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  f1540b3d6da38fbf1d908355fc20d631_u209_x10804:
+    obj_xml_file: cameras/f1540b3d6da38fbf1d908355fc20d631.xml
+    class_id: 0
+    scale: [0.20510962327764537, 0.20510962327764537, 0.2379940605270897]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -2.641]
+    cluster_id: c0
+    success_rates_over_class: [0.7]
+  f1540b3d6da38fbf1d908355fc20d631_u030_x11866:
+    obj_xml_file: cameras/f1540b3d6da38fbf1d908355fc20d631.xml
+    class_id: 0
+    scale: [0.22804753105275669, 0.25588342639655237, 0.22804753105275669]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 0.518]
+    cluster_id: c0
+    success_rates_over_class: [0.7]
+  7cf439aa8382299047765668cf4023ed_u304_x08491:
+    obj_xml_file: caps/7cf439aa8382299047765668cf4023ed.xml
+    class_id: 1
+    scale: [0.1757652369595465, 0.1757652369595465, 0.15794683170415402]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.973]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  7cf439aa8382299047765668cf4023ed_u134_x09058:
+    obj_xml_file: caps/7cf439aa8382299047765668cf4023ed.xml
+    class_id: 1
+    scale: [0.1655061228023515, 0.21248512831898184, 0.1655061228023515]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 2.338]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  7cf439aa8382299047765668cf4023ed_u282_x11976:
+    obj_xml_file: caps/7cf439aa8382299047765668cf4023ed.xml
+    class_id: 1
+    scale: [0.19386607563782987, 0.26234261839874556, 0.26234261839874556]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.363]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  7cf439aa8382299047765668cf4023ed_u010_x12420:
+    obj_xml_file: caps/7cf439aa8382299047765668cf4023ed.xml
+    class_id: 1
+    scale: [0.23118898726148018, 0.23118898726148018, 0.2828]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 0.168]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  7cf439aa8382299047765668cf4023ed_u141_x08824:
+    obj_xml_file: caps/7cf439aa8382299047765668cf4023ed.xml
+    class_id: 1
+    scale: [0.14195732839352423, 0.19373778756339552, 0.19373778756339552]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 2.458]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  9c225cd8f50b7c353d9199581d0f4b4_u070_x12979:
+    obj_xml_file: caps/9c225cd8f50b7c353d9199581d0f4b4.xml
+    class_id: 1
+    scale: [0.2786558365341651, 0.2786558365341651, 0.22141822268411082]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 1.223]
+    cluster_id: c0
+    success_rates_over_class: [0.9]
+  9c225cd8f50b7c353d9199581d0f4b4_u262_x07358:
+    obj_xml_file: caps/9c225cd8f50b7c353d9199581d0f4b4.xml
+    class_id: 1
+    scale: [0.15003740427410184, 0.15003740427410184, 0.1414]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.714]
+    cluster_id: c0
+    success_rates_over_class: [0.7]
+  9c225cd8f50b7c353d9199581d0f4b4_u223_x12388:
+    obj_xml_file: caps/9c225cd8f50b7c353d9199581d0f4b4.xml
+    class_id: 1
+    scale: [0.22406468214507957, 0.25959663549775386, 0.25959663549775386]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -2.384]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  9c225cd8f50b7c353d9199581d0f4b4_u126_x08448:
+    obj_xml_file: caps/9c225cd8f50b7c353d9199581d0f4b4.xml
+    class_id: 1
+    scale: [0.16689695127629786, 0.16689695127629786, 0.1731158284030405]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 2.201]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  9c225cd8f50b7c353d9199581d0f4b4_u252_x09707:
+    obj_xml_file: caps/9c225cd8f50b7c353d9199581d0f4b4.xml
+    class_id: 1
+    scale: [0.1967264542742737, 0.18895548352532213, 0.1967264542742737]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.889]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  717f1009cff7c62e741621be11e9d307_u302_x13756:
+    obj_xml_file: baskets/717f1009cff7c62e741621be11e9d307.xml
+    class_id: 2
+    scale: [0.2828, 0.27127336356613985, 0.27127336356613985]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 0.554]
+    cluster_id: c0
+    success_rates_over_class: [0.4]
+  717f1009cff7c62e741621be11e9d307_u348_x07344:
+    obj_xml_file: baskets/717f1009cff7c62e741621be11e9d307.xml
+    class_id: 2
+    scale: [0.1496084034570669, 0.1496084034570669, 0.1414]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 1.36]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  717f1009cff7c62e741621be11e9d307_u123_x09899:
+    obj_xml_file: baskets/717f1009cff7c62e741621be11e9d307.xml
+    class_id: 2
+    scale: [0.1768471897749148, 0.1768471897749148, 0.2402367925140022]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -2.562]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  717f1009cff7c62e741621be11e9d307_u005_x12638:
+    obj_xml_file: baskets/717f1009cff7c62e741621be11e9d307.xml
+    class_id: 2
+    scale: [0.23773308753043879, 0.23773308753043879, 0.2828]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 1.653]
+    cluster_id: c0
+    success_rates_over_class: [0.6]
+  717f1009cff7c62e741621be11e9d307_u234_x09439:
+    obj_xml_file: baskets/717f1009cff7c62e741621be11e9d307.xml
+    class_id: 2
+    scale: [0.1963540131363667, 0.1963540131363667, 0.1736573337731456]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.636]
+    cluster_id: c0
+    success_rates_over_class: [0.6]
+  781c3a0887e320575ce2e5974a5aa15a_u165_x07443:
+    obj_xml_file: baskets/781c3a0887e320575ce2e5974a5aa15a.xml
+    class_id: 2
+    scale: [0.15258103379829677, 0.15258103379829677, 0.1414]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.836]
+    cluster_id: c0
+    success_rates_over_class: [0.9]
+  781c3a0887e320575ce2e5974a5aa15a_u049_x12276:
+    obj_xml_file: baskets/781c3a0887e320575ce2e5974a5aa15a.xml
+    class_id: 2
+    scale: [0.24917036518732077, 0.23821271764376337, 0.24917036518732077]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 2.417]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  781c3a0887e320575ce2e5974a5aa15a_u242_x12209:
+    obj_xml_file: baskets/781c3a0887e320575ce2e5974a5aa15a.xml
+    class_id: 2
+    scale: [0.22486526484558347, 0.22486526484558347, 0.2828]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.482]
+    cluster_id: c0
+    success_rates_over_class: [0.6]
+  781c3a0887e320575ce2e5974a5aa15a_u258_x10772:
+    obj_xml_file: baskets/781c3a0887e320575ce2e5974a5aa15a.xml
+    class_id: 2
+    scale: [0.1962656370731883, 0.2537781926132467, 0.1962656370731883]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.217]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  781c3a0887e320575ce2e5974a5aa15a_u001_x07976:
+    obj_xml_file: baskets/781c3a0887e320575ce2e5974a5aa15a.xml
+    class_id: 2
+    scale: [0.16859256913199716, 0.1414, 0.16859256913199716]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 1.58]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  955ee4b78f049d9b5af4278cc885a78f_u229_x10100:
+    obj_xml_file: baskets/955ee4b78f049d9b5af4278cc885a78f.xml
+    class_id: 2
+    scale: [0.19494083714368557, 0.19494083714368557, 0.21612760278752702]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.708]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  955ee4b78f049d9b5af4278cc885a78f_u011_x13245:
+    obj_xml_file: baskets/955ee4b78f049d9b5af4278cc885a78f.xml
+    class_id: 2
+    scale: [0.26465671039848554, 0.26465671039848554, 0.26536762415527576]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 1.768]
+    cluster_id: c0
+    success_rates_over_class: [0.7]
+  955ee4b78f049d9b5af4278cc885a78f_u060_x07371:
+    obj_xml_file: baskets/955ee4b78f049d9b5af4278cc885a78f.xml
+    class_id: 2
+    scale: [0.1504335241083405, 0.1504335241083405, 0.1414]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 2.611]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  955ee4b78f049d9b5af4278cc885a78f_u327_x12273:
+    obj_xml_file: baskets/955ee4b78f049d9b5af4278cc885a78f.xml
+    class_id: 2
+    scale: [0.2828, 0.22680240263659912, 0.22680240263659912]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 0.992]
+    cluster_id: c0
+    success_rates_over_class: [0.7]
+  955ee4b78f049d9b5af4278cc885a78f_u117_x13375:
+    obj_xml_file: baskets/955ee4b78f049d9b5af4278cc885a78f.xml
+    class_id: 2
+    scale: [0.2828, 0.2598559893236947, 0.2598559893236947]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -2.665]
+    cluster_id: c0
+    success_rates_over_class: [0.5]
+  d9f0f7cff584b60d826faebfb5cddf3c_u068_x14137:
+    obj_xml_file: baskets/d9f0f7cff584b60d826faebfb5cddf3c.xml
+    class_id: 2
+    scale: [0.2827180388269837, 0.2827180388269837, 0.2828]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 2.751]
+    cluster_id: c0
+    success_rates_over_class: [0.6]
+  d9f0f7cff584b60d826faebfb5cddf3c_u355_x09918:
+    obj_xml_file: baskets/d9f0f7cff584b60d826faebfb5cddf3c.xml
+    class_id: 2
+    scale: [0.19821689866085365, 0.19821689866085365, 0.19864543337254545]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 1.487]
+    cluster_id: c0
+    success_rates_over_class: [0.5]
+  d9f0f7cff584b60d826faebfb5cddf3c_u077_x12808:
+    obj_xml_file: baskets/d9f0f7cff584b60d826faebfb5cddf3c.xml
+    class_id: 2
+    scale: [0.2828, 0.24282963386418066, 0.24282963386418066]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 2.912]
+    cluster_id: c0
+    success_rates_over_class: [0.6]
+  d9f0f7cff584b60d826faebfb5cddf3c_u069_x12294:
+    obj_xml_file: baskets/d9f0f7cff584b60d826faebfb5cddf3c.xml
+    class_id: 2
+    scale: [0.2828, 0.2274220530555109, 0.2274220530555109]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 2.767]
+    cluster_id: c0
+    success_rates_over_class: [0.6]
+  d9f0f7cff584b60d826faebfb5cddf3c_u248_x09224:
+    obj_xml_file: baskets/d9f0f7cff584b60d826faebfb5cddf3c.xml
+    class_id: 2
+    scale: [0.16716606992904506, 0.21911029220486064, 0.16716606992904506]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.387]
+    cluster_id: c0
+    success_rates_over_class: [0.7]
+  980ea79e2dab7a595f4027209dc8065d_u226_x07881:
+    obj_xml_file: keyboards/980ea79e2dab7a595f4027209dc8065d.xml
+    class_id: 3
+    scale: [0.144488953592215, 0.18385872015596139, 0.144488953592215]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.77]
+    cluster_id: c0
+    success_rates_over_class: [0.9]
+  980ea79e2dab7a595f4027209dc8065d_u310_x08774:
+    obj_xml_file: keyboards/980ea79e2dab7a595f4027209dc8065d.xml
+    class_id: 3
+    scale: [0.16026566636424044, 0.16026566636424044, 0.2059112779450225]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 0.699]
+    cluster_id: c0
+    success_rates_over_class: [0.5]
+  980ea79e2dab7a595f4027209dc8065d_u041_x07798:
+    obj_xml_file: keyboards/980ea79e2dab7a595f4027209dc8065d.xml
+    class_id: 3
+    scale: [0.1414, 0.1632378353488978, 0.1632378353488978]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 2.293]
+    cluster_id: c0
+    success_rates_over_class: [0.7]
+  980ea79e2dab7a595f4027209dc8065d_u245_x12058:
+    obj_xml_file: keyboards/980ea79e2dab7a595f4027209dc8065d.xml
+    class_id: 3
+    scale: [0.22035150108412244, 0.2828, 0.22035150108412244]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.434]
+    cluster_id: c0
+    success_rates_over_class: [0.5]
+  980ea79e2dab7a595f4027209dc8065d_u305_x13957:
+    obj_xml_file: keyboards/980ea79e2dab7a595f4027209dc8065d.xml
+    class_id: 3
+    scale: [0.2773140914467523, 0.2773140914467523, 0.2828]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 0.605]
+    cluster_id: c0
+    success_rates_over_class: [0.7]
+  ef3d038046cab5cabeb3159acb187cec_u230_x09163:
+    obj_xml_file: keyboards/ef3d038046cab5cabeb3159acb187cec.xml
+    class_id: 3
+    scale: [0.19406432578427701, 0.19406432578427701, 0.16166525594681047]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.691]
+    cluster_id: c0
+    success_rates_over_class: [0.4]
+  ef3d038046cab5cabeb3159acb187cec_u211_x07112:
+    obj_xml_file: keyboards/ef3d038046cab5cabeb3159acb187cec.xml
+    class_id: 3
+    scale: [0.1414, 0.14265804740173973, 0.14265804740173973]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.024]
+    cluster_id: c0
+    success_rates_over_class: [0.5]
+  ef3d038046cab5cabeb3159acb187cec_u284_x12813:
+    obj_xml_file: keyboards/ef3d038046cab5cabeb3159acb187cec.xml
+    class_id: 3
+    scale: [0.24299581837989567, 0.2828, 0.24299581837989567]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 0.248]
+    cluster_id: c0
+    success_rates_over_class: [0.4]
+  ef3d038046cab5cabeb3159acb187cec_u015_x07986:
+    obj_xml_file: keyboards/ef3d038046cab5cabeb3159acb187cec.xml
+    class_id: 3
+    scale: [0.16456988115852644, 0.16456988115852644, 0.1500380831085072]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 1.829]
+    cluster_id: c0
+    success_rates_over_class: [0.4]
+  ef3d038046cab5cabeb3159acb187cec_u356_x08106:
+    obj_xml_file: keyboards/ef3d038046cab5cabeb3159acb187cec.xml
+    class_id: 3
+    scale: [0.16691781167450237, 0.1597312287799101, 0.1597312287799101]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 1.503]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  937cdf200b33bdfd1aec2282dd8bc87a_u336_x09931:
+    obj_xml_file: earphones/937cdf200b33bdfd1aec2282dd8bc87a.xml
+    class_id: 4
+    scale: [0.18493419837499842, 0.18493419837499842, 0.226019762205191]
+    mass: 0.01
+    euler_xyz: [-0.0, 0.0, 1.154]
+    cluster_id: c0
+    success_rates_over_class: [0.9]
+  937cdf200b33bdfd1aec2282dd8bc87a_u145_x08716:
+    obj_xml_file: earphones/937cdf200b33bdfd1aec2282dd8bc87a.xml
+    class_id: 4
+    scale: [0.18785282839618986, 0.14724215597108184, 0.18785282839618986]
+    mass: 0.01
+    euler_xyz: [-0.0, 0.0, -2.18]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  937cdf200b33bdfd1aec2282dd8bc87a_u171_x12125:
+    obj_xml_file: earphones/937cdf200b33bdfd1aec2282dd8bc87a.xml
+    class_id: 4
+    scale: [0.26029595423355273, 0.20690863845220406, 0.26029595423355273]
+    mass: 0.01
+    euler_xyz: [-0.0, 0.0, -1.735]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  937cdf200b33bdfd1aec2282dd8bc87a_u252_x09897:
+    obj_xml_file: earphones/937cdf200b33bdfd1aec2282dd8bc87a.xml
+    class_id: 4
+    scale: [0.2017120947491256, 0.19039663337622248, 0.2017120947491256]
+    mass: 0.01
+    euler_xyz: [-0.0, 0.0, -0.317]
+    cluster_id: c0
+    success_rates_over_class: [0.9]
+  937cdf200b33bdfd1aec2282dd8bc87a_u331_x12381:
+    obj_xml_file: earphones/937cdf200b33bdfd1aec2282dd8bc87a.xml
+    class_id: 4
+    scale: [0.23002132541849105, 0.2828, 0.23002132541849105]
+    mass: 0.01
+    euler_xyz: [-0.0, 0.0, 1.065]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  6475d0da1bfe0006c78df40cf2e9097a_u024_x07469:
+    obj_xml_file: earphones/6475d0da1bfe0006c78df40cf2e9097a.xml
+    class_id: 4
+    scale: [0.1533722770735837, 0.1533722770735837, 0.1414]
+    mass: 0.01
+    euler_xyz: [-0.0, 0.0, 1.984]
+    cluster_id: c0
+    success_rates_over_class: [0.9]
+  6475d0da1bfe0006c78df40cf2e9097a_u003_x09565:
+    obj_xml_file: earphones/6475d0da1bfe0006c78df40cf2e9097a.xml
+    class_id: 4
+    scale: [0.19708444438193373, 0.19708444438193373, 0.1797219575033285]
+    mass: 0.01
+    euler_xyz: [-0.0, 0.0, 1.619]
+    cluster_id: c0
+    success_rates_over_class: [0.9]
+  6475d0da1bfe0006c78df40cf2e9097a_u284_x12145:
+    obj_xml_file: earphones/6475d0da1bfe0006c78df40cf2e9097a.xml
+    class_id: 4
+    scale: [0.24389287571705692, 0.242417060538034, 0.242417060538034]
+    mass: 0.01
+    euler_xyz: [-0.0, 0.0, 0.24]
+    cluster_id: c0
+    success_rates_over_class: [0.9]
+  6475d0da1bfe0006c78df40cf2e9097a_u079_x14136:
+    obj_xml_file: earphones/6475d0da1bfe0006c78df40cf2e9097a.xml
+    class_id: 4
+    scale: [0.2826736778534472, 0.2826736778534472, 0.2828]
+    mass: 0.01
+    euler_xyz: [-0.0, 0.0, 2.953]
+    cluster_id: c0
+    success_rates_over_class: [0.4]
+  6475d0da1bfe0006c78df40cf2e9097a_u069_x07612:
+    obj_xml_file: earphones/6475d0da1bfe0006c78df40cf2e9097a.xml
+    class_id: 4
+    scale: [0.1576627534063869, 0.1576627534063869, 0.1414]
+    mass: 0.01
+    euler_xyz: [-0.0, 0.0, 2.776]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  2d912be96504cb8cd5473a45f1da0225_u271_x08463:
+    obj_xml_file: bottles/2d912be96504cb8cd5473a45f1da0225.xml
+    class_id: 5
+    scale: [0.16991867160509463, 0.16991867160509463, 0.1679396621975247]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.555]
+    cluster_id: c0
+    success_rates_over_class: [0.3]
+  2d912be96504cb8cd5473a45f1da0225_u231_x14126:
+    obj_xml_file: bottles/2d912be96504cb8cd5473a45f1da0225.xml
+    class_id: 5
+    scale: [0.2823815259772668, 0.2823815259772668, 0.2828]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -2.256]
+    cluster_id: c0
+    success_rates_over_class: [0.2]
+  2d912be96504cb8cd5473a45f1da0225_u071_x09032:
+    obj_xml_file: bottles/2d912be96504cb8cd5473a45f1da0225.xml
+    class_id: 5
+    scale: [0.19485371975404167, 0.19485371975404167, 0.152191593161789]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 1.244]
+    cluster_id: c0
+    success_rates_over_class: [0.4]
+  2d912be96504cb8cd5473a45f1da0225_u053_x11025:
+    obj_xml_file: bottles/2d912be96504cb8cd5473a45f1da0225.xml
+    class_id: 5
+    scale: [0.19879523327994797, 0.19879523327994797, 0.2639013091411394]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 0.932]
+    cluster_id: c0
+    success_rates_over_class: [0.5]
+  2d912be96504cb8cd5473a45f1da0225_u245_x13611:
+    obj_xml_file: bottles/2d912be96504cb8cd5473a45f1da0225.xml
+    class_id: 5
+    scale: [0.2669323582842639, 0.2669323582842639, 0.2828]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -2.015]
+    cluster_id: c0
+    success_rates_over_class: [0.5]
+  2eba1ad799a00142938c8d9daf9b36f6_u195_x13416:
+    obj_xml_file: bottles/2eba1ad799a00142938c8d9daf9b36f6.xml
+    class_id: 5
+    scale: [0.2730877154077181, 0.2730877154077181, 0.25876037671407104]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -2.873]
+    cluster_id: c0
+    success_rates_over_class: [0.5]
+  2eba1ad799a00142938c8d9daf9b36f6_u295_x08114:
+    obj_xml_file: bottles/2eba1ad799a00142938c8d9daf9b36f6.xml
+    class_id: 5
+    scale: [0.14641521222926812, 0.14641521222926812, 0.1940381750261655]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.143]
+    cluster_id: c0
+    success_rates_over_class: [0.3]
+  2eba1ad799a00142938c8d9daf9b36f6_u303_x10273:
+    obj_xml_file: bottles/2eba1ad799a00142938c8d9daf9b36f6.xml
+    class_id: 5
+    scale: [0.22382887268681573, 0.22382887268681573, 0.16874814726089227]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.991]
+    cluster_id: c0
+    success_rates_over_class: [0.5]
+  2eba1ad799a00142938c8d9daf9b36f6_u186_x12938:
+    obj_xml_file: bottles/2eba1ad799a00142938c8d9daf9b36f6.xml
+    class_id: 5
+    scale: [0.27085371753404586, 0.27085371753404586, 0.23459699301019668]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -3.038]
+    cluster_id: c0
+    success_rates_over_class: [0.4]
+  2eba1ad799a00142938c8d9daf9b36f6_u108_x12190:
+    obj_xml_file: bottles/2eba1ad799a00142938c8d9daf9b36f6.xml
+    class_id: 5
+    scale: [0.24870827991765135, 0.24870827991765135, 0.23396739429724642]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 1.888]
+    cluster_id: c0
+    success_rates_over_class: [0.5]
+  3d295fccf7d4e4dfd317c475f024f3b8_u288_x13521:
+    obj_xml_file: bottles/3d295fccf7d4e4dfd317c475f024f3b8.xml
+    class_id: 5
+    scale: [0.26423354509301655, 0.26423354509301655, 0.2828]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.253]
+    cluster_id: c0
+    success_rates_over_class: [0.2]
+  3d295fccf7d4e4dfd317c475f024f3b8_u324_x11283:
+    obj_xml_file: bottles/3d295fccf7d4e4dfd317c475f024f3b8.xml
+    class_id: 5
+    scale: [0.21244340389187322, 0.21244340389187322, 0.25211719878719413]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.621]
+    cluster_id: c0
+    success_rates_over_class: [0.4]
+  3d295fccf7d4e4dfd317c475f024f3b8_u269_x13078:
+    obj_xml_file: bottles/3d295fccf7d4e4dfd317c475f024f3b8.xml
+    class_id: 5
+    scale: [0.2694773942820953, 0.2694773942820953, 0.24570747937590723]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.59]
+    cluster_id: c0
+    success_rates_over_class: [0.1]
+  3d295fccf7d4e4dfd317c475f024f3b8_u297_x10956:
+    obj_xml_file: bottles/3d295fccf7d4e4dfd317c475f024f3b8.xml
+    class_id: 5
+    scale: [0.20958499781752052, 0.20958499781752052, 0.23818348844689763]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -1.095]
+    cluster_id: c0
+    success_rates_over_class: [0.7]
+  3d295fccf7d4e4dfd317c475f024f3b8_u306_x13188:
+    obj_xml_file: bottles/3d295fccf7d4e4dfd317c475f024f3b8.xml
+    class_id: 5
+    scale: [0.25424560921412803, 0.25424560921412803, 0.2828]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.934]
+    cluster_id: c0
+    success_rates_over_class: [0.3]
+  3d8444d8717cc0b7c18cdaa4851a3c95_u182_x09034:
+    obj_xml_file: bottles/3d8444d8717cc0b7c18cdaa4851a3c95.xml
+    class_id: 5
+    scale: [0.17738055894554983, 0.17738055894554983, 0.18729818720697014]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -3.099]
+    cluster_id: c0
+    success_rates_over_class: [0.3]
+  3d8444d8717cc0b7c18cdaa4851a3c95_u339_x09145:
+    obj_xml_file: bottles/3d8444d8717cc0b7c18cdaa4851a3c95.xml
+    class_id: 5
+    scale: [0.18421660977027338, 0.18421660977027338, 0.18027454514909116]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.358]
+    cluster_id: c0
+    success_rates_over_class: [0.4]
+  3d8444d8717cc0b7c18cdaa4851a3c95_u022_x11122:
+    obj_xml_file: bottles/3d8444d8717cc0b7c18cdaa4851a3c95.xml
+    class_id: 5
+    scale: [0.23203525956633048, 0.23203525956633048, 0.20324869887872354]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 0.391]
+    cluster_id: c0
+    success_rates_over_class: [0.4]
+  3d8444d8717cc0b7c18cdaa4851a3c95_u020_x07239:
+    obj_xml_file: bottles/3d8444d8717cc0b7c18cdaa4851a3c95.xml
+    class_id: 5
+    scale: [0.14648104404702872, 0.14648104404702872, 0.1414]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 0.349]
+    cluster_id: c0
+    success_rates_over_class: [0.5]
+  3d8444d8717cc0b7c18cdaa4851a3c95_u242_x08134:
+    obj_xml_file: bottles/3d8444d8717cc0b7c18cdaa4851a3c95.xml
+    class_id: 5
+    scale: [0.16280425141732985, 0.16280425141732985, 0.1624259136741515]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -2.051]
+    cluster_id: c0
+    success_rates_over_class: [0.2]
+  5bb12905529c85359d3d767e1bc88d65_d139_x08037:
+    obj_xml_file: bowls/5bb12905529c85359d3d767e1bc88d65.xml
+    class_id: 6
+    scale: [0.14805045429579422, 0.14805045429579422, 0.18612175985564158]
+    mass: 0.01
+    euler_xyz: [-1.572, 0.0, 2.43]
+    cluster_id: c0
+    success_rates_over_class: [0.7]
+  5bb12905529c85359d3d767e1bc88d65_u012_x10602:
+    obj_xml_file: bowls/5bb12905529c85359d3d767e1bc88d65.xml
+    class_id: 6
+    scale: [0.22870041990849416, 0.22870041990849416, 0.17871611971637466]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, 0.204]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  5bb12905529c85359d3d767e1bc88d65_d070_x11707:
+    obj_xml_file: bowls/5bb12905529c85359d3d767e1bc88d65.xml
+    class_id: 6
+    scale: [0.25217515954364667, 0.25217515954364667, 0.198077239282517]
+    mass: 0.01
+    euler_xyz: [-1.572, 0.0, 1.225]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  5bb12905529c85359d3d767e1bc88d65_u220_x10950:
+    obj_xml_file: bowls/5bb12905529c85359d3d767e1bc88d65.xml
+    class_id: 6
+    scale: [0.20746044188638316, 0.20746044188638316, 0.2420822352605616]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -2.45]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  5bb12905529c85359d3d767e1bc88d65_d284_x08692:
+    obj_xml_file: bowls/5bb12905529c85359d3d767e1bc88d65.xml
+    class_id: 6
+    scale: [0.15937323026752118, 0.15937323026752118, 0.20274414260096285]
+    mass: 0.01
+    euler_xyz: [-1.572, 0.0, -1.328]
+    cluster_id: c0
+    success_rates_over_class: [0.8]
+  8bb057d18e2fcc4779368d1198f406e7_u187_x11504:
+    obj_xml_file: bowls/8bb057d18e2fcc4779368d1198f406e7.xml
+    class_id: 6
+    scale: [0.25246816571959807, 0.25246816571959807, 0.18531071920143347]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -3.022]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  8bb057d18e2fcc4779368d1198f406e7_d160_x12250:
+    obj_xml_file: bowls/8bb057d18e2fcc4779368d1198f406e7.xml
+    class_id: 6
+    scale: [0.24838553369144745, 0.24838553369144745, 0.2382224785054636]
+    mass: 0.01
+    euler_xyz: [-1.572, 0.0, 2.793]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  8bb057d18e2fcc4779368d1198f406e7_u344_x13674:
+    obj_xml_file: bowls/8bb057d18e2fcc4779368d1198f406e7.xml
+    class_id: 6
+    scale: [0.2689325517275076, 0.2689325517275076, 0.28257246819273707]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.273]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  8bb057d18e2fcc4779368d1198f406e7_u340_x11269:
+    obj_xml_file: bowls/8bb057d18e2fcc4779368d1198f406e7.xml
+    class_id: 6
+    scale: [0.23564467695722657, 0.23564467695722657, 0.2048615296921723]
+    mass: 0.01
+    euler_xyz: [1.57, 0.0, -0.347]
+    cluster_id: c0
+    success_rates_over_class: [1.0]
+  8bb057d18e2fcc4779368d1198f406e7_d183_x13792:
+    obj_xml_file: bowls/8bb057d18e2fcc4779368d1198f406e7.xml
+    class_id: 6
+    scale: [0.27509165649146666, 0.27509165649146666, 0.27733666997835127]
+    mass: 0.01
+    euler_xyz: [-1.572, 0.0, -3.097]
+    cluster_id: c0
+    success_rates_over_class: [1.0]

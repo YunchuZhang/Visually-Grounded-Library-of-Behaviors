@@ -1,0 +1,319 @@
+accept_threshold: 0.8
+bbox_indicator: false
+env_base_xml_file: fetch/pick_and_place.xml
+env_name: FetchPickAndPlace-v1
+max_path_length: 50
+n_robot_dof: 8
+num_rollouts: 10
+num_threads: 5
+randomize_color: true
+render: false
+clusters:
+  c0:
+    expert_name: grasp_from_rim_controller
+    fn: policy.grasp_from_rim_controller_bbox:GraspFromRimControllerBBox
+    params:
+      model_name: null
+      policy_model_path: ''
+      policy_name: grasp_from_rim_controller
+  c1:
+    expert_name: grasp_from_center_controller
+    fn: policy.grasp_from_center_controller:GraspFromCenterController
+    params:
+      max_path_length: 110
+      model_name: null
+      policy_model_path: ''
+      policy_name: grasp_from_center_controller
+objs:
+  1004ae81238886674d44f5db04bf14b8:
+    class_id: 7
+    cluster_id: c1
+    obj_xml_file: bus/1004ae81238886674d44f5db04bf14b8.xml
+    scale: 1.2
+  13d991326c6e8b14fce33f1a52ee07f2:
+    class_id: 7
+    cluster_id: c1
+    obj_xml_file: bottles/13d991326c6e8b14fce33f1a52ee07f2.xml
+    scale: 1.2
+  13e879cb517784a63a4b07a265cff347:
+    class_id: 1
+    cluster_id: c0
+    obj_xml_file: bowls/13e879cb517784a63a4b07a265cff347.xml
+    scale: 2.0
+  159e56c18906830278d8f8c02c47cde0:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/159e56c18906830278d8f8c02c47cde0.xml
+    scale: 1.2
+  1c9f9e25c654cbca3c71bf3f4dd78475:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/1c9f9e25c654cbca3c71bf3f4dd78475.xml
+    scale: 1.5
+  1cf98e5b6fff5471c8724d5673a063a6:
+    class_id: 7
+    cluster_id: c1
+    obj_xml_file: bottles/1cf98e5b6fff5471c8724d5673a063a6.xml
+    scale: 1.2
+  1d18255a04d22794e521eeb8bb14c5b3:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/1d18255a04d22794e521eeb8bb14c5b3.xml
+    scale: 1.5
+  239f4f66030286e73a304988a6618a7b:
+    class_id: 7
+    cluster_id: c1
+    obj_xml_file: bus/239f4f66030286e73a304988a6618a7b.xml
+    scale: 1.2
+  2a1e9b5c0cead676b8183a4a81361b94:
+    class_id: 1
+    cluster_id: c0
+    obj_xml_file: bowls/2a1e9b5c0cead676b8183a4a81361b94.xml
+    scale: 2.0
+  2d4ccc24a821360f8acb0ff76f4aec7d:
+    class_id: 7
+    cluster_id: c1
+    obj_xml_file: car/2d4ccc24a821360f8acb0ff76f4aec7d.xml
+    scale: 1.2
+  #10
+  2e8c4fd40a1be2fa5f38ed4497f2c53c:
+    class_id: 7
+    cluster_id: c1
+    obj_xml_file: car/2e8c4fd40a1be2fa5f38ed4497f2c53c.xml
+    scale: 1.2
+  306f684fa89eb73ee151bdef07e713a2:
+    class_id: 7
+    cluster_id: c1
+    obj_xml_file: car/306f684fa89eb73ee151bdef07e713a2.xml
+    scale: 1.2
+  312cfe616ce515be5826faa473422ba6:
+    class_id: 7
+    cluster_id: c1
+    obj_xml_file: car/312cfe616ce515be5826faa473422ba6.xml
+    scale: 1.2
+  403fb4eb4fc6235adf0c7dbe7f8f4c8e:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/403fb4eb4fc6235adf0c7dbe7f8f4c8e.xml
+    scale: 1.5
+  414772162ef70ec29109ad7f9c200d62:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/414772162ef70ec29109ad7f9c200d62.xml
+    scale: 1.5
+  43e1cabc5dd2fa91fffc97a61124b1a9:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/43e1cabc5dd2fa91fffc97a61124b1a9.xml
+    scale: 1.5
+  454fa7fd637177cf2bea4b6e7618432:
+    class_id: 1
+    cluster_id: c0
+    obj_xml_file: bowls/454fa7fd637177cf2bea4b6e7618432.xml
+    scale: 2.0
+  46955fddcc83a50f79b586547e543694:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/46955fddcc83a50f79b586547e543694.xml
+    scale: 1.5
+  524eb99c8d45eb01664b3b9b23ddfcbc:
+    class_id: 1
+    cluster_id: c0
+    obj_xml_file: bowls/524eb99c8d45eb01664b3b9b23ddfcbc.xml
+    scale: 2.0
+  57f73714cbc425e44ae022a8f6e258a7:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/57f73714cbc425e44ae022a8f6e258a7.xml
+    scale: 1.5
+  # 20
+  599e604a8265cc0a98765d8aa3638e70:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/599e604a8265cc0a98765d8aa3638e70.xml
+    scale: 1.0
+  5c7c4cb503a757147dbda56eabff0c47:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/5c7c4cb503a757147dbda56eabff0c47.xml
+    scale: 1.5
+  5ef0c4f8c0884a24762241154bf230ce:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/5ef0c4f8c0884a24762241154bf230ce.xml
+    scale: 1.5
+  5ef0c4f8c0884a24762241154bf230ce2:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/5ef0c4f8c0884a24762241154bf230ce.xml
+    scale: 1.2
+  60f4012b5336902b30612f5c0ef21eb8:
+    class_id: 8
+    cluster_id: c1
+    obj_xml_file: can/60f4012b5336902b30612f5c0ef21eb8.xml
+    scale: 1.2
+  669033f9b748c292d18ceeb5427760e8:
+    class_id: 8
+    cluster_id: c1
+    obj_xml_file: can/669033f9b748c292d18ceeb5427760e8.xml
+    scale: 1.2
+  6929f0a74db347dcc69634f1103db34e:
+    class_id: 7
+    cluster_id: c1
+    obj_xml_file: bus/6929f0a74db347dcc69634f1103db34e.xml
+    scale: 1.5
+  6e884701bfddd1f71e1138649f4c219:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/6e884701bfddd1f71e1138649f4c219.xml
+    scale: 1.5
+  6f2c06bb129e52be63ed57e35c972b4b:
+    class_id: 8
+    cluster_id: c1
+    obj_xml_file: can/6f2c06bb129e52be63ed57e35c972b4b.xml
+    scale: 1.2
+  71ca4fc9c8c29fa8d5abaf84513415a2:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/71ca4fc9c8c29fa8d5abaf84513415a2.xml
+    scale: 1.5
+  #30
+  9737c77d3263062b8ca7a0a01bcd55b6:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/9737c77d3263062b8ca7a0a01bcd55b6.xml
+    scale: 1.5
+  9af98540f45411467246665d3d3724c:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/9af98540f45411467246665d3d3724c.xml
+    scale: 1.5
+  9d8c711750a73b06ad1d789f3b2120d0:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/9d8c711750a73b06ad1d789f3b2120d0.xml
+    scale: 1.5
+  9ea66797afeb86196ea1c514a0de6d2d:
+    class_id: 1
+    cluster_id: c0
+    obj_xml_file: bowls/9ea66797afeb86196ea1c514a0de6d2d.xml
+    scale: 2.0
+  b18bf84bcd457ffbc2868ebdda32b945:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/b18bf84bcd457ffbc2868ebdda32b945.xml
+    scale: 1.2
+  b46e89995f4f9cc5161e440f04bd2a2:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/b46e89995f4f9cc5161e440f04bd2a2.xml
+    scale: 1.5
+  b9004dcda66abf95b99d2a3bbaea842a:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/b9004dcda66abf95b99d2a3bbaea842a.xml
+    scale: 1.0
+  bea77759a3e5f9037ae0031c221d81a4:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/bea77759a3e5f9037ae0031c221d81a4.xml
+    scale: 1.5
+  bed9f618bef8d3e9f6d436d018e2b50f:
+    class_id: 1
+    cluster_id: c0
+    obj_xml_file: bowls/bed9f618bef8d3e9f6d436d018e2b50f.xml
+    scale: 2.0
+  bottle:
+    class_id: 2
+    cluster_id: c1
+    obj_xml_file: robotsuite_objects_centered/bottle.xml
+  #40
+  bottle2:
+    class_id: 2
+    cluster_id: c1
+    obj_xml_file: robotsuite_objects_centered/bottle2.xml
+  c39fb75015184c2a0c7f097b1a1f7a5:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/c39fb75015184c2a0c7f097b1a1f7a5.xml
+    scale: 1.5
+  d801d5b05f7d872341d8650f1ad40eb1:
+    class_id: 8
+    cluster_id: c1
+    obj_xml_file: can/d801d5b05f7d872341d8650f1ad40eb1.xml
+    scale: 1.2
+  dcec634f18e12427c2c72e575af174cd:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/dcec634f18e12427c2c72e575af174cd.xml
+    scale: 1.5
+  e6dedae946ff5265a95fb60c110b25aa:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/e6dedae946ff5265a95fb60c110b25aa.xml
+    scale: 1.5
+  ec846432f3ebedf0a6f32a8797e3b9e9:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/ec846432f3ebedf0a6f32a8797e3b9e9.xml
+    scale: 1.5
+  f1c5b9bb744afd96d6e1954365b10b52:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/f1c5b9bb744afd96d6e1954365b10b52.xml
+    scale: 1.5
+  f30209622ad392b1dca398a9db6025b3:
+    class_id: 7
+    cluster_id: c1
+    obj_xml_file: bus/f30209622ad392b1dca398a9db6025b3.xml
+    scale: 2.0
+  f9c9cb740629615426479a182158bae5:
+    class_id: 7
+    cluster_id: c1
+    obj_xml_file: bus/f9c9cb740629615426479a182158bae5.xml
+    scale: 1.0
+  hammer:
+    class_id: 2
+    cluster_id: c1
+    obj_xml_file: robotsuite_objects_centered/hammer.xml
+  #50
+  hammer2:
+    class_id: 2
+    cluster_id: c1
+    obj_xml_file: robotsuite_objects_centered/hammer2.xml
+  hammer3:
+    class_id: 2
+    cluster_id: c1
+    obj_xml_file: robotsuite_objects_centered/hammer3.xml
+  hammer4:
+    class_id: 2
+    cluster_id: c1
+    obj_xml_file: robotsuite_objects_centered/hammer4.xml
+  hammer5:
+    class_id: 2
+    cluster_id: c1
+    obj_xml_file: robotsuite_objects_centered/hammer5.xml
+  hammer6:
+    class_id: 2
+    cluster_id: c1
+    obj_xml_file: robotsuite_objects_centered/hammer6.xml
+  nail1:
+    class_id: 2
+    cluster_id: c1
+    obj_xml_file: robotsuite_objects_centered/nail1.xml
+  nail2:
+    class_id: 2
+    cluster_id: c1
+    obj_xml_file: robotsuite_objects_centered/nail2.xml
+  nail4:
+    class_id: 2
+    cluster_id: c0
+    obj_xml_file: robotsuite_objects_centered/nail4.xml
+  pen:
+    class_id: 2
+    cluster_id: c1
+    obj_xml_file: robotsuite_objects_centered/pen.xml
+  spray:
+    class_id: 2
+    cluster_id: c1
+    obj_xml_file: robotsuite_objects_centered/spray.xml

@@ -1,0 +1,147 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AttrDict	collect.py	/^from attrdict import AttrDict$/;"	i
+Axes3D	utils.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	i
+ET	collect.py	/^import xml.etree.ElementTree as ET$/;"	i
+ET	generate_cup_xmls.py	/^import xml.etree.ElementTree as ET$/;"	i
+Image	collect.py	/^import PIL.Image as Image$/;"	i
+Image	utils.py	/^import PIL.Image as Image$/;"	i
+OrderedSet	utils.py	/^from ordered_set import OrderedSet$/;"	i
+PIL	collect.py	/^import PIL.Image as Image$/;"	i
+PIL	utils.py	/^import PIL.Image as Image$/;"	i
+Path	utils.py	/^from pathlib import Path$/;"	i
+_convert_depth_to_meters	utils.py	/^def _convert_depth_to_meters(sim, depth):$/;"	f
+_grid_loc	utils.py	/^def _grid_loc(sensor_name, sensor_prefix="sensor_G"):$/;"	f
+_unproject_using_depth	utils.py	/^def _unproject_using_depth(depth_img, intrinsics_mat, depth_scale=1.0):$/;"	f
+a_xml	generate_cup_xmls.py	/^    a_xml = fe$/;"	v
+all_elems	generate_cup_xmls.py	/^all_elems = os.listdir(mug_path)$/;"	v
+all_files	collect.py	/^	all_files = os.listdir(dir_path)$/;"	v
+animation	utils.py	/^import matplotlib.animation as animation$/;"	i
+assets	generate_cup_xmls.py	/^    assets = shared_root.getchildren()$/;"	v
+bb	collect.py	/^from bounding_box import bounding_box as bb$/;"	i
+capture_image	utils.py	/^        def capture_image(vis):$/;"	f	function:save_pts.custom_draw_geometry_with_key_callback
+check_and_make	utils.py	/^def check_and_make(path):$/;"	f
+children_of_root	generate_cup_xmls.py	/^    children_of_root = test_root.getchildren()$/;"	v
+circle_pts	utils.py	/^def circle_pts(radius, angles):$/;"	f
+clip_outside_radius	collect.py	/^def clip_outside_radius(pts, radius=0.5):$/;"	f
+cnt	generate_cup_xmls.py	/^    cnt = 0$/;"	v
+collision_body	generate_cup_xmls.py	/^            collision_body = m$/;"	v
+combinations	collect.py	/^from itertools import combinations$/;"	i
+compute_bounding_box_from_pts	collect.py	/^def compute_bounding_box_from_pts(pts):$/;"	f
+compute_bounding_box_python	collect.py	/^def compute_bounding_box_python(pts):$/;"	f
+convert_to_XYZ_format	utils.py	/^def convert_to_XYZ_format(set_of_points,$/;"	f
+convert_to_mesh	utils.py	/^def convert_to_mesh(pts_dir, mesh_dir):$/;"	f
+convert_to_videos	utils.py	/^def convert_to_videos(img_dir, name_of_video, rate):$/;"	f
+copy	utils.py	/^import copy$/;"	i
+create_motion_from_pcds	utils.py	/^def create_motion_from_pcds(p1, p2, t_step=None, save_dir=None):$/;"	f
+create_phantom_body	utils.py	/^def create_phantom_body(mjcf, pos):$/;"	f
+custom_draw_geometry_load_option	utils.py	/^def custom_draw_geometry_load_option(pcd, render_option_file=None):$/;"	f
+custom_draw_geometry_with_key_callback	utils.py	/^    def custom_draw_geometry_with_key_callback(pcd):$/;"	f	function:save_pts
+cv2	collect.py	/^import cv2$/;"	i
+dir_path	collect.py	/^	dir_path = '\/Users\/gspat\/Downloads\/Archive\/collect_cup_data_xmls'$/;"	v
+dm_get_extrinsics	utils.py	/^def dm_get_extrinsics(physics, cam_id):$/;"	f
+dm_get_intrinsics	utils.py	/^def dm_get_intrinsics(fovy, img_width, img_height):$/;"	f
+dm_unproject_using_depth	utils.py	/^def dm_unproject_using_depth(depth_img, intrinsics_mat):$/;"	f
+draw_boxes_on_image_py	collect.py	/^def draw_boxes_on_image_py(rgb, corners_pix, scores, tids,info_text=None, boxes=None, thickness=1,text=False):$/;"	f
+embed	utils.py	/^            from IPython import embed; embed()$/;"	i
+etree	collect.py	/^import xml.etree.ElementTree as ET$/;"	i
+etree	generate_cup_xmls.py	/^import xml.etree.ElementTree as ET$/;"	i
+filtered_elems	generate_cup_xmls.py	/^filtered_elems = []$/;"	v
+filtered_file_paths	collect.py	/^	filtered_file_paths = []$/;"	v
+form_csv_for_framewise_contacts	utils.py	/^def form_csv_for_framewise_contacts(contacts_list, frame_no, csv_save_path=None):$/;"	f
+generate_axis_vector	utils.py	/^def generate_axis_vector(from_pts, to_pt):$/;"	f
+generate_new_cameras	utils.py	/^def generate_new_cameras(radius, center, lookat_vector, height, jitter_z=False, num_pts=50,$/;"	f
+generate_points_on_circle	utils.py	/^def generate_points_on_circle(center, radius, num_pts):$/;"	f
+geoms_to_copy	generate_cup_xmls.py	/^    geoms_to_copy = list()$/;"	v
+get_axis_directions_out	utils.py	/^def get_axis_directions_out(npy_file):$/;"	f
+get_box_corners_2d	collect.py	/^def get_box_corners_2d(bbox_3d, int_mat):$/;"	f
+get_extrinsics	utils.py	/^def get_extrinsics(sim, cam_name):$/;"	f
+get_imgs	utils.py	/^def get_imgs(sim, cam_name, img_height, img_width,$/;"	f
+get_inliers	utils.py	/^def get_inliers(points, clip_radius):$/;"	f
+get_intrinsics	utils.py	/^def get_intrinsics(sim, cam_no, img_width, img_height):$/;"	f
+get_mesh_name	collect.py	/^def get_mesh_name(f):$/;"	f
+get_pos_mat_from_mujoco	utils.py	/^def get_pos_mat_from_mujoco(sim, cam_name):$/;"	f
+get_quaternion	utils.py	/^def get_quaternion(z_axis, world_up):$/;"	f
+inv	utils.py	/^from scipy.linalg import inv, sqrtm$/;"	i
+main	collect.py	/^def main(xml_path, mesh_name=None, mesh_dir_path=None):$/;"	f
+make_and_visualize_pcd	utils.py	/^def make_and_visualize_pcd(pts, render_option_file=None):$/;"	f
+make_lineset	collect.py	/^def make_lineset(points):$/;"	f
+make_lineset_for_all_timesteps	utils.py	/^def make_lineset_for_all_timesteps(pointset, save_dir=None):$/;"	f
+make_pcd	utils.py	/^def make_pcd(points, colors=None):$/;"	f
+matplotlib	collect.py	/^import matplotlib$/;"	i
+matplotlib	collect.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	utils.py	/^import matplotlib.animation as animation$/;"	i
+matplotlib	utils.py	/^import matplotlib.pyplot as plt$/;"	i
+mesh_elems	generate_cup_xmls.py	/^    mesh_elems = list()$/;"	v
+mesh_name	generate_cup_xmls.py	/^    mesh_name = splits[-4]$/;"	v
+mjcf	collect.py	/^from dm_control import mjcf$/;"	i
+mjcf	utils.py	/^from dm_control import mjcf$/;"	i
+mname	collect.py	/^		mname = get_mesh_name(f)$/;"	v
+modify_and_change_xml	collect.py	/^def modify_and_change_xml(xml_string, stl_files_path, xml_save_path):$/;"	f
+mug_body	generate_cup_xmls.py	/^        mug_body = mug_worldbody.getchildren()[0].getchildren()$/;"	v
+mug_body	generate_cup_xmls.py	/^        mug_body = mug_worldbody.getchildren()[1].getchildren()$/;"	v
+mug_path	generate_cup_xmls.py	/^mug_path = '\/Users\/gspat\/Downloads\/yes_cup'$/;"	v
+mug_worldbody	generate_cup_xmls.py	/^        mug_worldbody = root.getchildren()[1]$/;"	v
+mug_worldbody	generate_cup_xmls.py	/^        mug_worldbody = root.getchildren()[2]$/;"	v
+mujoco_py	collect.py	/^import mujoco_py$/;"	i
+naive_filter_points	collect.py	/^def naive_filter_points(points, threshold_low=0.38, threshold_high=0.5):$/;"	f
+non_blocking_visualization	utils.py	/^def non_blocking_visualization(all_t_geom_xpos, save_img=False, log_dir=None,$/;"	f
+non_blocking_visualization_mesh	utils.py	/^def non_blocking_visualization_mesh(mesh_dir):$/;"	f
+np	collect.py	/^import numpy as np$/;"	i
+np	utils.py	/^import numpy as np$/;"	i
+o3d	collect.py	/^import open3d as o3d$/;"	i
+o3d	utils.py	/^import open3d as o3d$/;"	i
+object0_body	generate_cup_xmls.py	/^            object0_body = child$/;"	v
+object0_body	generate_cup_xmls.py	/^    object0_body = test_root.getchildren()[3].getchildren()[3]$/;"	v
+os	collect.py	/^import os$/;"	i
+os	generate_cup_xmls.py	/^import os$/;"	i
+os	utils.py	/^import os$/;"	i
+overlay_deformations_and_positions	utils.py	/^def overlay_deformations_and_positions(img_dir, geom_pos_dir, video_dir):$/;"	f
+overlay_images	utils.py	/^def overlay_images(move_img_path, sensor_vis_capsule, overlay_store_dir):$/;"	f
+parse_intrinsics	utils.py	/^def parse_intrinsics(intrinsics_mat):$/;"	f
+parse_sensor_properties	utils.py	/^def parse_sensor_properties(mujoco_physics):$/;"	f
+path_check	utils.py	/^def path_check(path, message):$/;"	f
+pathlib	utils.py	/^import pathlib$/;"	i
+pickle	utils.py	/^import pickle$/;"	i
+pkls	utils.py	/^    pkls = ['sensors_negative_x.pkl', 'sensors_positive_x.pkl', 'sensors_positive_y.pkl',$/;"	v
+plot_3d_points_with_animation	utils.py	/^def plot_3d_points_with_animation(point_set, save_file=None):$/;"	f
+plt	collect.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	utils.py	/^import matplotlib.pyplot as plt$/;"	i
+process_mesh	collect.py	/^from preprocessing import process_mesh$/;"	i
+pyglet	utils.py	/^import pyglet$/;"	i
+recreate_scene	utils.py	/^def recreate_scene(depths, intrinsics, extrinsics,$/;"	f
+ref_cam_extrinsics	utils.py	/^def ref_cam_extrinsics(physics, cam_id):$/;"	f
+render_sensor	utils.py	/^def render_sensor(point_set,$/;"	f
+root	generate_cup_xmls.py	/^    root = tree.getroot()$/;"	v
+rotate_along_x	utils.py	/^def rotate_along_x(angle):$/;"	f
+sample_points_on_sphere	utils.py	/^def sample_points_on_sphere(center, distance_from_center, hemisphere=False):$/;"	f
+save_path	generate_cup_xmls.py	/^save_path = '\/Users\/gspat\/Downloads\/Archive\/collect_cup_data_xmls'$/;"	v
+save_pts	utils.py	/^def save_pts(all_t_geom_xpos):$/;"	f
+segment_plane	collect.py	/^def segment_plane(points):$/;"	f
+sensors_data	utils.py	/^    sensors_data = SensorProperties(pkls)/;"	v
+share_xml_path	generate_cup_xmls.py	/^    share_xml_path = '\/Users\/gspat\/Downloads\/Archive\/share.xml'$/;"	v
+shared_root	generate_cup_xmls.py	/^    shared_root = shared_tree.getroot()$/;"	v
+shared_tree	generate_cup_xmls.py	/^    shared_tree = ET.parse(share_xml_path)$/;"	v
+split_intrinsics	collect.py	/^def split_intrinsics(intrinsics):$/;"	f
+splits	generate_cup_xmls.py	/^    splits = mesh_elems[0].attrib['file'].split('\/')$/;"	v
+sqrtm	utils.py	/^from scipy.linalg import inv, sqrtm$/;"	i
+subprocess	utils.py	/^import subprocess$/;"	i
+sym	utils.py	/^def sym(w):$/;"	f
+test_root	generate_cup_xmls.py	/^    test_root = test_tree.getroot()$/;"	v
+test_tree	generate_cup_xmls.py	/^    test_tree = ET.parse(test_xml_path)$/;"	v
+test_xml_path	generate_cup_xmls.py	/^    test_xml_path = '\/Users\/gspat\/Downloads\/Archive\/test.xml'$/;"	v
+transformations	utils.py	/^import transformations$/;"	i
+tree	generate_cup_xmls.py	/^    tree = ET.parse(a_xml)$/;"	v
+trimesh	utils.py	/^import trimesh$/;"	i
+update_graph	utils.py	/^    def update_graph(num):$/;"	f	function:plot_3d_points_with_animation
+utils	collect.py	/^import utils$/;"	i
+vectorized_unproject	utils.py	/^def vectorized_unproject(depth, intrinsics, rgb=None, depth_scale=1., depth_trunc=1000.):$/;"	f
+visualize	utils.py	/^def visualize(points_list, origin, clip_radius=2., frame=True):$/;"	f
+worldbody_children	generate_cup_xmls.py	/^    worldbody_children = worldbody_elem.getchildren()$/;"	v
+worldbody_elem	generate_cup_xmls.py	/^    worldbody_elem = children_of_root[3]$/;"	v
+xml	collect.py	/^import xml.etree.ElementTree as ET$/;"	i
+xml	generate_cup_xmls.py	/^import xml.etree.ElementTree as ET$/;"	i

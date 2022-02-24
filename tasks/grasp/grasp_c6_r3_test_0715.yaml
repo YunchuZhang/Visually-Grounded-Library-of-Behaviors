@@ -1,0 +1,1126 @@
+objs:
+  id0000_bus_139502837db81fafae3dfcb7ed2f0b_run0:
+    euler_xyz: 1.57 1.57 0.4485794761448712
+    mass: 1.2
+    obj_xml_file: bus/139502837db81fafae3dfcb7ed2f0b2.xml
+    scale: 0.8352436886768813
+  id0001_bus_139502837db81fafae3dfcb7ed2f0b_run1:
+    euler_xyz: 0.0 1.57 2.8643360635408266
+    mass: 1.2
+    obj_xml_file: bus/139502837db81fafae3dfcb7ed2f0b2.xml
+    scale: 0.5076219400677755
+  id0002_bus_139502837db81fafae3dfcb7ed2f0b_run2:
+    euler_xyz: 1.57 1.57 0.2329678626966142
+    mass: 1.2
+    obj_xml_file: bus/139502837db81fafae3dfcb7ed2f0b2.xml
+    scale: 0.8917292421071237
+  id0003_bus_4ece51cc1786dd0a7a49a4f3f2ced3_run0:
+    euler_xyz: 1.57 1.57 0.8252580621408562
+    mass: 1.2
+    obj_xml_file: bus/4ece51cc1786dd0a7a49a4f3f2ced32.xml
+    scale: 0.9435629215413568
+  id0004_bus_4ece51cc1786dd0a7a49a4f3f2ced3_run1:
+    euler_xyz: 1.57 0.0 0.21208662154160202
+    mass: 1.2
+    obj_xml_file: bus/4ece51cc1786dd0a7a49a4f3f2ced32.xml
+    scale: 0.5075140343310706
+  id0005_bus_4ece51cc1786dd0a7a49a4f3f2ced3_run2:
+    euler_xyz: 0.0 1.57 0.9708557895891039
+    mass: 1.2
+    obj_xml_file: bus/4ece51cc1786dd0a7a49a4f3f2ced32.xml
+    scale: 0.9368065603914886
+  id0006_bus_f9c9cb740629615426479a182158bae_run0:
+    euler_xyz: 0.0 0.0 3.0643430076064226
+    mass: 1.2
+    obj_xml_file: bus/f9c9cb740629615426479a182158bae5.xml
+    scale: 0.634990167442918
+  id0007_bus_f9c9cb740629615426479a182158bae_run1:
+    euler_xyz: 1.57 0.0 2.367278769979643
+    mass: 1.2
+    obj_xml_file: bus/f9c9cb740629615426479a182158bae5.xml
+    scale: 0.9153780630275976
+  id0008_bus_f9c9cb740629615426479a182158bae_run2:
+    euler_xyz: 1.57 0.0 1.098929663297609
+    mass: 1.2
+    obj_xml_file: bus/f9c9cb740629615426479a182158bae5.xml
+    scale: 0.9292736288246848
+  id0009_bus_ea80f7a2a3b97d2e8f3f2979f302c5_run0:
+    euler_xyz: 0.0 1.57 2.903762544178136
+    mass: 1.2
+    obj_xml_file: bus/ea80f7a2a3b97d2e8f3f2979f302c57.xml
+    scale: 0.9445735484430413
+  id0010_bus_ea80f7a2a3b97d2e8f3f2979f302c5_run1:
+    euler_xyz: 1.57 0.0 2.879413541018961
+    mass: 1.2
+    obj_xml_file: bus/ea80f7a2a3b97d2e8f3f2979f302c57.xml
+    scale: 0.5095573309816601
+  id0011_bus_ea80f7a2a3b97d2e8f3f2979f302c5_run2:
+    euler_xyz: 1.57 1.57 2.9499767479668537
+    mass: 1.2
+    obj_xml_file: bus/ea80f7a2a3b97d2e8f3f2979f302c57.xml
+    scale: 0.9011093692155527
+  id0012_bus_d6b48aa8ab3b5c8ea22d178fb4ac75e_run0:
+    euler_xyz: 1.57 0.0 2.8356124231483815
+    mass: 1.2
+    obj_xml_file: bus/d6b48aa8ab3b5c8ea22d178fb4ac75ef.xml
+    scale: 0.5859401662999364
+  id0013_bus_d6b48aa8ab3b5c8ea22d178fb4ac75e_run1:
+    euler_xyz: 1.57 1.57 1.695720032558289
+    mass: 1.2
+    obj_xml_file: bus/d6b48aa8ab3b5c8ea22d178fb4ac75ef.xml
+    scale: 0.6934426579812367
+  id0014_bus_d6b48aa8ab3b5c8ea22d178fb4ac75e_run2:
+    euler_xyz: 1.57 0.0 1.7243829134566486
+    mass: 1.2
+    obj_xml_file: bus/d6b48aa8ab3b5c8ea22d178fb4ac75ef.xml
+    scale: 0.7973739664798041
+  id0015_bus_aed84b7e25d3de71d7cd73ccf58d1f_run0:
+    euler_xyz: 0.0 0.0 2.81357707642299
+    mass: 1.2
+    obj_xml_file: bus/aed84b7e25d3de71d7cd73ccf58d1f8.xml
+    scale: 0.5260401818228091
+  id0016_bus_aed84b7e25d3de71d7cd73ccf58d1f_run1:
+    euler_xyz: 1.57 0.0 0.5502512971917806
+    mass: 1.2
+    obj_xml_file: bus/aed84b7e25d3de71d7cd73ccf58d1f8.xml
+    scale: 0.63177814247142
+  id0017_bus_aed84b7e25d3de71d7cd73ccf58d1f_run2:
+    euler_xyz: 1.57 1.57 1.4229978500656018
+    mass: 1.2
+    obj_xml_file: bus/aed84b7e25d3de71d7cd73ccf58d1f8.xml
+    scale: 0.6791835762896825
+  id0018_bus_d72902a7e8401366f31ad0ce8af976a_run0:
+    euler_xyz: 0.0 1.57 2.8183006571222124
+    mass: 1.2
+    obj_xml_file: bus/d72902a7e8401366f31ad0ce8af976ac.xml
+    scale: 0.6838852096648296
+  id0019_bus_d72902a7e8401366f31ad0ce8af976a_run1:
+    euler_xyz: 0.0 0.0 1.4906136976095823
+    mass: 1.2
+    obj_xml_file: bus/d72902a7e8401366f31ad0ce8af976ac.xml
+    scale: 0.8815770013823959
+  id0020_bus_d72902a7e8401366f31ad0ce8af976a_run2:
+    euler_xyz: 0.0 0.0 2.447171862009111
+    mass: 1.2
+    obj_xml_file: bus/d72902a7e8401366f31ad0ce8af976ac.xml
+    scale: 0.7518950397782425
+  id0021_bus_d23dfcd55f78a48041cefd10ce5d6cc_run0:
+    euler_xyz: 0.0 1.57 2.125847259358935
+    mass: 1.2
+    obj_xml_file: bus/d23dfcd55f78a48041cefd10ce5d6cc0.xml
+    scale: 0.5112049596971739
+  id0022_bus_d23dfcd55f78a48041cefd10ce5d6cc_run1:
+    euler_xyz: 0.0 0.0 1.9777325200212696
+    mass: 1.2
+    obj_xml_file: bus/d23dfcd55f78a48041cefd10ce5d6cc0.xml
+    scale: 0.9126245274080358
+  id0023_bus_d23dfcd55f78a48041cefd10ce5d6cc_run2:
+    euler_xyz: 1.57 1.57 0.24157401707975287
+    mass: 1.2
+    obj_xml_file: bus/d23dfcd55f78a48041cefd10ce5d6cc0.xml
+    scale: 0.7213055222076246
+  id0024_bus_845599a0f9d7951acbdda2562495e10_run0:
+    euler_xyz: 0.0 1.57 0.1716897439868938
+    mass: 1.2
+    obj_xml_file: bus/845599a0f9d7951acbdda2562495e10b.xml
+    scale: 0.8001445794191644
+  id0025_bus_845599a0f9d7951acbdda2562495e10_run1:
+    euler_xyz: 1.57 0.0 1.0410501157199026
+    mass: 1.2
+    obj_xml_file: bus/845599a0f9d7951acbdda2562495e10b.xml
+    scale: 0.867546911761167
+  id0026_bus_845599a0f9d7951acbdda2562495e10_run2:
+    euler_xyz: 1.57 0.0 0.10501856202718213
+    mass: 1.2
+    obj_xml_file: bus/845599a0f9d7951acbdda2562495e10b.xml
+    scale: 0.9619335884381364
+  id0027_bus_a701862b4a209173c98c13d6112727d_run0:
+    euler_xyz: 1.57 1.57 1.2171565280190075
+    mass: 1.2
+    obj_xml_file: bus/a701862b4a209173c98c13d6112727de.xml
+    scale: 0.6991419067897601
+  id0028_bus_a701862b4a209173c98c13d6112727d_run1:
+    euler_xyz: 0.0 1.57 0.21243109301824414
+    mass: 1.2
+    obj_xml_file: bus/a701862b4a209173c98c13d6112727de.xml
+    scale: 0.5821666792892964
+  id0029_bus_a701862b4a209173c98c13d6112727d_run2:
+    euler_xyz: 1.57 0.0 0.8762468900436517
+    mass: 1.2
+    obj_xml_file: bus/a701862b4a209173c98c13d6112727de.xml
+    scale: 0.9751798108720835
+  id0030_can_d44cec47dbdead7ca46192d8b3088_run0:
+    euler_xyz: 0.0 0.0 0.4395428695994241
+    mass: 1.2
+    obj_xml_file: can/d44cec47dbdead7ca46192d8b30882.xml
+    scale: 1.2000000476837158
+  id0031_can_d44cec47dbdead7ca46192d8b3088_run1:
+    euler_xyz: 0.0 0.0 1.352112224728287
+    mass: 1.2
+    obj_xml_file: can/d44cec47dbdead7ca46192d8b30882.xml
+    scale: 0.800000011920929
+  id0032_can_d44cec47dbdead7ca46192d8b3088_run2:
+    euler_xyz: 0.0 0.0 2.481472792421278
+    mass: 1.2
+    obj_xml_file: can/d44cec47dbdead7ca46192d8b30882.xml
+    scale: 0.800000011920929
+  id0033_can_51f0b5ce9711f63bb15a1cf05bc3d21_run0:
+    euler_xyz: 0.0 0.0 2.1980233413599866
+    mass: 1.2
+    obj_xml_file: can/51f0b5ce9711f63bb15a1cf05bc3d210.xml
+    scale: 0.800000011920929
+  id0034_can_51f0b5ce9711f63bb15a1cf05bc3d21_run1:
+    euler_xyz: 0.0 0.0 2.2722345459540283
+    mass: 1.2
+    obj_xml_file: can/51f0b5ce9711f63bb15a1cf05bc3d210.xml
+    scale: 0.800000011920929
+  id0035_can_51f0b5ce9711f63bb15a1cf05bc3d21_run2:
+    euler_xyz: 0.0 0.0 0.396255135478863
+    mass: 1.2
+    obj_xml_file: can/51f0b5ce9711f63bb15a1cf05bc3d210.xml
+    scale: 1.5
+  id0036_can_adaaccc7f642dee1288ef234853f8b4_run0:
+    euler_xyz: 0.0 0.0 0.35145485448103453
+    mass: 1.2
+    obj_xml_file: can/adaaccc7f642dee1288ef234853f8b4d.xml
+    scale: 1.5
+  id0037_can_adaaccc7f642dee1288ef234853f8b4_run1:
+    euler_xyz: 0.0 0.0 1.9106598037616063
+    mass: 1.2
+    obj_xml_file: can/adaaccc7f642dee1288ef234853f8b4d.xml
+    scale: 1.2000000476837158
+  id0038_can_adaaccc7f642dee1288ef234853f8b4_run2:
+    euler_xyz: 0.0 0.0 2.923788256507444
+    mass: 1.2
+    obj_xml_file: can/adaaccc7f642dee1288ef234853f8b4d.xml
+    scale: 1.2000000476837158
+  id0039_can_ace554442d7d530830612f5c0ef21eb_run0:
+    euler_xyz: 0.0 0.0 2.247630135954984
+    mass: 1.2
+    obj_xml_file: can/ace554442d7d530830612f5c0ef21eb8.xml
+    scale: 0.800000011920929
+  id0040_can_ace554442d7d530830612f5c0ef21eb_run1:
+    euler_xyz: 0.0 0.0 0.45630465144284643
+    mass: 1.2
+    obj_xml_file: can/ace554442d7d530830612f5c0ef21eb8.xml
+    scale: 0.800000011920929
+  id0041_can_ace554442d7d530830612f5c0ef21eb_run2:
+    euler_xyz: 0.0 0.0 0.0015439072891362815
+    mass: 1.2
+    obj_xml_file: can/ace554442d7d530830612f5c0ef21eb8.xml
+    scale: 1.5
+  id0042_can_60f4012b5336902b30612f5c0ef21eb_run0:
+    euler_xyz: 0.0 0.0 0.8128459404705699
+    mass: 1.2
+    obj_xml_file: can/60f4012b5336902b30612f5c0ef21eb8.xml
+    scale: 0.800000011920929
+  id0043_can_60f4012b5336902b30612f5c0ef21eb_run1:
+    euler_xyz: 0.0 0.0 2.971520791680848
+    mass: 1.2
+    obj_xml_file: can/60f4012b5336902b30612f5c0ef21eb8.xml
+    scale: 0.800000011920929
+  id0044_can_60f4012b5336902b30612f5c0ef21eb_run2:
+    euler_xyz: 0.0 0.0 0.7921875087198451
+    mass: 1.2
+    obj_xml_file: can/60f4012b5336902b30612f5c0ef21eb8.xml
+    scale: 0.800000011920929
+  id0045_cups_c34718bd10e378186c6c61abcbd83e5_run0:
+    euler_xyz: 0.0 0.0 1.0527647271697878
+    mass: 1.2
+    obj_xml_file: cups/c34718bd10e378186c6c61abcbd83e5a.xml
+    scale: 0.699999988079071
+  id0046_cups_c34718bd10e378186c6c61abcbd83e5_run1:
+    euler_xyz: 0.0 0.0 2.033394962226486
+    mass: 1.2
+    obj_xml_file: cups/c34718bd10e378186c6c61abcbd83e5a.xml
+    scale: 1.5
+  id0047_cups_c34718bd10e378186c6c61abcbd83e5_run2:
+    euler_xyz: 0.0 0.0 0.6045682303199365
+    mass: 1.2
+    obj_xml_file: cups/c34718bd10e378186c6c61abcbd83e5a.xml
+    scale: 1.5
+  id0048_cups_2852b888abae54b0e3523e99fd841f_run0:
+    euler_xyz: 0.0 0.0 0.06719027471547087
+    mass: 1.2
+    obj_xml_file: cups/2852b888abae54b0e3523e99fd841f4.xml
+    scale: 1.5
+  id0049_cups_2852b888abae54b0e3523e99fd841f_run1:
+    euler_xyz: 0.0 0.0 1.767731998122774
+    mass: 1.2
+    obj_xml_file: cups/2852b888abae54b0e3523e99fd841f4.xml
+    scale: 1.2000000476837158
+  id0050_cups_2852b888abae54b0e3523e99fd841f_run2:
+    euler_xyz: 0.0 0.0 0.6397108559293262
+    mass: 1.2
+    obj_xml_file: cups/2852b888abae54b0e3523e99fd841f4.xml
+    scale: 1.5
+  id0051_cups_5c7c4cb503a757147dbda56eabff0c4_run0:
+    euler_xyz: 0.0 0.0 2.0201667102261025
+    mass: 1.2
+    obj_xml_file: cups/5c7c4cb503a757147dbda56eabff0c47.xml
+    scale: 1.5
+  id0052_cups_5c7c4cb503a757147dbda56eabff0c4_run1:
+    euler_xyz: 0.0 0.0 2.0440573402917606
+    mass: 1.2
+    obj_xml_file: cups/5c7c4cb503a757147dbda56eabff0c47.xml
+    scale: 1.2000000476837158
+  id0053_cups_5c7c4cb503a757147dbda56eabff0c4_run2:
+    euler_xyz: 0.0 0.0 0.4538548218068534
+    mass: 1.2
+    obj_xml_file: cups/5c7c4cb503a757147dbda56eabff0c47.xml
+    scale: 1.5
+  id0054_cups_c51b79493419eccdc1584fff35347dc_run0:
+    euler_xyz: 0.0 0.0 0.03877144119616893
+    mass: 1.2
+    obj_xml_file: cups/c51b79493419eccdc1584fff35347dc6.xml
+    scale: 0.699999988079071
+  id0055_cups_c51b79493419eccdc1584fff35347dc_run1:
+    euler_xyz: 0.0 0.0 2.414149816119184
+    mass: 1.2
+    obj_xml_file: cups/c51b79493419eccdc1584fff35347dc6.xml
+    scale: 0.699999988079071
+  id0056_cups_c51b79493419eccdc1584fff35347dc_run2:
+    euler_xyz: 0.0 0.0 2.7855961403098966
+    mass: 1.2
+    obj_xml_file: cups/c51b79493419eccdc1584fff35347dc6.xml
+    scale: 1.5
+  id0057_cups_6e884701bfddd1f71e1138649f4c21_run0:
+    euler_xyz: 0.0 0.0 0.07765260027922181
+    mass: 1.2
+    obj_xml_file: cups/6e884701bfddd1f71e1138649f4c219.xml
+    scale: 1.5
+  id0058_cups_6e884701bfddd1f71e1138649f4c21_run1:
+    euler_xyz: 0.0 0.0 0.044433882245550865
+    mass: 1.2
+    obj_xml_file: cups/6e884701bfddd1f71e1138649f4c219.xml
+    scale: 1.2000000476837158
+  id0059_cups_6e884701bfddd1f71e1138649f4c21_run2:
+    euler_xyz: 0.0 0.0 1.5705331214050047
+    mass: 1.2
+    obj_xml_file: cups/6e884701bfddd1f71e1138649f4c219.xml
+    scale: 1.5
+  id0060_cups_3143a4accdc23349cac584186c95ce9_run0:
+    euler_xyz: 0.0 0.0 1.3039055501909993
+    mass: 1.2
+    obj_xml_file: cups/3143a4accdc23349cac584186c95ce9b.xml
+    scale: 1.2000000476837158
+  id0061_cups_3143a4accdc23349cac584186c95ce9_run1:
+    euler_xyz: 0.0 0.0 1.8632492785531085
+    mass: 1.2
+    obj_xml_file: cups/3143a4accdc23349cac584186c95ce9b.xml
+    scale: 1.2000000476837158
+  id0062_cups_3143a4accdc23349cac584186c95ce9_run2:
+    euler_xyz: 0.0 0.0 2.6120310861150804
+    mass: 1.2
+    obj_xml_file: cups/3143a4accdc23349cac584186c95ce9b.xml
+    scale: 1.2000000476837158
+  id0063_cups_1a97f3c83016abca21d0de04f408950_run0:
+    euler_xyz: 0.0 0.0 0.02005421417201143
+    mass: 1.2
+    obj_xml_file: cups/1a97f3c83016abca21d0de04f408950f.xml
+    scale: 1.5
+  id0064_cups_1a97f3c83016abca21d0de04f408950_run1:
+    euler_xyz: 0.0 0.0 0.40283027316099645
+    mass: 1.2
+    obj_xml_file: cups/1a97f3c83016abca21d0de04f408950f.xml
+    scale: 1.5
+  id0065_cups_1a97f3c83016abca21d0de04f408950_run2:
+    euler_xyz: 0.0 0.0 1.3404091928057658
+    mass: 1.2
+    obj_xml_file: cups/1a97f3c83016abca21d0de04f408950f.xml
+    scale: 1.5
+  id0066_cups_ec846432f3ebedf0a6f32a8797e3b9e_run0:
+    euler_xyz: 0.0 0.0 2.359612613153206
+    mass: 1.2
+    obj_xml_file: cups/ec846432f3ebedf0a6f32a8797e3b9e9.xml
+    scale: 1.2000000476837158
+  id0067_cups_ec846432f3ebedf0a6f32a8797e3b9e_run1:
+    euler_xyz: 0.0 0.0 1.3820189870423527
+    mass: 1.2
+    obj_xml_file: cups/ec846432f3ebedf0a6f32a8797e3b9e9.xml
+    scale: 0.699999988079071
+  id0068_cups_ec846432f3ebedf0a6f32a8797e3b9e_run2:
+    euler_xyz: 0.0 0.0 0.8174318347949959
+    mass: 1.2
+    obj_xml_file: cups/ec846432f3ebedf0a6f32a8797e3b9e9.xml
+    scale: 1.2000000476837158
+  id0069_cups_15bd6225c209a8e3654b0ce7754570c_run0:
+    euler_xyz: 0.0 0.0 2.6300494423875818
+    mass: 1.2
+    obj_xml_file: cups/15bd6225c209a8e3654b0ce7754570c8.xml
+    scale: 1.5
+  id0070_cups_15bd6225c209a8e3654b0ce7754570c_run1:
+    euler_xyz: 0.0 0.0 1.3187295174916185
+    mass: 1.2
+    obj_xml_file: cups/15bd6225c209a8e3654b0ce7754570c8.xml
+    scale: 0.699999988079071
+  id0071_cups_15bd6225c209a8e3654b0ce7754570c_run2:
+    euler_xyz: 0.0 0.0 0.029683429097747377
+    mass: 1.2
+    obj_xml_file: cups/15bd6225c209a8e3654b0ce7754570c8.xml
+    scale: 1.2000000476837158
+  id0072_cups_9d8c711750a73b06ad1d789f3b2120d_run0:
+    euler_xyz: 0.0 0.0 2.6433104481606735
+    mass: 1.2
+    obj_xml_file: cups/9d8c711750a73b06ad1d789f3b2120d0.xml
+    scale: 1.5
+  id0073_cups_9d8c711750a73b06ad1d789f3b2120d_run1:
+    euler_xyz: 0.0 0.0 2.711052689385301
+    mass: 1.2
+    obj_xml_file: cups/9d8c711750a73b06ad1d789f3b2120d0.xml
+    scale: 1.5
+  id0074_cups_9d8c711750a73b06ad1d789f3b2120d_run2:
+    euler_xyz: 0.0 0.0 2.4293422798174595
+    mass: 1.2
+    obj_xml_file: cups/9d8c711750a73b06ad1d789f3b2120d0.xml
+    scale: 1.2000000476837158
+  id0075_bowls_ce48ffb418b99996912a38ce5826ebb_run0:
+    euler_xyz: 0.0 0.0 2.4420806729833355
+    mass: 1.2
+    obj_xml_file: bowls/ce48ffb418b99996912a38ce5826ebb8.xml
+    scale: 1.1436932548496515
+  id0076_bowls_ce48ffb418b99996912a38ce5826ebb_run1:
+    euler_xyz: 0.0 0.0 0.9212926335589018
+    mass: 1.2
+    obj_xml_file: bowls/ce48ffb418b99996912a38ce5826ebb8.xml
+    scale: 1.0810932897800574
+  id0077_bowls_ce48ffb418b99996912a38ce5826ebb_run2:
+    euler_xyz: 0.0 0.0 0.19719369661738148
+    mass: 1.2
+    obj_xml_file: bowls/ce48ffb418b99996912a38ce5826ebb8.xml
+    scale: 0.7760347197334071
+  id0078_bowls_9ea66797afeb86196ea1c514a0de6d2_run0:
+    euler_xyz: 0.0 0.0 0.7512428924551713
+    mass: 1.2
+    obj_xml_file: bowls/9ea66797afeb86196ea1c514a0de6d2d.xml
+    scale: 0.8668500307937859
+  id0079_bowls_9ea66797afeb86196ea1c514a0de6d2_run1:
+    euler_xyz: 0.0 0.0 2.114451974314374
+    mass: 1.2
+    obj_xml_file: bowls/9ea66797afeb86196ea1c514a0de6d2d.xml
+    scale: 0.8935741268334287
+  id0080_bowls_9ea66797afeb86196ea1c514a0de6d2_run2:
+    euler_xyz: 0.0 0.0 0.9392287225792343
+    mass: 1.2
+    obj_xml_file: bowls/9ea66797afeb86196ea1c514a0de6d2d.xml
+    scale: 1.096558158096522
+  id0081_bowls_454fa7fd637177cf2bea4b6e761843_run0:
+    euler_xyz: 0.0 0.0 2.177981345016913
+    mass: 1.2
+    obj_xml_file: bowls/454fa7fd637177cf2bea4b6e7618432.xml
+    scale: 1.1777747734354542
+  id0082_bowls_454fa7fd637177cf2bea4b6e761843_run1:
+    euler_xyz: 0.0 0.0 2.9371927903913857
+    mass: 1.2
+    obj_xml_file: bowls/454fa7fd637177cf2bea4b6e7618432.xml
+    scale: 1.0485808763210915
+  id0083_bowls_454fa7fd637177cf2bea4b6e761843_run2:
+    euler_xyz: 0.0 0.0 1.7502260580327251
+    mass: 1.2
+    obj_xml_file: bowls/454fa7fd637177cf2bea4b6e7618432.xml
+    scale: 0.8096756740229301
+  id0084_bowls_64d7f5eb886cfa48ce6101c7990e61d_run0:
+    euler_xyz: 0.0 0.0 1.3295466301639862
+    mass: 1.2
+    obj_xml_file: bowls/64d7f5eb886cfa48ce6101c7990e61d4.xml
+    scale: 1.1548153387501943
+  id0085_bowls_64d7f5eb886cfa48ce6101c7990e61d_run1:
+    euler_xyz: 0.0 0.0 0.8730835365052452
+    mass: 1.2
+    obj_xml_file: bowls/64d7f5eb886cfa48ce6101c7990e61d4.xml
+    scale: 0.8687518492140003
+  id0086_bowls_64d7f5eb886cfa48ce6101c7990e61d_run2:
+    euler_xyz: 0.0 0.0 0.871652581259118
+    mass: 1.2
+    obj_xml_file: bowls/64d7f5eb886cfa48ce6101c7990e61d4.xml
+    scale: 0.7006318273958234
+  id0087_bowls_4eefe941048189bdb8046e84ebdc62d_run0:
+    euler_xyz: 0.0 0.0 0.6193402856962765
+    mass: 1.2
+    obj_xml_file: bowls/4eefe941048189bdb8046e84ebdc62d2.xml
+    scale: 0.9961383246270337
+  id0088_bowls_4eefe941048189bdb8046e84ebdc62d_run1:
+    euler_xyz: 0.0 0.0 0.482450253468024
+    mass: 1.2
+    obj_xml_file: bowls/4eefe941048189bdb8046e84ebdc62d2.xml
+    scale: 0.8637066576346571
+  id0089_bowls_4eefe941048189bdb8046e84ebdc62d_run2:
+    euler_xyz: 0.0 0.0 0.3985639242808567
+    mass: 1.2
+    obj_xml_file: bowls/4eefe941048189bdb8046e84ebdc62d2.xml
+    scale: 1.0189428886863163
+  id0090_bowls_708fce7ba7d911f3d5b5e7c77f0efc_run0:
+    euler_xyz: 0.0 0.0 1.2799333442374023
+    mass: 1.2
+    obj_xml_file: bowls/708fce7ba7d911f3d5b5e7c77f0efc2.xml
+    scale: 0.9788879810338755
+  id0091_bowls_708fce7ba7d911f3d5b5e7c77f0efc_run1:
+    euler_xyz: 0.0 0.0 0.6981871698087185
+    mass: 1.2
+    obj_xml_file: bowls/708fce7ba7d911f3d5b5e7c77f0efc2.xml
+    scale: 1.0572693013953542
+  id0092_bowls_708fce7ba7d911f3d5b5e7c77f0efc_run2:
+    euler_xyz: 0.0 0.0 1.2181104555369753
+    mass: 1.2
+    obj_xml_file: bowls/708fce7ba7d911f3d5b5e7c77f0efc2.xml
+    scale: 1.0500000109494054
+  id0093_bowls_804092c488e7c8e420d3c05c08e26_run0:
+    euler_xyz: 0.0 0.0 1.5571214658897958
+    mass: 1.2
+    obj_xml_file: bowls/804092c488e7c8e420d3c05c08e26f.xml
+    scale: 0.7693193706053076
+  id0094_bowls_804092c488e7c8e420d3c05c08e26_run1:
+    euler_xyz: 0.0 0.0 2.6631140109269866
+    mass: 1.2
+    obj_xml_file: bowls/804092c488e7c8e420d3c05c08e26f.xml
+    scale: 0.9404992615520558
+  id0095_bowls_804092c488e7c8e420d3c05c08e26_run2:
+    euler_xyz: 0.0 0.0 2.074575734380632
+    mass: 1.2
+    obj_xml_file: bowls/804092c488e7c8e420d3c05c08e26f.xml
+    scale: 1.1660145697045567
+  id0096_bowls_8d457deaf22394da65c5c31ac688ec_run0:
+    euler_xyz: 0.0 0.0 1.1236047717122286
+    mass: 1.2
+    obj_xml_file: bowls/8d457deaf22394da65c5c31ac688ec4.xml
+    scale: 0.7734265490108866
+  id0097_bowls_8d457deaf22394da65c5c31ac688ec_run1:
+    euler_xyz: 0.0 0.0 2.8171935908526393
+    mass: 1.2
+    obj_xml_file: bowls/8d457deaf22394da65c5c31ac688ec4.xml
+    scale: 0.9490194814086839
+  id0098_bowls_8d457deaf22394da65c5c31ac688ec_run2:
+    euler_xyz: 0.0 0.0 3.11572679535683
+    mass: 1.2
+    obj_xml_file: bowls/8d457deaf22394da65c5c31ac688ec4.xml
+    scale: 0.9947857624749283
+  id0099_bowls_468b9b34d07eb9211c75d484f906962_run0:
+    euler_xyz: 0.0 0.0 0.47148940066273287
+    mass: 1.2
+    obj_xml_file: bowls/468b9b34d07eb9211c75d484f9069623.xml
+    scale: 1.160491469840601
+  id0100_bowls_468b9b34d07eb9211c75d484f906962_run1:
+    euler_xyz: 0.0 0.0 3.0452180077674718
+    mass: 1.2
+    obj_xml_file: bowls/468b9b34d07eb9211c75d484f9069623.xml
+    scale: 1.1421780131692123
+  id0101_bowls_468b9b34d07eb9211c75d484f906962_run2:
+    euler_xyz: 0.0 0.0 1.8025231668282082
+    mass: 1.2
+    obj_xml_file: bowls/468b9b34d07eb9211c75d484f9069623.xml
+    scale: 0.9030600833452853
+  id0102_bowls_524eb99c8d45eb01664b3b9b23ddfcb_run0:
+    euler_xyz: 0.0 0.0 1.804062137481057
+    mass: 1.2
+    obj_xml_file: bowls/524eb99c8d45eb01664b3b9b23ddfcbc.xml
+    scale: 1.1064893289147555
+  id0103_bowls_524eb99c8d45eb01664b3b9b23ddfcb_run1:
+    euler_xyz: 0.0 0.0 1.9023932521515303
+    mass: 1.2
+    obj_xml_file: bowls/524eb99c8d45eb01664b3b9b23ddfcbc.xml
+    scale: 0.8975083188713306
+  id0104_bowls_524eb99c8d45eb01664b3b9b23ddfcb_run2:
+    euler_xyz: 0.0 0.0 2.195764729473205
+    mass: 1.2
+    obj_xml_file: bowls/524eb99c8d45eb01664b3b9b23ddfcbc.xml
+    scale: 1.0887380978762822
+  id0105_bowls_45603bffc6a2866b5d1ac0d5489f7d8_run0:
+    euler_xyz: 0.0 0.0 2.487967195057958
+    mass: 1.2
+    obj_xml_file: bowls/45603bffc6a2866b5d1ac0d5489f7d84.xml
+    scale: 0.8334872589146826
+  id0106_bowls_45603bffc6a2866b5d1ac0d5489f7d8_run1:
+    euler_xyz: 0.0 0.0 1.117695335759977
+    mass: 1.2
+    obj_xml_file: bowls/45603bffc6a2866b5d1ac0d5489f7d84.xml
+    scale: 0.9654210558134172
+  id0107_bowls_45603bffc6a2866b5d1ac0d5489f7d8_run2:
+    euler_xyz: 0.0 0.0 2.9143731531654615
+    mass: 1.2
+    obj_xml_file: bowls/45603bffc6a2866b5d1ac0d5489f7d84.xml
+    scale: 0.722081975687926
+  id0108_bowls_f2cb15fb793e7fa244057c22211862_run0:
+    euler_xyz: 0.0 0.0 0.3862514802129143
+    mass: 1.2
+    obj_xml_file: bowls/f2cb15fb793e7fa244057c222118625.xml
+    scale: 1.1174208357391144
+  id0109_bowls_f2cb15fb793e7fa244057c22211862_run1:
+    euler_xyz: 0.0 0.0 2.9086322197151824
+    mass: 1.2
+    obj_xml_file: bowls/f2cb15fb793e7fa244057c222118625.xml
+    scale: 1.0422681284172235
+  id0110_bowls_f2cb15fb793e7fa244057c22211862_run2:
+    euler_xyz: 0.0 0.0 0.8558771955840632
+    mass: 1.2
+    obj_xml_file: bowls/f2cb15fb793e7fa244057c222118625.xml
+    scale: 0.9872356987352877
+  id0111_bowls_faa200741fa93abb47ec7417da5d353_run0:
+    euler_xyz: 0.0 0.0 2.635012437361565
+    mass: 1.2
+    obj_xml_file: bowls/faa200741fa93abb47ec7417da5d353d.xml
+    scale: 1.0395244891128772
+  id0112_bowls_faa200741fa93abb47ec7417da5d353_run1:
+    euler_xyz: 0.0 0.0 1.447107181517428
+    mass: 1.2
+    obj_xml_file: bowls/faa200741fa93abb47ec7417da5d353d.xml
+    scale: 0.7193790625476272
+  id0113_bowls_faa200741fa93abb47ec7417da5d353_run2:
+    euler_xyz: 0.0 0.0 0.053342480913005454
+    mass: 1.2
+    obj_xml_file: bowls/faa200741fa93abb47ec7417da5d353d.xml
+    scale: 0.7426218045054812
+  id0114_car_fe3dc721f5026196d61b6a34f3fd808_run0:
+    euler_xyz: 0.0 0.0 0.9835189214592844
+    mass: 1.2
+    obj_xml_file: car/fe3dc721f5026196d61b6a34f3fd808c.xml
+    scale: 1.1905013470700978
+  id0115_car_fe3dc721f5026196d61b6a34f3fd808_run1:
+    euler_xyz: 0.0 0.0 2.724962235840224
+    mass: 1.2
+    obj_xml_file: car/fe3dc721f5026196d61b6a34f3fd808c.xml
+    scale: 1.286887300965085
+  id0116_car_fe3dc721f5026196d61b6a34f3fd808_run2:
+    euler_xyz: 0.0 0.0 3.0720303118683683
+    mass: 1.2
+    obj_xml_file: car/fe3dc721f5026196d61b6a34f3fd808c.xml
+    scale: 1.3973972122653064
+  id0117_car_28151fb21f5a3c94887b6e240977913_run0:
+    euler_xyz: 0.0 0.0 0.7339912916008234
+    mass: 1.2
+    obj_xml_file: car/28151fb21f5a3c94887b6e2409779132.xml
+    scale: 1.4982790597621545
+  id0118_car_28151fb21f5a3c94887b6e240977913_run1:
+    euler_xyz: 0.0 0.0 2.1123733698231395
+    mass: 1.2
+    obj_xml_file: car/28151fb21f5a3c94887b6e2409779132.xml
+    scale: 1.0254639360462032
+  id0119_car_28151fb21f5a3c94887b6e240977913_run2:
+    euler_xyz: 0.0 0.0 2.398445775161507
+    mass: 1.2
+    obj_xml_file: car/28151fb21f5a3c94887b6e2409779132.xml
+    scale: 1.22779929797905
+  id0120_car_4fd5c18c1536d65be129fc90649e41d_run0:
+    euler_xyz: 0.0 0.0 1.820745983144975
+    mass: 1.2
+    obj_xml_file: car/4fd5c18c1536d65be129fc90649e41d3.xml
+    scale: 1.2013558891378497
+  id0121_car_4fd5c18c1536d65be129fc90649e41d_run1:
+    euler_xyz: 0.0 0.0 2.9482704249461222
+    mass: 1.2
+    obj_xml_file: car/4fd5c18c1536d65be129fc90649e41d3.xml
+    scale: 1.0564828689707852
+  id0122_car_4fd5c18c1536d65be129fc90649e41d_run2:
+    euler_xyz: 0.0 0.0 1.3451636693552889
+    mass: 1.2
+    obj_xml_file: car/4fd5c18c1536d65be129fc90649e41d3.xml
+    scale: 1.1604436845205277
+  id0123_car_d810d7f83632da71556235a31d374eb_run0:
+    euler_xyz: 0.0 0.0 1.7748610042838555
+    mass: 1.2
+    obj_xml_file: car/d810d7f83632da71556235a31d374eb5.xml
+    scale: 1.3624435156375867
+  id0124_car_d810d7f83632da71556235a31d374eb_run1:
+    euler_xyz: 0.0 0.0 0.8101983157544533
+    mass: 1.2
+    obj_xml_file: car/d810d7f83632da71556235a31d374eb5.xml
+    scale: 1.2370001009580671
+  id0125_car_d810d7f83632da71556235a31d374eb_run2:
+    euler_xyz: 0.0 0.0 1.3856332203472963
+    mass: 1.2
+    obj_xml_file: car/d810d7f83632da71556235a31d374eb5.xml
+    scale: 1.1993951948220725
+  id0126_car_28fe2af4fd6ab3848772afa45900d07_run0:
+    euler_xyz: 0.0 0.0 0.19074413146919222
+    mass: 1.2
+    obj_xml_file: car/28fe2af4fd6ab3848772afa45900d07f.xml
+    scale: 1.1336773691869473
+  id0127_car_28fe2af4fd6ab3848772afa45900d07_run1:
+    euler_xyz: 0.0 0.0 2.020416767060443
+    mass: 1.2
+    obj_xml_file: car/28fe2af4fd6ab3848772afa45900d07f.xml
+    scale: 1.219501510063121
+  id0128_car_28fe2af4fd6ab3848772afa45900d07_run2:
+    euler_xyz: 0.0 0.0 1.9764523924484454
+    mass: 1.2
+    obj_xml_file: car/28fe2af4fd6ab3848772afa45900d07f.xml
+    scale: 1.4334043247236508
+  id0129_car_8212b62591234c743a0daf3e5400b95_run0:
+    euler_xyz: 0.0 0.0 0.6583318103508469
+    mass: 1.2
+    obj_xml_file: car/8212b62591234c743a0daf3e5400b95c.xml
+    scale: 1.2646755749808711
+  id0130_car_8212b62591234c743a0daf3e5400b95_run1:
+    euler_xyz: 0.0 0.0 0.2948407246040243
+    mass: 1.2
+    obj_xml_file: car/8212b62591234c743a0daf3e5400b95c.xml
+    scale: 1.028440025892406
+  id0131_car_8212b62591234c743a0daf3e5400b95_run2:
+    euler_xyz: 0.0 0.0 1.0776777243005684
+    mass: 1.2
+    obj_xml_file: car/8212b62591234c743a0daf3e5400b95c.xml
+    scale: 1.2919534781092183
+  id0132_car_6a81b52d03080172ea725617578607_run0:
+    euler_xyz: 0.0 0.0 1.4683349322173214
+    mass: 1.2
+    obj_xml_file: car/6a81b52d03080172ea7256175786076.xml
+    scale: 1.344594235004093
+  id0133_car_6a81b52d03080172ea725617578607_run1:
+    euler_xyz: 0.0 0.0 1.495720638655189
+    mass: 1.2
+    obj_xml_file: car/6a81b52d03080172ea7256175786076.xml
+    scale: 1.2750919419474203
+  id0134_car_6a81b52d03080172ea725617578607_run2:
+    euler_xyz: 0.0 0.0 1.192304432926057
+    mass: 1.2
+    obj_xml_file: car/6a81b52d03080172ea7256175786076.xml
+    scale: 1.4328142562685173
+  id0135_car_af60bafcdba34eab56de8db8652eec4_run0:
+    euler_xyz: 0.0 0.0 0.8380589588791636
+    mass: 1.2
+    obj_xml_file: car/af60bafcdba34eab56de8db8652eec4e.xml
+    scale: 1.252239178267692
+  id0136_car_af60bafcdba34eab56de8db8652eec4_run1:
+    euler_xyz: 0.0 0.0 0.3943583164925098
+    mass: 1.2
+    obj_xml_file: car/af60bafcdba34eab56de8db8652eec4e.xml
+    scale: 1.1287378641331638
+  id0137_car_af60bafcdba34eab56de8db8652eec4_run2:
+    euler_xyz: 0.0 0.0 2.403771209408644
+    mass: 1.2
+    obj_xml_file: car/af60bafcdba34eab56de8db8652eec4e.xml
+    scale: 1.2232571336437343
+  id0138_car_3cad25b218e0cd506436916a86a90ed_run0:
+    euler_xyz: 0.0 0.0 0.7781356931724086
+    mass: 1.2
+    obj_xml_file: car/3cad25b218e0cd506436916a86a90ed7.xml
+    scale: 1.2890505890292707
+  id0139_car_3cad25b218e0cd506436916a86a90ed_run1:
+    euler_xyz: 0.0 0.0 1.6803020796219679
+    mass: 1.2
+    obj_xml_file: car/3cad25b218e0cd506436916a86a90ed7.xml
+    scale: 1.03487149153521
+  id0140_car_3cad25b218e0cd506436916a86a90ed_run2:
+    euler_xyz: 0.0 0.0 0.21967988848561587
+    mass: 1.2
+    obj_xml_file: car/3cad25b218e0cd506436916a86a90ed7.xml
+    scale: 1.4979351913543697
+  id0141_car_620e8aac415e9805ea752ba39dde46_run0:
+    euler_xyz: 0.0 0.0 0.8440208651668873
+    mass: 1.2
+    obj_xml_file: car/620e8aac415e9805ea752ba39dde460.xml
+    scale: 1.3294870589492258
+  id0142_car_620e8aac415e9805ea752ba39dde46_run1:
+    euler_xyz: 0.0 0.0 1.192569070865483
+    mass: 1.2
+    obj_xml_file: car/620e8aac415e9805ea752ba39dde460.xml
+    scale: 1.1013724489563774
+  id0143_car_620e8aac415e9805ea752ba39dde46_run2:
+    euler_xyz: 0.0 0.0 0.8298864692399055
+    mass: 1.2
+    obj_xml_file: car/620e8aac415e9805ea752ba39dde460.xml
+    scale: 1.025416121124118
+  id0144_car_2e8c4fd40a1be2fa5f38ed4497f2c53_run0:
+    euler_xyz: 0.0 0.0 0.17107800603148693
+    mass: 1.2
+    obj_xml_file: car/2e8c4fd40a1be2fa5f38ed4497f2c53c.xml
+    scale: 1.0864419321469456
+  id0145_car_2e8c4fd40a1be2fa5f38ed4497f2c53_run1:
+    euler_xyz: 0.0 0.0 0.5226273947975207
+    mass: 1.2
+    obj_xml_file: car/2e8c4fd40a1be2fa5f38ed4497f2c53c.xml
+    scale: 1.3829513358728047
+  id0146_car_2e8c4fd40a1be2fa5f38ed4497f2c53_run2:
+    euler_xyz: 0.0 0.0 2.892669669684721
+    mass: 1.2
+    obj_xml_file: car/2e8c4fd40a1be2fa5f38ed4497f2c53c.xml
+    scale: 1.062647523734577
+  id0147_car_970ebe02365dd05bfd7e1079f2e4956_run0:
+    euler_xyz: 0.0 0.0 2.8646159855171076
+    mass: 1.2
+    obj_xml_file: car/970ebe02365dd05bfd7e1079f2e4956b.xml
+    scale: 1.4391117480762228
+  id0148_car_970ebe02365dd05bfd7e1079f2e4956_run1:
+    euler_xyz: 0.0 0.0 1.9347597161627192
+    mass: 1.2
+    obj_xml_file: car/970ebe02365dd05bfd7e1079f2e4956b.xml
+    scale: 1.3691185780462674
+  id0149_car_970ebe02365dd05bfd7e1079f2e4956_run2:
+    euler_xyz: 0.0 0.0 2.3054932781774258
+    mass: 1.2
+    obj_xml_file: car/970ebe02365dd05bfd7e1079f2e4956b.xml
+    scale: 1.1772864609832725
+  id0150_car_bf652fdb40c4cb3696ab9df3b3d7537_run0:
+    euler_xyz: 0.0 0.0 1.385542586021971
+    mass: 1.2
+    obj_xml_file: car/bf652fdb40c4cb3696ab9df3b3d7537e.xml
+    scale: 1.024993450653948
+  id0151_car_bf652fdb40c4cb3696ab9df3b3d7537_run1:
+    euler_xyz: 0.0 0.0 1.8152981371716854
+    mass: 1.2
+    obj_xml_file: car/bf652fdb40c4cb3696ab9df3b3d7537e.xml
+    scale: 1.126355328775909
+  id0152_car_bf652fdb40c4cb3696ab9df3b3d7537_run2:
+    euler_xyz: 0.0 0.0 1.2537815585358458
+    mass: 1.2
+    obj_xml_file: car/bf652fdb40c4cb3696ab9df3b3d7537e.xml
+    scale: 1.4483672405649233
+  id0153_car_74b73c2cca45cf483c1d9add3a87bd2_run0:
+    euler_xyz: 0.0 0.0 1.0083066458797516
+    mass: 1.2
+    obj_xml_file: car/74b73c2cca45cf483c1d9add3a87bd2d.xml
+    scale: 1.0678911050314097
+  id0154_car_74b73c2cca45cf483c1d9add3a87bd2_run1:
+    euler_xyz: 0.0 0.0 0.24889811503328438
+    mass: 1.2
+    obj_xml_file: car/74b73c2cca45cf483c1d9add3a87bd2d.xml
+    scale: 1.148112783205494
+  id0155_car_74b73c2cca45cf483c1d9add3a87bd2_run2:
+    euler_xyz: 0.0 0.0 1.358915944803612
+    mass: 1.2
+    obj_xml_file: car/74b73c2cca45cf483c1d9add3a87bd2d.xml
+    scale: 1.4842463443165033
+  id0156_car_804c21bdd416783176ad064d1c5fdd7_run0:
+    euler_xyz: 0.0 0.0 2.7265448508475325
+    mass: 1.2
+    obj_xml_file: car/804c21bdd416783176ad064d1c5fdd7c.xml
+    scale: 1.1973832653278087
+  id0157_car_804c21bdd416783176ad064d1c5fdd7_run1:
+    euler_xyz: 0.0 0.0 2.788322736978577
+    mass: 1.2
+    obj_xml_file: car/804c21bdd416783176ad064d1c5fdd7c.xml
+    scale: 1.228324265894344
+  id0158_car_804c21bdd416783176ad064d1c5fdd7_run2:
+    euler_xyz: 0.0 0.0 2.1440742958146393
+    mass: 1.2
+    obj_xml_file: car/804c21bdd416783176ad064d1c5fdd7c.xml
+    scale: 1.3111008936073334
+  id0159_car_decdf28e46edc632bda733a39f84326_run0:
+    euler_xyz: 0.0 0.0 2.11884934299303
+    mass: 1.2
+    obj_xml_file: car/decdf28e46edc632bda733a39f84326d.xml
+    scale: 1.0675818189266026
+  id0160_car_decdf28e46edc632bda733a39f84326_run1:
+    euler_xyz: 0.0 0.0 2.8803693791376603
+    mass: 1.2
+    obj_xml_file: car/decdf28e46edc632bda733a39f84326d.xml
+    scale: 1.1681804188263814
+  id0161_car_decdf28e46edc632bda733a39f84326_run2:
+    euler_xyz: 0.0 0.0 1.6542274867716356
+    mass: 1.2
+    obj_xml_file: car/decdf28e46edc632bda733a39f84326d.xml
+    scale: 1.2213206060010697
+  id0162_car_365af82203c96fbca92a4cdad802b4_run0:
+    euler_xyz: 0.0 0.0 0.37427584885709947
+    mass: 1.2
+    obj_xml_file: car/365af82203c96fbca92a4cdad802b45.xml
+    scale: 1.0646338107289837
+  id0163_car_365af82203c96fbca92a4cdad802b4_run1:
+    euler_xyz: 0.0 0.0 0.47571383940774775
+    mass: 1.2
+    obj_xml_file: car/365af82203c96fbca92a4cdad802b45.xml
+    scale: 1.4940812079932089
+  id0164_car_365af82203c96fbca92a4cdad802b4_run2:
+    euler_xyz: 0.0 0.0 3.025492841318231
+    mass: 1.2
+    obj_xml_file: car/365af82203c96fbca92a4cdad802b45.xml
+    scale: 1.321154741324691
+  id0165_car_93f82393df6d4b7c315a637e839f528_run0:
+    euler_xyz: 0.0 0.0 3.060323752399587
+    mass: 1.2
+    obj_xml_file: car/93f82393df6d4b7c315a637e839f5286.xml
+    scale: 1.1602170087181978
+  id0166_car_93f82393df6d4b7c315a637e839f528_run1:
+    euler_xyz: 0.0 0.0 0.5466765872003776
+    mass: 1.2
+    obj_xml_file: car/93f82393df6d4b7c315a637e839f5286.xml
+    scale: 1.208687816690988
+  id0167_car_93f82393df6d4b7c315a637e839f528_run2:
+    euler_xyz: 0.0 0.0 0.5404442464583179
+    mass: 1.2
+    obj_xml_file: car/93f82393df6d4b7c315a637e839f5286.xml
+    scale: 1.2566553979529551
+  id0168_bottles_e24fb21f7cb7998d94b2f4c4a75fd72_run0:
+    euler_xyz: 0.0 0.0 1.720814044245185
+    mass: 1.2
+    obj_xml_file: bottles/e24fb21f7cb7998d94b2f4c4a75fd722.xml
+    scale: 1.0
+  id0169_bottles_e24fb21f7cb7998d94b2f4c4a75fd72_run1:
+    euler_xyz: 0.0 1.57 0.29869089727778286
+    mass: 1.2
+    obj_xml_file: bottles/e24fb21f7cb7998d94b2f4c4a75fd722.xml
+    scale: 1.0
+  id0170_bottles_e24fb21f7cb7998d94b2f4c4a75fd72_run2:
+    euler_xyz: 0.0 0.0 1.4726543116703947
+    mass: 1.2
+    obj_xml_file: bottles/e24fb21f7cb7998d94b2f4c4a75fd722.xml
+    scale: 1.0
+  id0171_bottles_2d912be96504cb8cd5473a45f1da022_run0:
+    euler_xyz: 1.57 0.0 1.2538541860818087
+    mass: 1.2
+    obj_xml_file: bottles/2d912be96504cb8cd5473a45f1da0225.xml
+    scale: 1.0
+  id0172_bottles_2d912be96504cb8cd5473a45f1da022_run1:
+    euler_xyz: 1.57 1.57 1.8611320398713702
+    mass: 1.2
+    obj_xml_file: bottles/2d912be96504cb8cd5473a45f1da0225.xml
+    scale: 1.0
+  id0173_bottles_2d912be96504cb8cd5473a45f1da022_run2:
+    euler_xyz: 0.0 0.0 0.4296753947139831
+    mass: 1.2
+    obj_xml_file: bottles/2d912be96504cb8cd5473a45f1da0225.xml
+    scale: 1.0
+  id0174_bottles_882d477872fd88347df6165146d5bb_run0:
+    euler_xyz: 0.0 0.0 0.055417870036388366
+    mass: 1.2
+    obj_xml_file: bottles/882d477872fd88347df6165146d5bbd.xml
+    scale: 1.0
+  id0175_bottles_882d477872fd88347df6165146d5bb_run1:
+    euler_xyz: 0.0 0.0 2.2643006180317347
+    mass: 1.2
+    obj_xml_file: bottles/882d477872fd88347df6165146d5bbd.xml
+    scale: 1.0
+  id0176_bottles_882d477872fd88347df6165146d5bb_run2:
+    euler_xyz: 0.0 0.0 1.4762714259875833
+    mass: 1.2
+    obj_xml_file: bottles/882d477872fd88347df6165146d5bbd.xml
+    scale: 1.0
+  id0177_bottles_74221bae887b0e801ab89e10ca4a3ae_run0:
+    euler_xyz: 0.0 0.0 0.40577093235612294
+    mass: 1.2
+    obj_xml_file: bottles/74221bae887b0e801ab89e10ca4a3aec.xml
+    scale: 1.0
+  id0178_bottles_74221bae887b0e801ab89e10ca4a3ae_run1:
+    euler_xyz: 1.57 0.0 2.440503363762037
+    mass: 1.2
+    obj_xml_file: bottles/74221bae887b0e801ab89e10ca4a3aec.xml
+    scale: 1.0
+  id0179_bottles_74221bae887b0e801ab89e10ca4a3ae_run2:
+    euler_xyz: 1.57 0.0 0.7378900218759672
+    mass: 1.2
+    obj_xml_file: bottles/74221bae887b0e801ab89e10ca4a3aec.xml
+    scale: 1.0
+  id0180_bottles_2722bec1947151b86e22e2d2f64c8ce_run0:
+    euler_xyz: 0.0 0.0 0.2130253373646733
+    mass: 1.2
+    obj_xml_file: bottles/2722bec1947151b86e22e2d2f64c8cef.xml
+    scale: 1.0
+  id0181_bottles_2722bec1947151b86e22e2d2f64c8ce_run1:
+    euler_xyz: 0.0 0.0 0.4616668441516291
+    mass: 1.2
+    obj_xml_file: bottles/2722bec1947151b86e22e2d2f64c8cef.xml
+    scale: 1.0
+  id0182_bottles_2722bec1947151b86e22e2d2f64c8ce_run2:
+    euler_xyz: 0.0 1.57 1.2316452958235413
+    mass: 1.2
+    obj_xml_file: bottles/2722bec1947151b86e22e2d2f64c8cef.xml
+    scale: 1.0
+  id0183_bottles_d910d855fd179dc066c1a8ee6927789_run0:
+    euler_xyz: 0.0 0.0 3.0686065847309294
+    mass: 1.2
+    obj_xml_file: bottles/d910d855fd179dc066c1a8ee69277898.xml
+    scale: 1.0
+  id0184_bottles_d910d855fd179dc066c1a8ee6927789_run1:
+    euler_xyz: 0.0 1.57 0.7894198401820155
+    mass: 1.2
+    obj_xml_file: bottles/d910d855fd179dc066c1a8ee69277898.xml
+    scale: 1.0
+  id0185_bottles_d910d855fd179dc066c1a8ee6927789_run2:
+    euler_xyz: 0.0 1.57 1.7239653888214728
+    mass: 1.2
+    obj_xml_file: bottles/d910d855fd179dc066c1a8ee69277898.xml
+    scale: 1.0
+  id0186_bottles_9ba6291a60113dbfeb6d856318cd1a7_run0:
+    euler_xyz: 0.0 0.0 2.3243287526415517
+    mass: 1.2
+    obj_xml_file: bottles/9ba6291a60113dbfeb6d856318cd1a7e.xml
+    scale: 1.0
+  id0187_bottles_9ba6291a60113dbfeb6d856318cd1a7_run1:
+    euler_xyz: 0.0 1.57 0.13540426279587875
+    mass: 1.2
+    obj_xml_file: bottles/9ba6291a60113dbfeb6d856318cd1a7e.xml
+    scale: 1.0
+  id0188_bottles_9ba6291a60113dbfeb6d856318cd1a7_run2:
+    euler_xyz: 1.57 1.57 1.4764004300824223
+    mass: 1.2
+    obj_xml_file: bottles/9ba6291a60113dbfeb6d856318cd1a7e.xml
+    scale: 1.0
+  id0189_bottles_3ba7dd61736e7a96270c0e719fe4ed9_run0:
+    euler_xyz: 0.0 0.0 2.5574669220875768
+    mass: 1.2
+    obj_xml_file: bottles/3ba7dd61736e7a96270c0e719fe4ed97.xml
+    scale: 1.0
+  id0190_bottles_3ba7dd61736e7a96270c0e719fe4ed9_run1:
+    euler_xyz: 1.57 0.0 1.47105447677991
+    mass: 1.2
+    obj_xml_file: bottles/3ba7dd61736e7a96270c0e719fe4ed97.xml
+    scale: 1.0
+  id0191_bottles_3ba7dd61736e7a96270c0e719fe4ed9_run2:
+    euler_xyz: 0.0 1.57 0.09261990584641862
+    mass: 1.2
+    obj_xml_file: bottles/3ba7dd61736e7a96270c0e719fe4ed97.xml
+    scale: 1.0
+  id0192_bottles_c6442bba98ad3dcf5e912b2d2934c0b_run0:
+    euler_xyz: 0.0 1.57 2.7755025610329813
+    mass: 1.2
+    obj_xml_file: bottles/c6442bba98ad3dcf5e912b2d2934c0b6.xml
+    scale: 1.0
+  id0193_bottles_c6442bba98ad3dcf5e912b2d2934c0b_run1:
+    euler_xyz: 1.57 1.57 0.5442446622048815
+    mass: 1.2
+    obj_xml_file: bottles/c6442bba98ad3dcf5e912b2d2934c0b6.xml
+    scale: 1.0
+  id0194_bottles_c6442bba98ad3dcf5e912b2d2934c0b_run2:
+    euler_xyz: 0.0 0.0 2.2841415975858377
+    mass: 1.2
+    obj_xml_file: bottles/c6442bba98ad3dcf5e912b2d2934c0b6.xml
+    scale: 1.0
+  id0195_bottles_a1bc36109cd382b78340c8802f48c17_run0:
+    euler_xyz: 0.0 0.0 0.6139606042996314
+    mass: 1.2
+    obj_xml_file: bottles/a1bc36109cd382b78340c8802f48c170.xml
+    scale: 1.0
+  id0196_bottles_a1bc36109cd382b78340c8802f48c17_run1:
+    euler_xyz: 0.0 1.57 2.8583019410704447
+    mass: 1.2
+    obj_xml_file: bottles/a1bc36109cd382b78340c8802f48c170.xml
+    scale: 1.0
+  id0197_bottles_a1bc36109cd382b78340c8802f48c17_run2:
+    euler_xyz: 1.57 0.0 2.8194617019861288
+    mass: 1.2
+    obj_xml_file: bottles/a1bc36109cd382b78340c8802f48c170.xml
+    scale: 1.0
+  id0198_bottles_ab6792cddc7c4c83afbf338b16b43f5_run0:
+    euler_xyz: 1.57 0.0 3.013763562447979
+    mass: 1.2
+    obj_xml_file: bottles/ab6792cddc7c4c83afbf338b16b43f53.xml
+    scale: 1.0
+  id0199_bottles_ab6792cddc7c4c83afbf338b16b43f5_run1:
+    euler_xyz: 0.0 1.57 1.6914496198498696
+    mass: 1.2
+    obj_xml_file: bottles/ab6792cddc7c4c83afbf338b16b43f53.xml
+    scale: 1.0
+  id0200_bottles_ab6792cddc7c4c83afbf338b16b43f5_run2:
+    euler_xyz: 1.57 1.57 0.6335462964353377
+    mass: 1.2
+    obj_xml_file: bottles/ab6792cddc7c4c83afbf338b16b43f53.xml
+    scale: 1.0
+  id0201_bottles_645cf2b7f442865ebf8d8d6022c8e3_run0:
+    euler_xyz: 1.57 1.57 3.1128286248918124
+    mass: 1.2
+    obj_xml_file: bottles/645cf2b7f442865ebf8d8d6022c8e3a.xml
+    scale: 1.0
+  id0202_bottles_645cf2b7f442865ebf8d8d6022c8e3_run1:
+    euler_xyz: 1.57 0.0 1.0170552939059871
+    mass: 1.2
+    obj_xml_file: bottles/645cf2b7f442865ebf8d8d6022c8e3a.xml
+    scale: 1.0
+  id0203_bottles_645cf2b7f442865ebf8d8d6022c8e3_run2:
+    euler_xyz: 0.0 1.57 2.415364414753156
+    mass: 1.2
+    obj_xml_file: bottles/645cf2b7f442865ebf8d8d6022c8e3a.xml
+    scale: 1.0
+  id0204_bottles_d3eea69d9d58401c76c2a9de5c96f7_run0:
+    euler_xyz: 0.0 1.57 0.26869738983809993
+    mass: 1.2
+    obj_xml_file: bottles/d3eea69d9d58401c76c2a9de5c96f76.xml
+    scale: 1.0
+  id0205_bottles_d3eea69d9d58401c76c2a9de5c96f7_run1:
+    euler_xyz: 0.0 1.57 0.049896089888238356
+    mass: 1.2
+    obj_xml_file: bottles/d3eea69d9d58401c76c2a9de5c96f76.xml
+    scale: 1.0
+  id0206_bottles_d3eea69d9d58401c76c2a9de5c96f7_run2:
+    euler_xyz: 0.0 0.0 2.565161306581433
+    mass: 1.2
+    obj_xml_file: bottles/d3eea69d9d58401c76c2a9de5c96f76.xml
+    scale: 1.0
+  id0207_bottles_204c2b0a5e0a0ac3efd4121045846f2_run0:
+    euler_xyz: 1.57 1.57 0.3967516236332256
+    mass: 1.2
+    obj_xml_file: bottles/204c2b0a5e0a0ac3efd4121045846f28.xml
+    scale: 1.0
+  id0208_bottles_204c2b0a5e0a0ac3efd4121045846f2_run1:
+    euler_xyz: 1.57 1.57 2.5952273323016377
+    mass: 1.2
+    obj_xml_file: bottles/204c2b0a5e0a0ac3efd4121045846f28.xml
+    scale: 1.0
+  id0209_bottles_204c2b0a5e0a0ac3efd4121045846f2_run2:
+    euler_xyz: 0.0 1.57 3.0592254968437174
+    mass: 1.2
+    obj_xml_file: bottles/204c2b0a5e0a0ac3efd4121045846f28.xml
+    scale: 1.0
+  id0210_bottles_5ad47181a9026fc728cc22dce7529b6_run0:
+    euler_xyz: 1.57 1.57 0.1377294341916897
+    mass: 1.2
+    obj_xml_file: bottles/5ad47181a9026fc728cc22dce7529b69.xml
+    scale: 1.0
+  id0211_bottles_5ad47181a9026fc728cc22dce7529b6_run1:
+    euler_xyz: 0.0 0.0 1.3395095268354982
+    mass: 1.2
+    obj_xml_file: bottles/5ad47181a9026fc728cc22dce7529b69.xml
+    scale: 1.0
+  id0212_bottles_5ad47181a9026fc728cc22dce7529b6_run2:
+    euler_xyz: 0.0 1.57 1.5133781926086836
+    mass: 1.2
+    obj_xml_file: bottles/5ad47181a9026fc728cc22dce7529b69.xml
+    scale: 1.0
+  id0213_bottles_13544f09512952bbc9273c10871e1c3_run0:
+    euler_xyz: 0.0 0.0 2.6182156538983308
+    mass: 1.2
+    obj_xml_file: bottles/13544f09512952bbc9273c10871e1c3d.xml
+    scale: 1.0
+  id0214_bottles_13544f09512952bbc9273c10871e1c3_run1:
+    euler_xyz: 0.0 1.57 3.1042727485811956
+    mass: 1.2
+    obj_xml_file: bottles/13544f09512952bbc9273c10871e1c3d.xml
+    scale: 1.0
+  id0215_bottles_13544f09512952bbc9273c10871e1c3_run2:
+    euler_xyz: 1.57 1.57 2.132458301558161
+    mass: 1.2
+    obj_xml_file: bottles/13544f09512952bbc9273c10871e1c3d.xml
+    scale: 1.0
+  id0216_bottles_3de5abb596766c5380dd154b5d9c08_run0:
+    euler_xyz: 0.0 1.57 2.330176136154667
+    mass: 1.2
+    obj_xml_file: bottles/3de5abb596766c5380dd154b5d9c087.xml
+    scale: 1.0
+  id0217_bottles_3de5abb596766c5380dd154b5d9c08_run1:
+    euler_xyz: 1.57 0.0 1.6604911565369413
+    mass: 1.2
+    obj_xml_file: bottles/3de5abb596766c5380dd154b5d9c087.xml
+    scale: 1.0
+  id0218_bottles_3de5abb596766c5380dd154b5d9c08_run2:
+    euler_xyz: 0.0 1.57 2.671624339792395
+    mass: 1.2
+    obj_xml_file: bottles/3de5abb596766c5380dd154b5d9c087.xml
+    scale: 1.0
+  id0219_bottles_aec6aa917d61d1faebe67d9b32c3ddf_run0:
+    euler_xyz: 0.0 1.57 2.4020085406597618
+    mass: 1.2
+    obj_xml_file: bottles/aec6aa917d61d1faebe67d9b32c3ddf8.xml
+    scale: 1.0
+  id0220_bottles_aec6aa917d61d1faebe67d9b32c3ddf_run1:
+    euler_xyz: 0.0 1.57 0.042060853263708516
+    mass: 1.2
+    obj_xml_file: bottles/aec6aa917d61d1faebe67d9b32c3ddf8.xml
+    scale: 1.0
+  id0221_bottles_aec6aa917d61d1faebe67d9b32c3ddf_run2:
+    euler_xyz: 1.57 0.0 1.6610188414824945
+    mass: 1.2
+    obj_xml_file: bottles/aec6aa917d61d1faebe67d9b32c3ddf8.xml
+    scale: 1.0
+  id0222_bottles_6d3c20adcce2dd0f79b7b9ca8006b2f_run0:
+    euler_xyz: 0.0 1.57 1.315499342201341
+    mass: 1.2
+    obj_xml_file: bottles/6d3c20adcce2dd0f79b7b9ca8006b2fe.xml
+    scale: 1.0
+  id0223_bottles_6d3c20adcce2dd0f79b7b9ca8006b2f_run1:
+    euler_xyz: 1.57 1.57 1.0981466569766718
+    mass: 1.2
+    obj_xml_file: bottles/6d3c20adcce2dd0f79b7b9ca8006b2fe.xml
+    scale: 1.0
+  id0224_bottles_6d3c20adcce2dd0f79b7b9ca8006b2f_run2:
+    euler_xyz: 1.57 0.0 2.603782984254334
+    mass: 1.2
+    obj_xml_file: bottles/6d3c20adcce2dd0f79b7b9ca8006b2fe.xml
+    scale: 1.0

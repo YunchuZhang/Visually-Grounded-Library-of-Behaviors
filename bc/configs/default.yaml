@@ -1,0 +1,46 @@
+# Created by Jingyun Yang on 10/22/2020.
+#
+# Default configuration file for training 2D Image to Action Policies with
+# spatial softmax layer.
+
+# dataset
+data_dir: '~/projects/p_quantize/quantize_baselines/logs/default/transitions'
+train_split: 0.8
+val_split: 0.1
+
+# viewpoints -- index if >= 0; random if < 0
+view: 2
+
+# model
+model_name: 'cnn_policy'
+model_params:
+  image_size: 128
+  obs_dim: 21
+  rgb_layers:
+    - !!python/tuple [64, [7, 7], 2]
+  depth_layers:
+    - !!python/tuple [16, [7, 7], 2]
+  cnn_layers:
+    - !!python/tuple [32, [1, 1]]
+    - !!python/tuple [32, [3, 3]]
+    - !!python/tuple [32, [3, 3]]
+  aux_task: 'obj_pos'
+  fc_layers: [256, 256, 256]
+  output_min: -1.0
+  output_max: 1.0
+  output_dim: 4
+  l1_loss_weight: 0.1
+  l2_loss_weight: 1.0
+  aux_loss_weight: 0.1
+
+# training
+batch_size: 64
+num_epochs: 1000
+learning_rate: 0.0003
+
+# logging
+log_dir: 'logs'
+log_images: false
+log_interval: 10  # number of steps per logging
+val_interval: 100 # number of steps per validation
+ckpt_interval: 10 # number of epochs per checkpoint

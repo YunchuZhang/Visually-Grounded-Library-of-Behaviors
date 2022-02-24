@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco>
+
+    <compiler angle="radian" coordinate="local" meshdir="" texturedir=""></compiler>
+    <option timestep="0.002">
+        <flag warmstart="enable"></flag>
+    </option>
+    <include file="shared_with_abs_stl_path.xml"></include>
+    <worldbody>
+
+        <geom name="floor0" pos="0 0 0" size="1.05 0.7 1" type="plane" condim="3" material="floor_mat"></geom>
+        <body name="floor0" pos="0 0 0">
+            <!-- <site name="target0" pos="0 0 0.5" size="0.02 0.02 0.02" rgba="1 0 0 1" type="sphere"></site> -->
+        </body>
+
+        <!-- <include file="robot.xml" /> -->
+
+        <body name="table0" pos="0 0 0.2"> <!-- table is at 0,0,0.2, table top is at 0, 0, 0.4-->
+            <geom size="0.625 0.45 0.2" type="box" rgba="1 1 1 1.0" condim="3" name="table0" material="table_mat" mass="2000" friction="0.1 0.005 0.0001"></geom>
+        </body>
+        <!-- 		<body name="water" pos="0.2 0.0 0.45">
+			<joint name="water:joint" type="free" damping="0.01"></joint>
+			<geom size="0.05 0.05 0.05" type="box" condim="4" name="water" friction="0.01 0.005 0.0001" rgba=".1 .1 .9 1" mass="0.15"></geom>
+			<site name="water" pos="0 0 0" size="0.02 0.02 0.02" rgba="1 0.5 0.5 0.5" type="sphere"></site>
+		</body>
+		<camera fovy="45.0" name="ref_cam1" pos="0 -0.5 0.5" zaxis="0 -1 0" />
+		<body name="ref_cam_indicator" pos="0 -0.5 0.5" zaxis="0 -1 0">
+			<geom type="sphere" size="0.1" conaffinity="0" contype="0" />
+		</body> -->
+
+        <body name="object0" pos="0.0 0.0 0.55">
+            <camera pos="0.025 0.025 3.02" name="yunchu_view" />
+            <camera euler="3.1415 0 0" fovy="50" name="head_camera_rgb" pos="0 0 0"></camera>
+            <joint name="object0:joint" type="free" damping="0.01"></joint>
+            <geom condim="3" mass="2" material="block_mat" name="object0" size="0.025 0.025 0.025" type="box" />
+            <!--<site name="object0" pos="0 0 0" rgba="1 0 0 1" size="0.02 0.02 0.02" type="sphere" />-->
+        </body>
+
+        <site name="origin" pos="0 0 0.4" rgba="1 0 0 1.0" size="0.02 0.02 0.02" type="sphere" />
+        <site name="x" pos="0.5 0 0.4" rgba="1 0 0 1.0" size="0.01 0.01 0.01" type="sphere" />
+        <site name="y" pos="0 0.5 0.4" rgba="0 1 0 1.0" size="0.01 0.01 0.01" type="sphere" />
+        <site name="z" pos="0 0 0.9" rgba="0 0 1 1.0" size="0.01 0.01 0.01" type="sphere" />
+        <site name="x_axis" pos="0.25 0 0.4" rgba="1 0 0 1.0" size="0.25 0.01 0.01" type="box" />
+        <site name="y_axis" pos="0 0.25 0.4" rgba="0 1 0 1.0" size="0.01 0.25 0.01" type="box" />
+        <site name="z_axis" pos="0 0 0.65" rgba="0 0 1 1.0" size="0.01 0.01 0.25" type="box" />
+        <light directional="true" ambient="0.2 0.2 0.2" diffuse="0.8 0.8 0.8" specular="0.3 0.3 0.3" castshadow="false" pos="0 0 4" dir="0 0 -1" name="light0"></light>
+    </worldbody>
+
+    <actuator></actuator>
+</mujoco>

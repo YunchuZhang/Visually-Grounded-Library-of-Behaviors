@@ -1,0 +1,186 @@
+objs:
+
+    15bd6225c209a8e3654b0ce7754570c8:
+      class_id: 0
+      obj_xml_file: cups/15bd6225c209a8e3654b0ce7754570c8.xml
+      scale: 1.5
+    1a97f3c83016abca21d0de04f408950f:
+      class_id: 0
+      obj_xml_file: cups/1a97f3c83016abca21d0de04f408950f.xml
+      scale: 1.5
+    2852b888abae54b0e3523e99fd841f4:
+      class_id: 0
+      obj_xml_file: cups/2852b888abae54b0e3523e99fd841f4.xml
+      scale: 1.5
+    28f1e7bc572a633cb9946438ed40eeb9:
+      class_id: 0
+      obj_xml_file: cups/28f1e7bc572a633cb9946438ed40eeb9.xml
+      scale: 1.5
+    3143a4accdc23349cac584186c95ce9b:
+      class_id: 0
+      obj_xml_file: cups/3143a4accdc23349cac584186c95ce9b.xml
+      scale: 1.5
+
+    54f2d6a0b431839c99785666a0fe0255:
+      class_id: 0
+      obj_xml_file: cups/54f2d6a0b431839c99785666a0fe0255.xml
+      scale: 1.5
+    5563324c9902f243a2c59a4d90e63212:
+      class_id: 1
+      cluster_id: not_assigned
+      obj_xml_file: bowls/5563324c9902f243a2c59a4d90e63212.xml
+      scale: 2.0
+    56803af65db53307467ca2ad6571afff:
+      class_id: 1
+      obj_xml_file: bowls/56803af65db53307467ca2ad6571afff.xml
+      scale: 2.1
+
+    83827973c79ca7631c9ec1e03e401f54:
+      class_id: 0
+      cluster_id: c0
+      obj_xml_file: cups/83827973c79ca7631c9ec1e03e401f54.xml
+      scale: 1.5
+
+    8d1f575e9223b28b8183a4a81361b94:
+      class_id: 1
+      cluster_id: c0
+      obj_xml_file: bowls/8d1f575e9223b28b8183a4a81361b94.xml
+      scale: 2.0
+    # 10
+    92d6394732e6058d4bcbafcc905a9b98:
+      class_id: 0
+      cluster_id: c0
+      obj_xml_file: cups/92d6394732e6058d4bcbafcc905a9b98.xml
+      scale: 1.3
+    a95e0d8b37f8ca436a3309b77df3f951:
+      class_id: 1
+      cluster_id: c0
+      obj_xml_file: bowls/a95e0d8b37f8ca436a3309b77df3f951.xml
+      scale: 2.0
+    afb6bf20c56e86f3d8fdbcba78c84028:
+      class_id: 1
+      cluster_id: c0
+      obj_xml_file: bowls/afb6bf20c56e86f3d8fdbcba78c84028.xml
+      scale: 2.0
+    c51b79493419eccdc1584fff35347dc6:
+      class_id: 0
+      cluster_id: c0
+      obj_xml_file: cups/c51b79493419eccdc1584fff35347dc6.xml
+      scale: 1.5
+    c6be3b333b1f7ec9d42a2a5a47e9ed5:
+      class_id: 1
+      cluster_id: c0
+      obj_xml_file: bowls/c6be3b333b1f7ec9d42a2a5a47e9ed5.xml
+      scale: 2.0
+
+    ce905d4381d4daf65287b12a83c64b85:
+      class_id: 1
+      cluster_id: c0
+      obj_xml_file: bowls/ce905d4381d4daf65287b12a83c64b85.xml
+      scale: 2.0
+    d38295b8d83e8cdec712af445786fe:
+      class_id: 0
+      cluster_id: c0
+      obj_xml_file: cups/d38295b8d83e8cdec712af445786fe.xml
+      scale: 1.5
+    d46b98f63a017578ea456f4bbbc96af9:
+      class_id: 0
+      cluster_id: not_assigned
+      obj_xml_file: cups/d46b98f63a017578ea456f4bbbc96af9.xml
+      scale: 1.5
+    f99e19b8c4a729353deb88581ea8417a:
+      class_id: 0
+      cluster_id: c0
+      obj_xml_file: cups/f99e19b8c4a729353deb88581ea8417a.xml
+      scale: 1.2
+    fad118b32085f3f2c2c72e575af174cd:
+      class_id: 0
+      cluster_id: not_assigned
+      obj_xml_file: cups/fad118b32085f3f2c2c72e575af174cd.xml
+      scale: 1.5
+
+    #20
+    'bottle4':
+       class_id: 2
+       obj_xml_file: 'robotsuite_objects_centered/bottle4.xml'
+    'bottle3':
+       class_id: 2
+       obj_xml_file: 'robotsuite_objects_centered/bottle3.xml'
+    '3d693af6fbae47f9cfb661f69a0dfbbd':
+        class_id: 7
+        obj_xml_file: 'car/3d693af6fbae47f9cfb661f69a0dfbbd.xml'
+        scale: 1.2
+
+    '1071fa4cddb2da2fc8724d5673a063a6':
+        class_id: 7
+        obj_xml_file: 'bottles/1071fa4cddb2da2fc8724d5673a063a6.xml'
+        scale: 1.0
+    '1df41477bce9915e362078f6fc3b29f5':
+        class_id: 7
+        obj_xml_file: 'bottles/1df41477bce9915e362078f6fc3b29f5.xml'
+        scale: 1.2
+
+    '21dbbd17ae4c3fce6a90f735365ac29e':
+        class_id: 7
+        obj_xml_file: 'bottles/21dbbd17ae4c3fce6a90f735365ac29e.xml'
+        scale: 0.6
+
+    'camera2':
+       class_id: 2
+       obj_xml_file: 'robotsuite_objects_centered/camera2.xml'
+
+    'camera':
+       class_id: 2
+       obj_xml_file: 'robotsuite_objects_centered/camera.xml'
+#    'nail6':
+#       class_id: 2
+#       obj_xml_file: 'robotsuite_objects_centered/nail6.xml'
+    'nail3':
+       class_id: 2
+       obj_xml_file: 'robotsuite_objects_centered/nail3.xml'
+    'hammer8':
+       class_id: 2
+       obj_xml_file: 'robotsuite_objects_centered/hammer8.xml'
+    # 30
+    'hammer7':
+       class_id: 2
+       obj_xml_file: 'robotsuite_objects_centered/hammer7.xml'
+    '7e9ea6ccb5a1689a3299d37e620d2f2':
+        class_id: 8
+        obj_xml_file: 'can/7e9ea6ccb5a1689a3299d37e620d2f2.xml'
+        scale: 1.2
+    '8cf26f6912f4a9e34a045a96d74810ea':
+        class_id: 8
+        obj_xml_file: 'can/8cf26f6912f4a9e34a045a96d74810ea.xml'
+        scale: 1.2
+    '9b1f0ddd23357e01a81ec39fd9664e9b':
+        class_id: 8
+        obj_xml_file: 'can/9b1f0ddd23357e01a81ec39fd9664e9b.xml'
+        scale: 0.8
+    'ac66fb0ff0d50368ced499bff9a86355':
+       class_id: 8
+       obj_xml_file: 'can/ac66fb0ff0d50368ced499bff9a86355.xml'
+       scale: 1.2
+
+    'ace554442d7d530830612f5c0ef21eb8':
+        class_id: 8
+        obj_xml_file: 'can/ace554442d7d530830612f5c0ef21eb8.xml'
+        scale: 1.2
+
+    'adaaccc7f642dee1288ef234853f8b4d':
+        class_id: 8
+        obj_xml_file: 'can/adaaccc7f642dee1288ef234853f8b4d.xml'
+        scale: 1.2
+
+    'b36902ae19ac77f2a89caedb1243a99':
+        class_id: 8
+        obj_xml_file: 'can/b36902ae19ac77f2a89caedb1243a99.xml'
+        scale: 1.2
+
+    'd44cec47dbdead7ca46192d8b30882':
+        class_id: 8
+        obj_xml_file: 'can/d44cec47dbdead7ca46192d8b30882.xml'
+        scale: 1.2
+    'glass':
+       class_id: 2
+       obj_xml_file: 'robotsuite_objects_centered/glass.xml'

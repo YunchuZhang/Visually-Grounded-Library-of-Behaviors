@@ -1,0 +1,25 @@
+accept_threshold: 0.8
+env_base_xml_file: fetch/pick_and_place.xml
+env_name: FetchPickAndPlace-v1
+max_path_length: 50
+num_rollouts: 5
+num_threads: 5
+clusters:
+  c0:
+    expert_name: grasp_from_rim_controller
+    fn: policy.grasp_from_rim_controller:GraspFromRimController
+    params:
+      model_name: null
+      policy_model_path: ''
+      policy_name: grasp_from_rim_controller
+objs:
+  159e56c18906830278d8f8c02c47cde0:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/159e56c18906830278d8f8c02c47cde0.xml
+    scale: 1.2
+  899af991203577f019790c8746d79a6f:
+    class_id: 1
+    cluster_id: c0
+    obj_xml_file: bowls/899af991203577f019790c8746d79a6f.xml
+    scale: 2.0

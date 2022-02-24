@@ -1,0 +1,31 @@
+accept_threshold: 0.8
+bbox_indicator: false
+env_base_xml_file: fetch/pick_and_place.xml
+env_name: FetchPickAndPlace-v1
+max_path_length: 50
+n_robot_dof: 8
+num_rollouts: 10
+num_threads: 5
+render: false
+clusters:
+  c0:
+    expert_name: grasp_from_center_controller
+    fn: policy.grasp_from_center_controller:GraspFromCenterController
+    params:
+      max_path_length: 110
+      model_name: null
+      policy_model_path: ''
+      policy_name: grasp_from_center_controller
+objs:
+  dice:
+    class_id: 2
+    cluster_id: c0
+    obj_xml_file: robotsuite_objects_centered/dice.xml
+  glass:
+    class_id: 2
+    cluster_id: c0
+    obj_xml_file: robotsuite_objects_centered/glass.xml
+  pen:
+    class_id: 2
+    cluster_id: c0
+    obj_xml_file: robotsuite_objects_centered/pen.xml

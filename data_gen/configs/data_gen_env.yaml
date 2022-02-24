@@ -1,0 +1,16 @@
+max_path_length: 50
+num_rollouts: 5
+accept_threshold: 0.8
+env_name: 'FetchPickAndPlace-v1'
+env_base_xml_file: 'fetch/pick_and_place_camera2.xml' #this file is in quantize-gym/gym/envs/robotics/assets/fetch
+save_image: True # for debugging
+render: False # for debugging
+visualize_bbox: False # for debugging
+train_val_test_ratios: [0.8, 0.2, 0.2]
+
+camera_pitch: [20, 60, 20]
+camera_yaw: [0, 350, 36]
+camera_lookat_pos: [0, 0, 0.45]
+
+table_top: [0, 0, 0.4]
+table_T_camR: [0, 0, 0.05]

@@ -1,0 +1,60 @@
+objs:
+    '159e56c18906830278d8f8c02c47cde0_12':
+        class_id: 0
+        obj_xml_file: 'cups/159e56c18906830278d8f8c02c47cde0.xml'
+        scale: 1.2
+    '159e56c18906830278d8f8c02c47cde0_15':
+        class_id: 0
+        obj_xml_file: 'cups/159e56c18906830278d8f8c02c47cde0.xml'
+        scale: 1.5
+    '159e56c18906830278d8f8c02c47cde0_18':
+        class_id: 0
+        obj_xml_file: 'cups/159e56c18906830278d8f8c02c47cde0.xml'
+        scale: 1.8
+    '899af991203577f019790c8746d79a6f':
+        class_id: 1
+        obj_xml_file: 'bowls/899af991203577f019790c8746d79a6f.xml'
+        scale: 2.0
+    '899af991203577f019790c8746d79a6f_25':
+        class_id: 1
+        obj_xml_file: 'bowls/899af991203577f019790c8746d79a6f.xml'
+        scale: 2.5
+    '899af991203577f019790c8746d79a6f_15':
+        class_id: 1
+        obj_xml_file: 'bowls/899af991203577f019790c8746d79a6f.xml'
+        scale: 1.5
+    car_18da5e80080352be294d52e32dbd135_run0:
+      euler_xyz: 0.0 0.0 1.0758283109788762
+      mass: 1.2
+      obj_xml_file: car/18da5e80080352be294d52e32dbd135b.xml
+      scale: 0.9855173918752262
+    id0450_bottles_f2279b29f7d45bbd744c199e33849f2_run0:
+      class_id: null
+      cluster_id: not_assigned
+      euler_xyz: 1.57 1.57 2.4644635023347985
+      mass: 1.2
+      obj_xml_file: bottles/f2279b29f7d45bbd744c199e33849f2a.xml
+      scale: 1.0
+      success_rates_over_class: 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.6 0.0 0.0 0.0 0.0
+        0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+#    'pen':
+#        class_id: 2
+#        obj_xml_file: 'robotsuite_objects_centered/pen.xml'
+#    'dice':
+#       class_id: 2
+#       obj_xml_file: 'robotsuite_objects_centered/dice.xml'
+#    'glass':
+#       class_id: 2
+#       obj_xml_file: 'robotsuite_objects_centered/glass.xml'
+#    'bottle':
+#       class_id: 2
+#       obj_xml_file: 'robotsuite_objects_centered/bottle.xml'
+#    'pen':
+#        class_id: 2
+#        obj_xml_file: 'robotsuite_objects_centered/pen.xml'
+    #'sphere':
+    #    class_id: 2
+    #    xml_file: 'fetch/pick_and_place_sphere.xml'
+    #'cube':
+    #    class_id: 2
+    #    xml_file: 'fetch/pick_and_place_cube.xml'

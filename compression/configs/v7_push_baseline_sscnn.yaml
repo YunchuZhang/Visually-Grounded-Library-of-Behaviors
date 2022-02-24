@@ -1,0 +1,21 @@
+max_path_length: 50
+num_rollouts: 10
+num_visualize: 10
+accept_threshold: null
+env_name: 'FetchPush-v1'
+env_base_xml_file: 'fetch/push.xml'
+n_robot_dof: 4
+randomize_color: True
+render: True
+bbox_indicator: False
+obs_type: bb
+
+# the paths below are all relative to trained_models/
+initial_policies:
+  sscnn:
+    fn: policy.cnn_policy:CNNPolicy
+    params:
+      policy_model_path: 'logs/bc/v1_singleview_l3/ckpt/ep460-455399'
+      params_path: 'bc/configs/default.yaml'
+      camera_config_path: 'tasks/camera/camera_config.yaml'
+      viewpoint: 2

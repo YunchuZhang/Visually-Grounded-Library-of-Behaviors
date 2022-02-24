@@ -1,0 +1,28 @@
+max_path_length: 50
+num_rollouts: 5
+accept_threshold: 0.8
+env_name: 'FetchPickAndPlace-v1'
+env_base_xml_file: 'fetch/pick_and_place_fetch_with_cam.xml'
+
+camera_yaw_list: [300, 0, 60]
+camera_radius: 0.5
+
+initial_policies:
+    grasp_from_rim_controller:
+        fn: policy.grasp_from_rim_controller:GraspFromRimController
+        params:
+    grasp_from_center_controller:
+        fn: policy.grasp_from_center_controller:GraspFromCenterController
+        params:
+            max_path_length: 110
+
+selector:
+    fn: selector.tensor3d_features_selector:Tensor3DFeatSelector
+    params:
+       #cluster_pkl_file: "./trained_models/vis/MUJOCO_OFFLINE/test_train_viewpred_occ2/clusters.pkl"
+       #model_type: mujoco_offline
+       #model_config_file: './trained_models/checkpoints/MUJOCO_OFFLINE/train_viewpred_occ2/config.pkl'
+       #ckpt_dict: "{'model': './trained_models/checkpoints/MUJOCO_OFFLINE/train_viewpred_occ2/model-40000.pth'}"
+       model_type: mujoco_offline_metric
+       model_config_file: './trained_models/checkpoints/MUJOCO_OFFLINE_METRIC/train_0629_refine2/config.pkl'
+       ckpt_dict: "{'model': './trained_models/checkpoints/MUJOCO_OFFLINE_METRIC/train_0629_refine2/model-10000.pth'}"

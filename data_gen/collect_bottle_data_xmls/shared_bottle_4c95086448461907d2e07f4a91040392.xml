@@ -1,0 +1,22 @@
+<mujoco>
+        <asset>
+                <texture builtin="gradient" height="32" rgb1="0.44 0.85 0.56" rgb2="0.46 0.87 0.58" type="skybox" width="32" />
+                <texture file="textures/block.png" gridlayout=".U..LFRB.D.." gridsize="3 4" name="texture_block" />
+
+                <material name="floor_mat" reflectance="0" rgba="0.2 0.2 0.2 1" shininess="0.5" specular="0" />
+                <material name="table_mat" reflectance="0" rgba="0.93 0.93 0.93 1" shininess="0.5" specular="0" />
+                <material name="block_mat" reflectance="0" rgba="0.2 0.2 0.2 1" shininess="0.5" specular="0" />
+                <material name="puck_mat" reflectance="0" rgba="0.2 0.2 0.2 1" shininess="0.5" specular="0" />
+                <material name="robot0:geomMat" shininess="0.03" specular="0.4" />
+                <material name="robot0:gripper_finger_mat" reflectance="0" shininess="0.03" specular="0.4" />
+                <material name="robot0:gripper_mat" reflectance="0" shininess="0.03" specular="0.4" />
+                <material name="robot0:arm_mat" reflectance="0" shininess="0.03" specular="0.4" />
+                <material name="robot0:head_mat" reflectance="0" shininess="0.03" specular="0.4" />
+                <material name="robot0:torso_mat" reflectance="0" shininess="0.03" specular="0.4" />
+                <material name="robot0:base_mat" reflectance="0" shininess="0.03" specular="0.4" />
+
+                <texture file="textures/ceramic.png" name="tex-ceramic" />
+                <material name="ceramic" reflectance="0.5" texrepeat="1 1" texture="tex-ceramic" texuniform="true" />
+                <mesh file="../meshes/02876657/4c95086448461907d2e07f4a91040392/models/stl_models/convex_model_normalized_0.stl" name="4c95086448461907d2e07f4a91040392_mesh_0" scale="1.5 1.5 1.5" /><mesh file="../meshes/02876657/4c95086448461907d2e07f4a91040392/models/stl_models/convex_model_normalized_1.stl" name="4c95086448461907d2e07f4a91040392_mesh_1" scale="1.5 1.5 1.5" /><mesh file="../meshes/02876657/4c95086448461907d2e07f4a91040392/models/stl_models/convex_model_normalized_2.stl" name="4c95086448461907d2e07f4a91040392_mesh_2" scale="1.5 1.5 1.5" /><mesh file="../meshes/02876657/4c95086448461907d2e07f4a91040392/models/stl_models/convex_model_normalized_3.stl" name="4c95086448461907d2e07f4a91040392_mesh_3" scale="1.5 1.5 1.5" /></asset>
+
+</mujoco>

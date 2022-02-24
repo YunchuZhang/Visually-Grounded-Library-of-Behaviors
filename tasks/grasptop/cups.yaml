@@ -1,0 +1,661 @@
+objs:
+#  cups_10f6e09036350e92b3f21f1137c3c34_run0:
+#    euler_xyz: 0.0 0.0 1.6463866540644616
+#    mass: 1.2
+#    obj_xml_file: cups/10f6e09036350e92b3f21f1137c3c347.xml
+#    scale: 0.8
+#  cups_10f6e09036350e92b3f21f1137c3c34_run1:
+#    euler_xyz: 0.0 0.0 1.8716886740381329
+#    mass: 1.2
+#    obj_xml_file: cups/10f6e09036350e92b3f21f1137c3c347.xml
+#    scale: 1.2
+#  cups_10f6e09036350e92b3f21f1137c3c34_run2:
+#    euler_xyz: 0.0 0.0 0.6284784722935582
+#    mass: 1.2
+#    obj_xml_file: cups/10f6e09036350e92b3f21f1137c3c347.xml
+#    scale: 0.8
+#  cups_159e56c18906830278d8f8c02c47cde_run0:
+#    euler_xyz: 0.0 0.0 0.051775777831210394
+#    mass: 1.2
+#    obj_xml_file: cups/159e56c18906830278d8f8c02c47cde0.xml
+#    scale: 0.8
+#  cups_159e56c18906830278d8f8c02c47cde_run1:
+#    euler_xyz: 0.0 0.0 0.7083672995404795
+#    mass: 1.2
+#    obj_xml_file: cups/159e56c18906830278d8f8c02c47cde0.xml
+#    scale: 1.2
+#  cups_159e56c18906830278d8f8c02c47cde_run2:
+#    euler_xyz: 0.0 0.0 0.65887942383108
+#    mass: 1.2
+#    obj_xml_file: cups/159e56c18906830278d8f8c02c47cde0.xml
+#    scale: 1.2
+#  cups_15bd6225c209a8e3654b0ce7754570c_run0:
+#    euler_xyz: 0.0 0.0 1.8760923372445617
+#    mass: 1.2
+#    obj_xml_file: cups/15bd6225c209a8e3654b0ce7754570c8.xml
+#    scale: 1.2
+#  cups_15bd6225c209a8e3654b0ce7754570c_run1:
+#    euler_xyz: 0.0 0.0 0.5565190713656731
+#    mass: 1.2
+#    obj_xml_file: cups/15bd6225c209a8e3654b0ce7754570c8.xml
+#    scale: 1.2
+  cups_15bd6225c209a8e3654b0ce7754570c_run2:
+    euler_xyz: 0.0 0.0 1.2781471786873344
+    mass: 1.2
+    obj_xml_file: cups/15bd6225c209a8e3654b0ce7754570c8.xml
+    scale: 1.5
+  cups_1a97f3c83016abca21d0de04f408950_run0:
+    euler_xyz: 0.0 0.0 3.0517194931874303
+    mass: 1.2
+    obj_xml_file: cups/1a97f3c83016abca21d0de04f408950f.xml
+    scale: 0.8
+  cups_1a97f3c83016abca21d0de04f408950_run1:
+    euler_xyz: 0.0 0.0 0.7135307843703711
+    mass: 1.2
+    obj_xml_file: cups/1a97f3c83016abca21d0de04f408950f.xml
+    scale: 1.5
+  cups_1a97f3c83016abca21d0de04f408950_run2:
+    euler_xyz: 0.0 0.0 0.501236700411788
+    mass: 1.2
+    obj_xml_file: cups/1a97f3c83016abca21d0de04f408950f.xml
+    scale: 0.8
+  cups_1c3fccb84f1eeb97a3d0a41d6c77ec7_run0:
+    euler_xyz: 0.0 0.0 0.863406542391016
+    mass: 1.2
+    obj_xml_file: cups/1c3fccb84f1eeb97a3d0a41d6c77ec7c.xml
+    scale: 1.2
+  cups_1c3fccb84f1eeb97a3d0a41d6c77ec7_run1:
+    euler_xyz: 0.0 0.0 2.0862875663991978
+    mass: 1.2
+    obj_xml_file: cups/1c3fccb84f1eeb97a3d0a41d6c77ec7c.xml
+    scale: 1.5
+  cups_1c3fccb84f1eeb97a3d0a41d6c77ec7_run2:
+    euler_xyz: 0.0 0.0 0.8414345468685624
+    mass: 1.2
+    obj_xml_file: cups/1c3fccb84f1eeb97a3d0a41d6c77ec7c.xml
+    scale: 1.2
+  cups_1c9f9e25c654cbca3c71bf3f4dd7847_run0:
+    euler_xyz: 0.0 0.0 2.748280457255335
+    mass: 1.2
+    obj_xml_file: cups/1c9f9e25c654cbca3c71bf3f4dd78475.xml
+    scale: 1.5
+  cups_1c9f9e25c654cbca3c71bf3f4dd7847_run1:
+    euler_xyz: 0.0 0.0 2.87273555402783
+    mass: 1.2
+    obj_xml_file: cups/1c9f9e25c654cbca3c71bf3f4dd78475.xml
+    scale: 0.8
+  cups_1c9f9e25c654cbca3c71bf3f4dd7847_run2:
+    euler_xyz: 0.0 0.0 2.524315316328159
+    mass: 1.2
+    obj_xml_file: cups/1c9f9e25c654cbca3c71bf3f4dd78475.xml
+    scale: 0.8
+  cups_1d18255a04d22794e521eeb8bb14c5b_run0:
+    euler_xyz: 0.0 0.0 2.727843234989246
+    mass: 1.2
+    obj_xml_file: cups/1d18255a04d22794e521eeb8bb14c5b3.xml
+    scale: 1.2
+  cups_1d18255a04d22794e521eeb8bb14c5b_run1:
+    euler_xyz: 0.0 0.0 2.689468637182666
+    mass: 1.2
+    obj_xml_file: cups/1d18255a04d22794e521eeb8bb14c5b3.xml
+    scale: 1.5
+  cups_1d18255a04d22794e521eeb8bb14c5b_run2:
+    euler_xyz: 0.0 0.0 2.643783730380889
+    mass: 1.2
+    obj_xml_file: cups/1d18255a04d22794e521eeb8bb14c5b3.xml
+    scale: 0.8
+  cups_27119d9b2167080ec190cb14324769_run0:
+    euler_xyz: 0.0 0.0 1.0699586145385047
+    mass: 1.2
+    obj_xml_file: cups/27119d9b2167080ec190cb14324769d.xml
+    scale: 0.8
+  cups_27119d9b2167080ec190cb14324769_run1:
+    euler_xyz: 0.0 0.0 1.3410908790428575
+    mass: 1.2
+    obj_xml_file: cups/27119d9b2167080ec190cb14324769d.xml
+    scale: 1.2
+  cups_27119d9b2167080ec190cb14324769_run2:
+    euler_xyz: 0.0 0.0 1.0635076038076614
+    mass: 1.2
+    obj_xml_file: cups/27119d9b2167080ec190cb14324769d.xml
+    scale: 1.5
+  cups_2852b888abae54b0e3523e99fd841f_run0:
+    euler_xyz: 0.0 0.0 0.5030224794440346
+    mass: 1.2
+    obj_xml_file: cups/2852b888abae54b0e3523e99fd841f4.xml
+    scale: 1.2
+  cups_2852b888abae54b0e3523e99fd841f_run1:
+    euler_xyz: 0.0 0.0 0.8714885009745348
+    mass: 1.2
+    obj_xml_file: cups/2852b888abae54b0e3523e99fd841f4.xml
+    scale: 0.8
+  cups_2852b888abae54b0e3523e99fd841f_run2:
+    euler_xyz: 0.0 0.0 0.13484068426827792
+    mass: 1.2
+    obj_xml_file: cups/2852b888abae54b0e3523e99fd841f4.xml
+    scale: 0.8
+  cups_28f1e7bc572a633cb9946438ed40eeb_run0:
+    euler_xyz: 0.0 0.0 2.8448463874817205
+    mass: 1.2
+    obj_xml_file: cups/28f1e7bc572a633cb9946438ed40eeb9.xml
+    scale: 1.5
+  cups_28f1e7bc572a633cb9946438ed40eeb_run1:
+    euler_xyz: 0.0 0.0 1.817269397847404
+    mass: 1.2
+    obj_xml_file: cups/28f1e7bc572a633cb9946438ed40eeb9.xml
+    scale: 0.8
+  cups_28f1e7bc572a633cb9946438ed40eeb_run2:
+    euler_xyz: 0.0 0.0 2.8969839212247015
+    mass: 1.2
+    obj_xml_file: cups/28f1e7bc572a633cb9946438ed40eeb9.xml
+    scale: 1.2
+  cups_3143a4accdc23349cac584186c95ce9_run0:
+    euler_xyz: 0.0 0.0 1.3517888925123631
+    mass: 1.2
+    obj_xml_file: cups/3143a4accdc23349cac584186c95ce9b.xml
+    scale: 1.5
+  cups_3143a4accdc23349cac584186c95ce9_run1:
+    euler_xyz: 0.0 0.0 0.5622974237431153
+    mass: 1.2
+    obj_xml_file: cups/3143a4accdc23349cac584186c95ce9b.xml
+    scale: 1.5
+  cups_3143a4accdc23349cac584186c95ce9_run2:
+    euler_xyz: 0.0 0.0 1.6724992920382051
+    mass: 1.2
+    obj_xml_file: cups/3143a4accdc23349cac584186c95ce9b.xml
+    scale: 1.5
+  cups_403fb4eb4fc6235adf0c7dbe7f8f4c8_run0:
+    euler_xyz: 0.0 0.0 0.21971419201376638
+    mass: 1.2
+    obj_xml_file: cups/403fb4eb4fc6235adf0c7dbe7f8f4c8e.xml
+    scale: 1.5
+  cups_403fb4eb4fc6235adf0c7dbe7f8f4c8_run1:
+    euler_xyz: 0.0 0.0 2.382941839333558
+    mass: 1.2
+    obj_xml_file: cups/403fb4eb4fc6235adf0c7dbe7f8f4c8e.xml
+    scale: 0.8
+  cups_403fb4eb4fc6235adf0c7dbe7f8f4c8_run2:
+    euler_xyz: 0.0 0.0 2.7054587737908613
+    mass: 1.2
+    obj_xml_file: cups/403fb4eb4fc6235adf0c7dbe7f8f4c8e.xml
+    scale: 1.2
+  cups_414772162ef70ec29109ad7f9c200d6_run0:
+    euler_xyz: 0.0 0.0 0.9921519616838578
+    mass: 1.2
+    obj_xml_file: cups/414772162ef70ec29109ad7f9c200d62.xml
+    scale: 1.2
+  cups_414772162ef70ec29109ad7f9c200d6_run1:
+    euler_xyz: 0.0 0.0 2.2738985459936063
+    mass: 1.2
+    obj_xml_file: cups/414772162ef70ec29109ad7f9c200d62.xml
+    scale: 0.8
+  cups_414772162ef70ec29109ad7f9c200d6_run2:
+    euler_xyz: 0.0 0.0 0.307437752894778
+    mass: 1.2
+    obj_xml_file: cups/414772162ef70ec29109ad7f9c200d62.xml
+    scale: 1.5
+  cups_43e1cabc5dd2fa91fffc97a61124b1a_run0:
+    euler_xyz: 0.0 0.0 2.4538187907714373
+    mass: 1.2
+    obj_xml_file: cups/43e1cabc5dd2fa91fffc97a61124b1a9.xml
+    scale: 1.2
+  cups_43e1cabc5dd2fa91fffc97a61124b1a_run1:
+    euler_xyz: 0.0 0.0 2.9696381944402024
+    mass: 1.2
+    obj_xml_file: cups/43e1cabc5dd2fa91fffc97a61124b1a9.xml
+    scale: 0.8
+  cups_43e1cabc5dd2fa91fffc97a61124b1a_run2:
+    euler_xyz: 0.0 0.0 0.23166841074213193
+    mass: 1.2
+    obj_xml_file: cups/43e1cabc5dd2fa91fffc97a61124b1a9.xml
+    scale: 0.8
+  cups_46955fddcc83a50f79b586547e54369_run0:
+    euler_xyz: 0.0 0.0 0.4652008907409701
+    mass: 1.2
+    obj_xml_file: cups/46955fddcc83a50f79b586547e543694.xml
+    scale: 0.8
+  cups_46955fddcc83a50f79b586547e54369_run1:
+    euler_xyz: 0.0 0.0 1.8271836211038956
+    mass: 1.2
+    obj_xml_file: cups/46955fddcc83a50f79b586547e543694.xml
+    scale: 0.8
+  cups_46955fddcc83a50f79b586547e54369_run2:
+    euler_xyz: 0.0 0.0 1.825495629992121
+    mass: 1.2
+    obj_xml_file: cups/46955fddcc83a50f79b586547e543694.xml
+    scale: 1.2
+  cups_54f2d6a0b431839c99785666a0fe025_run0:
+    euler_xyz: 0.0 0.0 1.7211164990172756
+    mass: 1.2
+    obj_xml_file: cups/54f2d6a0b431839c99785666a0fe0255.xml
+    scale: 1.5
+  cups_54f2d6a0b431839c99785666a0fe025_run1:
+    euler_xyz: 0.0 0.0 0.6781990024302342
+    mass: 1.2
+    obj_xml_file: cups/54f2d6a0b431839c99785666a0fe0255.xml
+    scale: 1.5
+  cups_54f2d6a0b431839c99785666a0fe025_run2:
+    euler_xyz: 0.0 0.0 2.424103479627557
+    mass: 1.2
+    obj_xml_file: cups/54f2d6a0b431839c99785666a0fe0255.xml
+    scale: 0.8
+  cups_57f73714cbc425e44ae022a8f6e258a_run0:
+    euler_xyz: 0.0 0.0 2.7786386743010705
+    mass: 1.2
+    obj_xml_file: cups/57f73714cbc425e44ae022a8f6e258a7.xml
+    scale: 1.2
+  cups_57f73714cbc425e44ae022a8f6e258a_run1:
+    euler_xyz: 0.0 0.0 2.9116507156276574
+    mass: 1.2
+    obj_xml_file: cups/57f73714cbc425e44ae022a8f6e258a7.xml
+    scale: 0.8
+  cups_57f73714cbc425e44ae022a8f6e258a_run2:
+    euler_xyz: 0.0 0.0 1.7092225929200904
+    mass: 1.2
+    obj_xml_file: cups/57f73714cbc425e44ae022a8f6e258a7.xml
+    scale: 1.5
+  cups_599e604a8265cc0a98765d8aa3638e7_run0:
+    euler_xyz: 0.0 0.0 2.187622235046519
+    mass: 1.2
+    obj_xml_file: cups/599e604a8265cc0a98765d8aa3638e70.xml
+    scale: 0.8
+  cups_599e604a8265cc0a98765d8aa3638e7_run1:
+    euler_xyz: 0.0 0.0 1.8985473504425303
+    mass: 1.2
+    obj_xml_file: cups/599e604a8265cc0a98765d8aa3638e70.xml
+    scale: 1.2
+  cups_599e604a8265cc0a98765d8aa3638e7_run2:
+    euler_xyz: 0.0 0.0 1.64546864189687
+    mass: 1.2
+    obj_xml_file: cups/599e604a8265cc0a98765d8aa3638e70.xml
+    scale: 0.8
+  cups_5c7c4cb503a757147dbda56eabff0c4_run0:
+    euler_xyz: 0.0 0.0 0.46280313987841326
+    mass: 1.2
+    obj_xml_file: cups/5c7c4cb503a757147dbda56eabff0c47.xml
+    scale: 1.2
+  cups_5c7c4cb503a757147dbda56eabff0c4_run1:
+    euler_xyz: 0.0 0.0 2.9103735021230634
+    mass: 1.2
+    obj_xml_file: cups/5c7c4cb503a757147dbda56eabff0c47.xml
+    scale: 0.8
+  cups_5c7c4cb503a757147dbda56eabff0c4_run2:
+    euler_xyz: 0.0 0.0 3.0996764569354527
+    mass: 1.2
+    obj_xml_file: cups/5c7c4cb503a757147dbda56eabff0c47.xml
+    scale: 1.5
+  cups_5ef0c4f8c0884a24762241154bf230c_run0:
+    euler_xyz: 0.0 0.0 2.5316226708683023
+    mass: 1.2
+    obj_xml_file: cups/5ef0c4f8c0884a24762241154bf230ce.xml
+    scale: 1.2
+  cups_5ef0c4f8c0884a24762241154bf230c_run1:
+    euler_xyz: 0.0 0.0 1.9805989890248779
+    mass: 1.2
+    obj_xml_file: cups/5ef0c4f8c0884a24762241154bf230ce.xml
+    scale: 1.5
+  cups_5ef0c4f8c0884a24762241154bf230c_run2:
+    euler_xyz: 0.0 0.0 1.0709341787609066
+    mass: 1.2
+    obj_xml_file: cups/5ef0c4f8c0884a24762241154bf230ce.xml
+    scale: 0.8
+  cups_6661c0b9b9b8450c4ee002d643e7b29_run0:
+    euler_xyz: 0.0 0.0 0.011183328942483516
+    mass: 1.2
+    obj_xml_file: cups/6661c0b9b9b8450c4ee002d643e7b29e.xml
+    scale: 1.2
+  cups_6661c0b9b9b8450c4ee002d643e7b29_run1:
+    euler_xyz: 0.0 0.0 1.0304767074577292
+    mass: 1.2
+    obj_xml_file: cups/6661c0b9b9b8450c4ee002d643e7b29e.xml
+    scale: 1.5
+  cups_6661c0b9b9b8450c4ee002d643e7b29_run2:
+    euler_xyz: 0.0 0.0 1.7101945939130356
+    mass: 1.2
+    obj_xml_file: cups/6661c0b9b9b8450c4ee002d643e7b29e.xml
+    scale: 1.5
+  cups_6e884701bfddd1f71e1138649f4c21_run0:
+    euler_xyz: 0.0 0.0 1.6718919513707216
+    mass: 1.2
+    obj_xml_file: cups/6e884701bfddd1f71e1138649f4c219.xml
+    scale: 0.8
+  cups_6e884701bfddd1f71e1138649f4c21_run1:
+    euler_xyz: 0.0 0.0 0.2555014369652024
+    mass: 1.2
+    obj_xml_file: cups/6e884701bfddd1f71e1138649f4c219.xml
+    scale: 1.5
+  cups_6e884701bfddd1f71e1138649f4c21_run2:
+    euler_xyz: 0.0 0.0 0.4352318633115919
+    mass: 1.2
+    obj_xml_file: cups/6e884701bfddd1f71e1138649f4c219.xml
+    scale: 1.5
+  cups_71ca4fc9c8c29fa8d5abaf84513415a_run0:
+    euler_xyz: 0.0 0.0 0.5380130978574231
+    mass: 1.2
+    obj_xml_file: cups/71ca4fc9c8c29fa8d5abaf84513415a2.xml
+    scale: 1.2
+  cups_71ca4fc9c8c29fa8d5abaf84513415a_run1:
+    euler_xyz: 0.0 0.0 1.5941653966208649
+    mass: 1.2
+    obj_xml_file: cups/71ca4fc9c8c29fa8d5abaf84513415a2.xml
+    scale: 0.8
+  cups_71ca4fc9c8c29fa8d5abaf84513415a_run2:
+    euler_xyz: 0.0 0.0 0.8854613271289784
+    mass: 1.2
+    obj_xml_file: cups/71ca4fc9c8c29fa8d5abaf84513415a2.xml
+    scale: 1.2
+  cups_83827973c79ca7631c9ec1e03e401f5_run0:
+    euler_xyz: 0.0 0.0 0.017924479670676785
+    mass: 1.2
+    obj_xml_file: cups/83827973c79ca7631c9ec1e03e401f54.xml
+    scale: 0.8
+  cups_83827973c79ca7631c9ec1e03e401f5_run1:
+    euler_xyz: 0.0 0.0 2.218663170036115
+    mass: 1.2
+    obj_xml_file: cups/83827973c79ca7631c9ec1e03e401f54.xml
+    scale: 1.5
+  cups_83827973c79ca7631c9ec1e03e401f5_run2:
+    euler_xyz: 0.0 0.0 1.3925884458460767
+    mass: 1.2
+    obj_xml_file: cups/83827973c79ca7631c9ec1e03e401f54.xml
+    scale: 0.8
+  cups_92d6394732e6058d4bcbafcc905a9b9_run0:
+    euler_xyz: 0.0 0.0 1.7944411269108382
+    mass: 1.2
+    obj_xml_file: cups/92d6394732e6058d4bcbafcc905a9b98.xml
+    scale: 0.8
+  cups_92d6394732e6058d4bcbafcc905a9b9_run1:
+    euler_xyz: 0.0 0.0 2.1543511726921043
+    mass: 1.2
+    obj_xml_file: cups/92d6394732e6058d4bcbafcc905a9b98.xml
+    scale: 1.5
+  cups_92d6394732e6058d4bcbafcc905a9b9_run2:
+    euler_xyz: 0.0 0.0 0.6731609772124292
+    mass: 1.2
+    obj_xml_file: cups/92d6394732e6058d4bcbafcc905a9b98.xml
+    scale: 1.5
+  cups_9737c77d3263062b8ca7a0a01bcd55b_run0:
+    euler_xyz: 0.0 0.0 0.6625582438242751
+    mass: 1.2
+    obj_xml_file: cups/9737c77d3263062b8ca7a0a01bcd55b6.xml
+    scale: 1.2
+  cups_9737c77d3263062b8ca7a0a01bcd55b_run1:
+    euler_xyz: 0.0 0.0 0.4180924612753912
+    mass: 1.2
+    obj_xml_file: cups/9737c77d3263062b8ca7a0a01bcd55b6.xml
+    scale: 1.2
+  cups_9737c77d3263062b8ca7a0a01bcd55b_run2:
+    euler_xyz: 0.0 0.0 1.367092221467531
+    mass: 1.2
+    obj_xml_file: cups/9737c77d3263062b8ca7a0a01bcd55b6.xml
+    scale: 1.2
+  cups_9af98540f45411467246665d3d3724_run0:
+    euler_xyz: 0.0 0.0 2.702202924434966
+    mass: 1.2
+    obj_xml_file: cups/9af98540f45411467246665d3d3724c.xml
+    scale: 1.5
+  cups_9af98540f45411467246665d3d3724_run1:
+    euler_xyz: 0.0 0.0 1.1845451245482
+    mass: 1.2
+    obj_xml_file: cups/9af98540f45411467246665d3d3724c.xml
+    scale: 0.8
+  cups_9af98540f45411467246665d3d3724_run2:
+    euler_xyz: 0.0 0.0 0.4499887106192206
+    mass: 1.2
+    obj_xml_file: cups/9af98540f45411467246665d3d3724c.xml
+    scale: 0.8
+  cups_9d8c711750a73b06ad1d789f3b2120d_run0:
+    euler_xyz: 0.0 0.0 0.9851518518743435
+    mass: 1.2
+    obj_xml_file: cups/9d8c711750a73b06ad1d789f3b2120d0.xml
+    scale: 1.5
+  cups_9d8c711750a73b06ad1d789f3b2120d_run1:
+    euler_xyz: 0.0 0.0 2.5754008738833742
+    mass: 1.2
+    obj_xml_file: cups/9d8c711750a73b06ad1d789f3b2120d0.xml
+    scale: 0.8
+  cups_9d8c711750a73b06ad1d789f3b2120d_run2:
+    euler_xyz: 0.0 0.0 0.011319653912044739
+    mass: 1.2
+    obj_xml_file: cups/9d8c711750a73b06ad1d789f3b2120d0.xml
+    scale: 1.2
+  cups_a0c78f254b037f88933dc172307a6bb_run0:
+    euler_xyz: 0.0 0.0 1.6982137795382741
+    mass: 1.2
+    obj_xml_file: cups/a0c78f254b037f88933dc172307a6bb9.xml
+    scale: 1.5
+  cups_a0c78f254b037f88933dc172307a6bb_run1:
+    euler_xyz: 0.0 0.0 0.8663699310030141
+    mass: 1.2
+    obj_xml_file: cups/a0c78f254b037f88933dc172307a6bb9.xml
+    scale: 0.8
+  cups_a0c78f254b037f88933dc172307a6bb_run2:
+    euler_xyz: 0.0 0.0 1.4688752991347023
+    mass: 1.2
+    obj_xml_file: cups/a0c78f254b037f88933dc172307a6bb9.xml
+    scale: 0.8
+  cups_b18bf84bcd457ffbc2868ebdda32b94_run0:
+    euler_xyz: 0.0 0.0 0.017545622849621176
+    mass: 1.2
+    obj_xml_file: cups/b18bf84bcd457ffbc2868ebdda32b945.xml
+    scale: 0.8
+  cups_b18bf84bcd457ffbc2868ebdda32b94_run1:
+    euler_xyz: 0.0 0.0 1.6775101437143787
+    mass: 1.2
+    obj_xml_file: cups/b18bf84bcd457ffbc2868ebdda32b945.xml
+    scale: 1.2
+  cups_b18bf84bcd457ffbc2868ebdda32b94_run2:
+    euler_xyz: 0.0 0.0 0.05491678992553519
+    mass: 1.2
+    obj_xml_file: cups/b18bf84bcd457ffbc2868ebdda32b945.xml
+    scale: 0.8
+  cups_b46e89995f4f9cc5161e440f04bd2a_run0:
+    euler_xyz: 0.0 0.0 1.7478374938224839
+    mass: 1.2
+    obj_xml_file: cups/b46e89995f4f9cc5161e440f04bd2a2.xml
+    scale: 1.2
+  cups_b46e89995f4f9cc5161e440f04bd2a_run1:
+    euler_xyz: 0.0 0.0 2.4594237852247836
+    mass: 1.2
+    obj_xml_file: cups/b46e89995f4f9cc5161e440f04bd2a2.xml
+    scale: 1.2
+  cups_b46e89995f4f9cc5161e440f04bd2a_run2:
+    euler_xyz: 0.0 0.0 0.45746188306070856
+    mass: 1.2
+    obj_xml_file: cups/b46e89995f4f9cc5161e440f04bd2a2.xml
+    scale: 1.5
+  cups_b9004dcda66abf95b99d2a3bbaea842_run0:
+    euler_xyz: 0.0 0.0 0.2332427624751562
+    mass: 1.2
+    obj_xml_file: cups/b9004dcda66abf95b99d2a3bbaea842a.xml
+    scale: 1.5
+  cups_b9004dcda66abf95b99d2a3bbaea842_run1:
+    euler_xyz: 0.0 0.0 1.1116664781273438
+    mass: 1.2
+    obj_xml_file: cups/b9004dcda66abf95b99d2a3bbaea842a.xml
+    scale: 1.5
+  cups_b9004dcda66abf95b99d2a3bbaea842_run2:
+    euler_xyz: 0.0 0.0 0.5275728690813268
+    mass: 1.2
+    obj_xml_file: cups/b9004dcda66abf95b99d2a3bbaea842a.xml
+    scale: 1.2
+  cups_bea77759a3e5f9037ae0031c221d81a_run0:
+    euler_xyz: 0.0 0.0 2.3147712417168798
+    mass: 1.2
+    obj_xml_file: cups/bea77759a3e5f9037ae0031c221d81a4.xml
+    scale: 1.2
+  cups_bea77759a3e5f9037ae0031c221d81a_run1:
+    euler_xyz: 0.0 0.0 1.447467317301721
+    mass: 1.2
+    obj_xml_file: cups/bea77759a3e5f9037ae0031c221d81a4.xml
+    scale: 1.2
+  cups_bea77759a3e5f9037ae0031c221d81a_run2:
+    euler_xyz: 0.0 0.0 0.37377032380804526
+    mass: 1.2
+    obj_xml_file: cups/bea77759a3e5f9037ae0031c221d81a4.xml
+    scale: 0.8
+  cups_c34718bd10e378186c6c61abcbd83e5_run0:
+    euler_xyz: 0.0 0.0 0.71559977914067
+    mass: 1.2
+    obj_xml_file: cups/c34718bd10e378186c6c61abcbd83e5a.xml
+    scale: 1.2
+  cups_c34718bd10e378186c6c61abcbd83e5_run1:
+    euler_xyz: 0.0 0.0 1.1635444628322364
+    mass: 1.2
+    obj_xml_file: cups/c34718bd10e378186c6c61abcbd83e5a.xml
+    scale: 0.8
+  cups_c34718bd10e378186c6c61abcbd83e5_run2:
+    euler_xyz: 0.0 0.0 1.4690542627709802
+    mass: 1.2
+    obj_xml_file: cups/c34718bd10e378186c6c61abcbd83e5a.xml
+    scale: 0.8
+  cups_c39fb75015184c2a0c7f097b1a1f7a_run0:
+    euler_xyz: 0.0 0.0 2.9181644328662024
+    mass: 1.2
+    obj_xml_file: cups/c39fb75015184c2a0c7f097b1a1f7a5.xml
+    scale: 0.8
+  cups_c39fb75015184c2a0c7f097b1a1f7a_run1:
+    euler_xyz: 0.0 0.0 2.68223887976748
+    mass: 1.2
+    obj_xml_file: cups/c39fb75015184c2a0c7f097b1a1f7a5.xml
+    scale: 1.2
+  cups_c39fb75015184c2a0c7f097b1a1f7a_run2:
+    euler_xyz: 0.0 0.0 2.9231238822187864
+    mass: 1.2
+    obj_xml_file: cups/c39fb75015184c2a0c7f097b1a1f7a5.xml
+    scale: 0.8
+  cups_c51b79493419eccdc1584fff35347dc_run0:
+    euler_xyz: 0.0 0.0 2.8151944898810375
+    mass: 1.2
+    obj_xml_file: cups/c51b79493419eccdc1584fff35347dc6.xml
+    scale: 1.5
+  cups_c51b79493419eccdc1584fff35347dc_run1:
+    euler_xyz: 0.0 0.0 3.1084000820548954
+    mass: 1.2
+    obj_xml_file: cups/c51b79493419eccdc1584fff35347dc6.xml
+    scale: 1.2
+  cups_c51b79493419eccdc1584fff35347dc_run2:
+    euler_xyz: 0.0 0.0 2.670381257737504
+    mass: 1.2
+    obj_xml_file: cups/c51b79493419eccdc1584fff35347dc6.xml
+    scale: 1.2
+  cups_d38295b8d83e8cdec712af445786f_run0:
+    euler_xyz: 0.0 0.0 0.8713283380942375
+    mass: 1.2
+    obj_xml_file: cups/d38295b8d83e8cdec712af445786fe.xml
+    scale: 1.2
+  cups_d38295b8d83e8cdec712af445786f_run1:
+    euler_xyz: 0.0 0.0 0.622775636135106
+    mass: 1.2
+    obj_xml_file: cups/d38295b8d83e8cdec712af445786fe.xml
+    scale: 1.5
+  cups_d38295b8d83e8cdec712af445786f_run2:
+    euler_xyz: 0.0 0.0 2.0907863158766173
+    mass: 1.2
+    obj_xml_file: cups/d38295b8d83e8cdec712af445786fe.xml
+    scale: 1.2
+  cups_d46b98f63a017578ea456f4bbbc96af_run0:
+    euler_xyz: 0.0 0.0 2.9269896646334805
+    mass: 1.2
+    obj_xml_file: cups/d46b98f63a017578ea456f4bbbc96af9.xml
+    scale: 1.5
+  cups_d46b98f63a017578ea456f4bbbc96af_run1:
+    euler_xyz: 0.0 0.0 1.0577431091173213
+    mass: 1.2
+    obj_xml_file: cups/d46b98f63a017578ea456f4bbbc96af9.xml
+    scale: 0.8
+  cups_d46b98f63a017578ea456f4bbbc96af_run2:
+    euler_xyz: 0.0 0.0 1.36463431692093
+    mass: 1.2
+    obj_xml_file: cups/d46b98f63a017578ea456f4bbbc96af9.xml
+    scale: 0.8
+  cups_dcec634f18e12427c2c72e575af174c_run0:
+    euler_xyz: 0.0 0.0 1.5474985918239779
+    mass: 1.2
+    obj_xml_file: cups/dcec634f18e12427c2c72e575af174cd.xml
+    scale: 0.8
+  cups_dcec634f18e12427c2c72e575af174c_run1:
+    euler_xyz: 0.0 0.0 1.476535818572965
+    mass: 1.2
+    obj_xml_file: cups/dcec634f18e12427c2c72e575af174cd.xml
+    scale: 1.5
+  cups_dcec634f18e12427c2c72e575af174c_run2:
+    euler_xyz: 0.0 0.0 1.6085852699053995
+    mass: 1.2
+    obj_xml_file: cups/dcec634f18e12427c2c72e575af174cd.xml
+    scale: 1.5
+  cups_e6dedae946ff5265a95fb60c110b25a_run0:
+    euler_xyz: 0.0 0.0 3.0852718216305024
+    mass: 1.2
+    obj_xml_file: cups/e6dedae946ff5265a95fb60c110b25aa.xml
+    scale: 0.8
+  cups_e6dedae946ff5265a95fb60c110b25a_run1:
+    euler_xyz: 0.0 0.0 2.630469870073157
+    mass: 1.2
+    obj_xml_file: cups/e6dedae946ff5265a95fb60c110b25aa.xml
+    scale: 1.2
+  cups_e6dedae946ff5265a95fb60c110b25a_run2:
+    euler_xyz: 0.0 0.0 0.2216082044360976
+    mass: 1.2
+    obj_xml_file: cups/e6dedae946ff5265a95fb60c110b25aa.xml
+    scale: 0.8
+  cups_ec846432f3ebedf0a6f32a8797e3b9e_run0:
+    euler_xyz: 0.0 0.0 0.7736368447479638
+    mass: 1.2
+    obj_xml_file: cups/ec846432f3ebedf0a6f32a8797e3b9e9.xml
+    scale: 1.2
+  cups_ec846432f3ebedf0a6f32a8797e3b9e_run1:
+    euler_xyz: 0.0 0.0 2.3061618142399785
+    mass: 1.2
+    obj_xml_file: cups/ec846432f3ebedf0a6f32a8797e3b9e9.xml
+    scale: 1.2
+  cups_ec846432f3ebedf0a6f32a8797e3b9e_run2:
+    euler_xyz: 0.0 0.0 0.9889912086040663
+    mass: 1.2
+    obj_xml_file: cups/ec846432f3ebedf0a6f32a8797e3b9e9.xml
+    scale: 0.8
+  cups_f1c5b9bb744afd96d6e1954365b10b5_run0:
+    euler_xyz: 0.0 0.0 1.9705023141756128
+    mass: 1.2
+    obj_xml_file: cups/f1c5b9bb744afd96d6e1954365b10b52.xml
+    scale: 1.5
+  cups_f1c5b9bb744afd96d6e1954365b10b5_run1:
+    euler_xyz: 0.0 0.0 2.577529921644829
+    mass: 1.2
+    obj_xml_file: cups/f1c5b9bb744afd96d6e1954365b10b52.xml
+    scale: 0.8
+  cups_f1c5b9bb744afd96d6e1954365b10b5_run2:
+    euler_xyz: 0.0 0.0 0.9768162554084333
+    mass: 1.2
+    obj_xml_file: cups/f1c5b9bb744afd96d6e1954365b10b52.xml
+    scale: 1.5
+  cups_f99e19b8c4a729353deb88581ea8417_run0:
+    euler_xyz: 0.0 0.0 0.3649374251944963
+    mass: 1.2
+    obj_xml_file: cups/f99e19b8c4a729353deb88581ea8417a.xml
+    scale: 1.2
+  cups_f99e19b8c4a729353deb88581ea8417_run1:
+    euler_xyz: 0.0 0.0 2.484282221058875
+    mass: 1.2
+    obj_xml_file: cups/f99e19b8c4a729353deb88581ea8417a.xml
+    scale: 1.5
+  cups_f99e19b8c4a729353deb88581ea8417_run2:
+    euler_xyz: 0.0 0.0 2.9940301245001426
+    mass: 1.2
+    obj_xml_file: cups/f99e19b8c4a729353deb88581ea8417a.xml
+    scale: 1.2
+  cups_fad118b32085f3f2c2c72e575af174c_run0:
+    euler_xyz: 0.0 0.0 0.7088187252366391
+    mass: 1.2
+    obj_xml_file: cups/fad118b32085f3f2c2c72e575af174cd.xml
+    scale: 0.8
+  cups_fad118b32085f3f2c2c72e575af174c_run1:
+    euler_xyz: 0.0 0.0 0.011927926740154884
+    mass: 1.2
+    obj_xml_file: cups/fad118b32085f3f2c2c72e575af174cd.xml
+    scale: 1.5
+  cups_fad118b32085f3f2c2c72e575af174c_run2:
+    euler_xyz: 0.0 0.0 0.2754253178003164
+    mass: 1.2
+    obj_xml_file: cups/fad118b32085f3f2c2c72e575af174cd.xml
+    scale: 0.8

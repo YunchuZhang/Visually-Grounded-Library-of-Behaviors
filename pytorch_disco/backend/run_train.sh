@@ -1,0 +1,1 @@
+MODE=MUJOCO_OFFLINE python -W ignore main.py

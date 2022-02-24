@@ -1,0 +1,34 @@
+objs:
+    #'159e56c18906830278d8f8c02c47cde0':
+    #    class_id: 0
+    #    obj_xml_file: 'cups/159e56c18906830278d8f8c02c47cde0.xml'
+    #    scale: 1.2
+    #'899af991203577f019790c8746d79a6f':
+    #    class_id: 1
+    #    obj_xml_file: 'bowls/899af991203577f019790c8746d79a6f.xml'
+    #    scale: 2.0
+    # 'pallet_mug':
+    #     class_id: 2
+    #     obj_xml_file: 'robotsuite_objects/pallet_mug.xml'
+    'pallet_mug':
+       class_id: 2
+       obj_xml_file: 'robotsuite_objects/pallet_mug.xml'
+    'dice':
+       class_id: 2
+       obj_xml_file: 'robotsuite_objects/dice.xml'
+    'glass':
+       class_id: 2
+       obj_xml_file: 'robotsuite_objects/glass.xml'
+    'bottle':
+       class_id: 2
+       obj_xml_file: 'robotsuite_objects/bottle.xml'
+    'pen':
+        class_id: 2
+        obj_xml_file: 'robotsuite_objects/pen.xml'
+
+    #'sphere':
+    #    class_id: 2
+    #    xml_file: 'fetch/pick_and_place_sphere.xml'
+    #'cube':
+    #    class_id: 2
+    #    xml_file: 'fetch/pick_and_place_cube.xml'

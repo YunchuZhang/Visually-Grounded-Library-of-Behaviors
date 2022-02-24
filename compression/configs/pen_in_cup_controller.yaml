@@ -1,0 +1,20 @@
+max_path_length: 50
+num_rollouts: 5
+accept_threshold: 0.8
+bbox_indicator: False
+n_robot_dof: 4
+env_name: 'FetchPenincup-v1'
+env_base_xml_file: 'fetch/pen_in_cup.xml'
+initial_policies:
+#    grasp_from_rim_controller:
+#        fn: policy.grasp_from_rim_controller:GraspFromRimController
+#        params:
+   grasp_from_center_controller:
+       fn: policy.pen_in_cup_controller:PenincupController
+       params:
+            max_path_length: 110
+#
+    # grasp_from_center_controller:
+    #   fn: policy.pen_in_cup_controller_rotation:PenincupControllerRotation
+    #   params:
+    #     max_path_length: 110

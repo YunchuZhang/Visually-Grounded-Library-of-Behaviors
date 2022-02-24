@@ -1,0 +1,15 @@
+DONE
+
+
+DOING:
+> Add code for processing the depth images obtained from touch sensors
+    > Add the vgg-net back to the mix, if it takes too much size maybe use some other architecture
+    > Check how would pass this many depth images from sensor to obtain feature tensor
+    > assemble features thus obtained into a volumetric grid in ref-camera frame, this is the touch feature volume
+    > sample 3d crops from it and visual feature tensor and do metric learning on top of it. This step I am not really happy with since I do not quite understand it yet.
+
+
+SOON
+
+
+LATER

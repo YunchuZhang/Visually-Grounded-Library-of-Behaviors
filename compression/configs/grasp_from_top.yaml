@@ -1,0 +1,13 @@
+max_path_length: 50
+num_rollouts: 5
+accept_threshold: 0.8
+env_name: 'FetchPickAndPlace-v1'
+env_base_xml_file: 'fetch/pick_and_place_kp30000.xml' #this file is in quantize-gym/gym/envs/robotics/assets/fetch
+initial_policies:
+    ddpg_fetch_cup_less_obs_159e56c18906830278d8f8c02c47cde0:
+        fn: policy.pytorch_policy:PytorchPolicy
+        params:
+            policy_model_path: "fetch_cup_less_obs/159e56c18906830278d8f8c02c47cde0"
+            #model_name: save50 #can specify which one do you like, or I will take the latest one
+
+

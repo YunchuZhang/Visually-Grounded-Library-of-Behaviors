@@ -1,0 +1,939 @@
+objs:
+  bowls_13e879cb517784a63a4b07a265cff34_run0:
+    euler_xyz: 0.0 0.0 1.3772577976709401
+    mass: 1.2
+    obj_xml_file: bowls/13e879cb517784a63a4b07a265cff347.xml
+    scale: 1.2
+#  bowls_13e879cb517784a63a4b07a265cff34_run1:
+#    euler_xyz: 0.0 0.0 1.0252968822703938
+#    mass: 1.2
+#    obj_xml_file: bowls/13e879cb517784a63a4b07a265cff347.xml
+#    scale: 0.7
+#  bowls_13e879cb517784a63a4b07a265cff34_run2:
+#    euler_xyz: 0.0 0.0 1.699151142815944
+#    mass: 1.2
+#    obj_xml_file: bowls/13e879cb517784a63a4b07a265cff347.xml
+#    scale: 0.7
+#  bowls_154ab09c67b9d04fb4971a63df4b1d3_run0:
+#    euler_xyz: 0.0 0.0 2.268128863761022
+#    mass: 1.2
+#    obj_xml_file: bowls/154ab09c67b9d04fb4971a63df4b1d36.xml
+#    scale: 1.2
+#  bowls_154ab09c67b9d04fb4971a63df4b1d3_run1:
+#    euler_xyz: 0.0 0.0 3.0347378206730182
+#    mass: 1.2
+#    obj_xml_file: bowls/154ab09c67b9d04fb4971a63df4b1d36.xml
+#    scale: 1.5
+#  bowls_154ab09c67b9d04fb4971a63df4b1d3_run2:
+#    euler_xyz: 0.0 0.0 1.1829493406424028
+#    mass: 1.2
+#    obj_xml_file: bowls/154ab09c67b9d04fb4971a63df4b1d36.xml
+#    scale: 1.2
+#  bowls_292d2dda9923752f3e275dc4ab785b9_run0:
+#    euler_xyz: 0.0 0.0 0.1479367039377692
+#    mass: 1.2
+#    obj_xml_file: bowls/292d2dda9923752f3e275dc4ab785b9f.xml
+#    scale: 1.5
+#  bowls_292d2dda9923752f3e275dc4ab785b9_run1:
+#    euler_xyz: 0.0 0.0 1.5593857939731905
+#    mass: 1.2
+#    obj_xml_file: bowls/292d2dda9923752f3e275dc4ab785b9f.xml
+#    scale: 1.2
+#  bowls_292d2dda9923752f3e275dc4ab785b9_run2:
+#    euler_xyz: 0.0 0.0 0.4768539525202673
+#    mass: 1.2
+#    obj_xml_file: bowls/292d2dda9923752f3e275dc4ab785b9f.xml
+#    scale: 0.7
+#  bowls_2a1e9b5c0cead676b8183a4a81361b9_run0:
+#    euler_xyz: 0.0 0.0 0.9383196606931558
+#    mass: 1.2
+#    obj_xml_file: bowls/2a1e9b5c0cead676b8183a4a81361b94.xml
+#    scale: 1.2
+#  bowls_2a1e9b5c0cead676b8183a4a81361b9_run1:
+#    euler_xyz: 0.0 0.0 0.09389459362718366
+#    mass: 1.2
+#    obj_xml_file: bowls/2a1e9b5c0cead676b8183a4a81361b94.xml
+#    scale: 0.7
+#  bowls_2a1e9b5c0cead676b8183a4a81361b9_run2:
+#    euler_xyz: 0.0 0.0 2.782601045939368
+#    mass: 1.2
+#    obj_xml_file: bowls/2a1e9b5c0cead676b8183a4a81361b94.xml
+#    scale: 1.5
+# plate
+  bowls_36ca3b684dbb9c159599371049c32d3_run0:
+    euler_xyz: 0.0 0.0 1.6516319915671678
+    mass: 1.2
+    obj_xml_file: bowls/36ca3b684dbb9c159599371049c32d38.xml
+    scale: 1.5
+  bowls_36ca3b684dbb9c159599371049c32d3_run1:
+    euler_xyz: 0.0 0.0 1.068124647400884
+    mass: 1.2
+    obj_xml_file: bowls/36ca3b684dbb9c159599371049c32d38.xml
+    scale: 0.7
+#  bowls_36ca3b684dbb9c159599371049c32d3_run2:
+#    euler_xyz: 0.0 0.0 2.6792291150470997
+#    mass: 1.2
+#    obj_xml_file: bowls/36ca3b684dbb9c159599371049c32d38.xml
+#    scale: 0.7
+#  bowls_381db800b87b5ff88616812464c8629_run0:
+#    euler_xyz: 0.0 0.0 0.6878222400701942
+#    mass: 1.2
+#    obj_xml_file: bowls/381db800b87b5ff88616812464c86290.xml
+#    scale: 1.5
+#  bowls_381db800b87b5ff88616812464c8629_run1:
+#    euler_xyz: 0.0 0.0 0.2586270502951606
+#    mass: 1.2
+#    obj_xml_file: bowls/381db800b87b5ff88616812464c86290.xml
+#    scale: 1.5
+#  bowls_381db800b87b5ff88616812464c8629_run2:
+#    euler_xyz: 0.0 0.0 2.9251349966643128
+#    mass: 1.2
+#    obj_xml_file: bowls/381db800b87b5ff88616812464c86290.xml
+#    scale: 1.2
+#  bowls_38d2122b2aa05f92e1b9b7b3765e2be_run0:
+#    euler_xyz: 0.0 0.0 1.6352422697449462
+#    mass: 1.2
+#    obj_xml_file: bowls/38d2122b2aa05f92e1b9b7b3765e2bea.xml
+#    scale: 0.7
+#  bowls_38d2122b2aa05f92e1b9b7b3765e2be_run1:
+#    euler_xyz: 0.0 0.0 1.376349964003538
+#    mass: 1.2
+#    obj_xml_file: bowls/38d2122b2aa05f92e1b9b7b3765e2bea.xml
+#    scale: 1.5
+#  bowls_38d2122b2aa05f92e1b9b7b3765e2be_run2:
+#    euler_xyz: 0.0 0.0 2.775732365526371
+#    mass: 1.2
+#    obj_xml_file: bowls/38d2122b2aa05f92e1b9b7b3765e2bea.xml
+#    scale: 0.7
+#  # ** dog plate
+#  bowls_3f6a6718d729b77bed2eab6efdeec5f_run0:
+#    euler_xyz: 0.0 0.0 2.6727473597151725
+#    mass: 1.2
+#    obj_xml_file: bowls/3f6a6718d729b77bed2eab6efdeec5f8.xml
+#    scale: 1.2
+#  bowls_3f6a6718d729b77bed2eab6efdeec5f_run1:
+#    euler_xyz: 0.0 0.0 2.453255188729139
+#    mass: 1.2
+#    obj_xml_file: bowls/3f6a6718d729b77bed2eab6efdeec5f8.xml
+#    scale: 0.7
+#  # **
+#  bowls_3f6a6718d729b77bed2eab6efdeec5f_run2:
+#    euler_xyz: 0.0 0.0 2.375942367958692
+#    mass: 1.2
+#    obj_xml_file: bowls/3f6a6718d729b77bed2eab6efdeec5f8.xml
+#    scale: 1.2
+#  bowls_429a622eac559887bbe43d356df0e95_run0:
+#    euler_xyz: 0.0 0.0 1.627491911189209
+#    mass: 1.2
+#    obj_xml_file: bowls/429a622eac559887bbe43d356df0e955.xml
+#    scale: 0.7
+#  bowls_429a622eac559887bbe43d356df0e95_run1:
+#    euler_xyz: 0.0 0.0 0.06238896079398789
+#    mass: 1.2
+#    obj_xml_file: bowls/429a622eac559887bbe43d356df0e955.xml
+#    scale: 0.7
+#  bowls_429a622eac559887bbe43d356df0e95_run2:
+#    euler_xyz: 0.0 0.0 1.5262414850666128
+#    mass: 1.2
+#    obj_xml_file: bowls/429a622eac559887bbe43d356df0e955.xml
+#    scale: 1.5
+#  bowls_454fa7fd637177cf2bea4b6e761843_run0:
+#    euler_xyz: 0.0 0.0 1.4387166918749508
+#    mass: 1.2
+#    obj_xml_file: bowls/454fa7fd637177cf2bea4b6e7618432.xml
+#    scale: 1.5
+#  bowls_454fa7fd637177cf2bea4b6e761843_run1:
+#    euler_xyz: 0.0 0.0 0.4354814377377132
+#    mass: 1.2
+#    obj_xml_file: bowls/454fa7fd637177cf2bea4b6e7618432.xml
+#    scale: 1.5
+#  bowls_454fa7fd637177cf2bea4b6e761843_run2:
+#    euler_xyz: 0.0 0.0 0.9633095219821465
+#    mass: 1.2
+#    obj_xml_file: bowls/454fa7fd637177cf2bea4b6e7618432.xml
+#    scale: 1.5
+#  bowls_45603bffc6a2866b5d1ac0d5489f7d8_run0:
+#    euler_xyz: 0.0 0.0 2.3805651007989828
+#    mass: 1.2
+#    obj_xml_file: bowls/45603bffc6a2866b5d1ac0d5489f7d84.xml
+#    scale: 1.2
+#  bowls_45603bffc6a2866b5d1ac0d5489f7d8_run1:
+#    euler_xyz: 0.0 0.0 0.7060915115688552
+#    mass: 1.2
+#    obj_xml_file: bowls/45603bffc6a2866b5d1ac0d5489f7d84.xml
+#    scale: 0.7
+#  bowls_45603bffc6a2866b5d1ac0d5489f7d8_run2:
+#    euler_xyz: 0.0 0.0 1.3265031463436225
+#    mass: 1.2
+#    obj_xml_file: bowls/45603bffc6a2866b5d1ac0d5489f7d84.xml
+#    scale: 1.2
+#  bowls_468b9b34d07eb9211c75d484f906962_run0:
+#    euler_xyz: 0.0 0.0 0.6124675139190563
+#    mass: 1.2
+#    obj_xml_file: bowls/468b9b34d07eb9211c75d484f9069623.xml
+#    scale: 0.7
+#  bowls_468b9b34d07eb9211c75d484f906962_run1:
+#    euler_xyz: 0.0 0.0 0.28557925397790757
+#    mass: 1.2
+#    obj_xml_file: bowls/468b9b34d07eb9211c75d484f9069623.xml
+#    scale: 0.7
+#  bowls_468b9b34d07eb9211c75d484f906962_run2:
+#    euler_xyz: 0.0 0.0 0.16052291402582605
+#    mass: 1.2
+#    obj_xml_file: bowls/468b9b34d07eb9211c75d484f9069623.xml
+#    scale: 0.7
+#  bowls_47175c7b12bf0b61320b691da6d871f_run0:
+#    euler_xyz: 0.0 0.0 1.9409950757785126
+#    mass: 1.2
+#    obj_xml_file: bowls/47175c7b12bf0b61320b691da6d871fb.xml
+#    scale: 0.7
+#  bowls_47175c7b12bf0b61320b691da6d871f_run1:
+#    euler_xyz: 0.0 0.0 0.539801248029316
+#    mass: 1.2
+#    obj_xml_file: bowls/47175c7b12bf0b61320b691da6d871fb.xml
+#    scale: 1.2
+#  bowls_47175c7b12bf0b61320b691da6d871f_run2:
+#    euler_xyz: 0.0 0.0 1.1398752213082675
+#    mass: 1.2
+#    obj_xml_file: bowls/47175c7b12bf0b61320b691da6d871fb.xml
+#    scale: 0.7
+#  bowls_4845731dbf7522b07492cbf7d8bec25_run0:
+#    euler_xyz: 0.0 0.0 2.20442822403731
+#    mass: 1.2
+#    obj_xml_file: bowls/4845731dbf7522b07492cbf7d8bec255.xml
+#    scale: 1.5
+#  bowls_4845731dbf7522b07492cbf7d8bec25_run1:
+#    euler_xyz: 0.0 0.0 2.402710839414196
+#    mass: 1.2
+#    obj_xml_file: bowls/4845731dbf7522b07492cbf7d8bec255.xml
+#    scale: 0.7
+#  bowls_4845731dbf7522b07492cbf7d8bec25_run2:
+#    euler_xyz: 0.0 0.0 0.287109132501223
+#    mass: 1.2
+#    obj_xml_file: bowls/4845731dbf7522b07492cbf7d8bec255.xml
+#    scale: 1.5
+#  bowls_4eefe941048189bdb8046e84ebdc62d_run0:
+#    euler_xyz: 0.0 0.0 0.9509512898527507
+#    mass: 1.2
+#    obj_xml_file: bowls/4eefe941048189bdb8046e84ebdc62d2.xml
+#    scale: 1.5
+#  bowls_4eefe941048189bdb8046e84ebdc62d_run1:
+#    euler_xyz: 0.0 0.0 0.775198879229103
+#    mass: 1.2
+#    obj_xml_file: bowls/4eefe941048189bdb8046e84ebdc62d2.xml
+#    scale: 1.5
+#  # **
+#  bowls_4eefe941048189bdb8046e84ebdc62d_run2:
+#    euler_xyz: 0.0 0.0 0.6163661958507861
+#    mass: 1.2
+#    obj_xml_file: bowls/4eefe941048189bdb8046e84ebdc62d2.xml
+#    scale: 1.2
+#  bowls_4fdb0bd89c490108b8c8761d8f1966b_run0:
+#    euler_xyz: 0.0 0.0 2.6513836642730793
+#    mass: 1.2
+#    obj_xml_file: bowls/4fdb0bd89c490108b8c8761d8f1966ba.xml
+#    scale: 1.2
+#  bowls_4fdb0bd89c490108b8c8761d8f1966b_run1:
+#    euler_xyz: 0.0 0.0 1.3259079535115956
+#    mass: 1.2
+#    obj_xml_file: bowls/4fdb0bd89c490108b8c8761d8f1966ba.xml
+#    scale: 0.7
+#  bowls_4fdb0bd89c490108b8c8761d8f1966b_run2:
+#    euler_xyz: 0.0 0.0 2.3226507331617783
+#    mass: 1.2
+#    obj_xml_file: bowls/4fdb0bd89c490108b8c8761d8f1966ba.xml
+#    scale: 0.7
+#  bowls_519f07b4ecb0b82ed82a7d8f544ae15_run0:
+#    euler_xyz: 0.0 0.0 1.7176063520596094
+#    mass: 1.2
+#    obj_xml_file: bowls/519f07b4ecb0b82ed82a7d8f544ae151.xml
+#    scale: 1.5
+#  bowls_519f07b4ecb0b82ed82a7d8f544ae15_run1:
+#    euler_xyz: 0.0 0.0 0.41323601458633047
+#    mass: 1.2
+#    obj_xml_file: bowls/519f07b4ecb0b82ed82a7d8f544ae151.xml
+#    scale: 1.5
+#  bowls_519f07b4ecb0b82ed82a7d8f544ae15_run2:
+#    euler_xyz: 0.0 0.0 2.8435579354779814
+#    mass: 1.2
+#    obj_xml_file: bowls/519f07b4ecb0b82ed82a7d8f544ae151.xml
+#    scale: 0.7
+#  bowls_524eb99c8d45eb01664b3b9b23ddfcb_run0:
+#    euler_xyz: 0.0 0.0 2.282614512881807
+#    mass: 1.2
+#    obj_xml_file: bowls/524eb99c8d45eb01664b3b9b23ddfcbc.xml
+#    scale: 1.2
+#  bowls_524eb99c8d45eb01664b3b9b23ddfcb_run1:
+#    euler_xyz: 0.0 0.0 0.030404354634300593
+#    mass: 1.2
+#    obj_xml_file: bowls/524eb99c8d45eb01664b3b9b23ddfcbc.xml
+#    scale: 1.2
+#  bowls_524eb99c8d45eb01664b3b9b23ddfcb_run2:
+#    euler_xyz: 0.0 0.0 0.8151117605606149
+#    mass: 1.2
+#    obj_xml_file: bowls/524eb99c8d45eb01664b3b9b23ddfcbc.xml
+#    scale: 0.7
+#  bowls_538db91266f2829bc0f7e0e05bae613_run0:
+#    euler_xyz: 0.0 0.0 0.35228476939376613
+#    mass: 1.2
+#    obj_xml_file: bowls/538db91266f2829bc0f7e0e05bae6131.xml
+#    scale: 1.5
+#  # **
+#  bowls_538db91266f2829bc0f7e0e05bae613_run1:
+#    euler_xyz: 0.0 0.0 3.093114626403143
+#    mass: 1.2
+#    obj_xml_file: bowls/538db91266f2829bc0f7e0e05bae6131.xml
+#    scale: 1.5
+#  bowls_538db91266f2829bc0f7e0e05bae613_run2:
+#    euler_xyz: 0.0 0.0 0.09813385789730865
+#    mass: 1.2
+#    obj_xml_file: bowls/538db91266f2829bc0f7e0e05bae6131.xml
+#    scale: 1.5
+#  bowls_53f5240e1e82c96e2d20e9f11baa5f8_run0:
+#    euler_xyz: 0.0 0.0 1.4623133234686598
+#    mass: 1.2
+#    obj_xml_file: bowls/53f5240e1e82c96e2d20e9f11baa5f8f.xml
+#    scale: 0.7
+#  bowls_53f5240e1e82c96e2d20e9f11baa5f8_run1:
+#    euler_xyz: 0.0 0.0 1.850467409059377
+#    mass: 1.2
+#    obj_xml_file: bowls/53f5240e1e82c96e2d20e9f11baa5f8f.xml
+#    scale: 1.2
+#  bowls_53f5240e1e82c96e2d20e9f11baa5f8_run2:
+#    euler_xyz: 0.0 0.0 1.5240692052238982
+#    mass: 1.2
+#    obj_xml_file: bowls/53f5240e1e82c96e2d20e9f11baa5f8f.xml
+#    scale: 0.7
+#  bowls_5563324c9902f243a2c59a4d90e6321_run0:
+#    euler_xyz: 0.0 0.0 2.9229515100999452
+#    mass: 1.2
+#    obj_xml_file: bowls/5563324c9902f243a2c59a4d90e63212.xml
+#    scale: 1.5
+#  bowls_5563324c9902f243a2c59a4d90e6321_run1:
+#    euler_xyz: 0.0 0.0 1.9771264319181052
+#    mass: 1.2
+#    obj_xml_file: bowls/5563324c9902f243a2c59a4d90e63212.xml
+#    scale: 1.5
+#  bowls_5563324c9902f243a2c59a4d90e6321_run2:
+#    euler_xyz: 0.0 0.0 1.2106074846670292
+#    mass: 1.2
+#    obj_xml_file: bowls/5563324c9902f243a2c59a4d90e63212.xml
+#    scale: 0.7
+#  bowls_56803af65db53307467ca2ad6571aff_run0:
+#    euler_xyz: 0.0 0.0 2.6626775323260437
+#    mass: 1.2
+#    obj_xml_file: bowls/56803af65db53307467ca2ad6571afff.xml
+#    scale: 1.5
+#  bowls_56803af65db53307467ca2ad6571aff_run1:
+#    euler_xyz: 0.0 0.0 2.826740048902467
+#    mass: 1.2
+#    obj_xml_file: bowls/56803af65db53307467ca2ad6571afff.xml
+#    scale: 0.7
+#  bowls_56803af65db53307467ca2ad6571aff_run2:
+#    euler_xyz: 0.0 0.0 0.3180140102996386
+#    mass: 1.2
+#    obj_xml_file: bowls/56803af65db53307467ca2ad6571afff.xml
+#    scale: 1.5
+#  bowls_5bb12905529c85359d3d767e1bc88d6_run0:
+#    euler_xyz: 0.0 0.0 0.7846079851140144
+#    mass: 1.2
+#    obj_xml_file: bowls/5bb12905529c85359d3d767e1bc88d65.xml
+#    scale: 0.7
+#  bowls_5bb12905529c85359d3d767e1bc88d6_run1:
+#    euler_xyz: 0.0 0.0 0.3894997247889602
+#    mass: 1.2
+#    obj_xml_file: bowls/5bb12905529c85359d3d767e1bc88d65.xml
+#    scale: 0.7
+#  bowls_5bb12905529c85359d3d767e1bc88d6_run2:
+#    euler_xyz: 0.0 0.0 0.2696150351081855
+#    mass: 1.2
+#    obj_xml_file: bowls/5bb12905529c85359d3d767e1bc88d65.xml
+#    scale: 0.7
+#  bowls_6494761a8a0461777cba8364368aa1_run0:
+#    euler_xyz: 0.0 0.0 2.9309429724898233
+#    mass: 1.2
+#    obj_xml_file: bowls/6494761a8a0461777cba8364368aa1d.xml
+#    scale: 1.2
+#  bowls_6494761a8a0461777cba8364368aa1_run1:
+#    euler_xyz: 0.0 0.0 0.6536838236373272
+#    mass: 1.2
+#    obj_xml_file: bowls/6494761a8a0461777cba8364368aa1d.xml
+#    scale: 1.2
+#  bowls_6494761a8a0461777cba8364368aa1_run2:
+#    euler_xyz: 0.0 0.0 2.551794560539704
+#    mass: 1.2
+#    obj_xml_file: bowls/6494761a8a0461777cba8364368aa1d.xml
+#    scale: 0.7
+#  bowls_64d7f5eb886cfa48ce6101c7990e61d_run0:
+#    euler_xyz: 0.0 0.0 1.8902158859196792
+#    mass: 1.2
+#    obj_xml_file: bowls/64d7f5eb886cfa48ce6101c7990e61d4.xml
+#    scale: 0.7
+#  bowls_64d7f5eb886cfa48ce6101c7990e61d_run1:
+#    euler_xyz: 0.0 0.0 1.1031084521679009
+#    mass: 1.2
+#    obj_xml_file: bowls/64d7f5eb886cfa48ce6101c7990e61d4.xml
+#    scale: 0.7
+#  # ** cup cake
+#  bowls_64d7f5eb886cfa48ce6101c7990e61d_run2:
+#    euler_xyz: 0.0 0.0 1.5460772569090464
+#    mass: 1.2
+#    obj_xml_file: bowls/64d7f5eb886cfa48ce6101c7990e61d4.xml
+#    scale: 1.2
+  # **
+  bowls_6501113f772fc798db649551c356c6e_run0:
+    euler_xyz: 0.0 0.0 1.3541448535724125
+    mass: 1.2
+    obj_xml_file: bowls/6501113f772fc798db649551c356c6e8.xml
+    scale: 1.5
+## mesh problem
+##  bowls_6501113f772fc798db649551c356c6e_run1:
+##    euler_xyz: 0.0 0.0 2.3360498842698765
+##    mass: 1.2
+##    obj_xml_file: bowls/6501113f772fc798db649551c356c6e8.xml
+##    scale: 0.7
+  bowls_6501113f772fc798db649551c356c6e_run2:
+    euler_xyz: 0.0 0.0 1.090660706147701
+    mass: 1.2
+    obj_xml_file: bowls/6501113f772fc798db649551c356c6e8.xml
+    scale: 1.2
+  bowls_6a772d12b98ab61dc26651d9d35b77c_run0:
+    euler_xyz: 0.0 0.0 0.4052854281607914
+    mass: 1.2
+    obj_xml_file: bowls/6a772d12b98ab61dc26651d9d35b77ca.xml
+    scale: 1.5
+  bowls_6a772d12b98ab61dc26651d9d35b77c_run1:
+    euler_xyz: 0.0 0.0 0.7190450418441219
+    mass: 1.2
+    obj_xml_file: bowls/6a772d12b98ab61dc26651d9d35b77ca.xml
+    scale: 1.5
+  bowls_6a772d12b98ab61dc26651d9d35b77c_run2:
+    euler_xyz: 0.0 0.0 1.5082384329075056
+    mass: 1.2
+    obj_xml_file: bowls/6a772d12b98ab61dc26651d9d35b77ca.xml
+    scale: 1.2
+  bowls_708fce7ba7d911f3d5b5e7c77f0efc_run0:
+    euler_xyz: 0.0 0.0 0.5135360154387273
+    mass: 1.2
+    obj_xml_file: bowls/708fce7ba7d911f3d5b5e7c77f0efc2.xml
+    scale: 0.7
+  bowls_708fce7ba7d911f3d5b5e7c77f0efc_run1:
+    euler_xyz: 0.0 0.0 0.5356105239858073
+    mass: 1.2
+    obj_xml_file: bowls/708fce7ba7d911f3d5b5e7c77f0efc2.xml
+    scale: 0.7
+  bowls_708fce7ba7d911f3d5b5e7c77f0efc_run2:
+    euler_xyz: 0.0 0.0 2.865341652671619
+    mass: 1.2
+    obj_xml_file: bowls/708fce7ba7d911f3d5b5e7c77f0efc2.xml
+    scale: 0.7
+  bowls_77301246b265a4d3a538bf55f6b58ce_run0:
+    euler_xyz: 0.0 0.0 1.4851762595938995
+    mass: 1.2
+    obj_xml_file: bowls/77301246b265a4d3a538bf55f6b58cef.xml
+    scale: 0.7
+  bowls_77301246b265a4d3a538bf55f6b58ce_run1:
+    euler_xyz: 0.0 0.0 2.8784381995553336
+    mass: 1.2
+    obj_xml_file: bowls/77301246b265a4d3a538bf55f6b58cef.xml
+    scale: 0.7
+  bowls_77301246b265a4d3a538bf55f6b58ce_run2:
+    euler_xyz: 0.0 0.0 2.7253470259491497
+    mass: 1.2
+    obj_xml_file: bowls/77301246b265a4d3a538bf55f6b58cef.xml
+    scale: 1.2
+  bowls_7c43116dbe35797aea5000d9d3be799_run0:
+    euler_xyz: 0.0 0.0 0.892057587273444
+    mass: 1.2
+    obj_xml_file: bowls/7c43116dbe35797aea5000d9d3be7992.xml
+    scale: 1.5
+  bowls_7c43116dbe35797aea5000d9d3be799_run1:
+    euler_xyz: 0.0 0.0 0.9455429898785402
+    mass: 1.2
+    obj_xml_file: bowls/7c43116dbe35797aea5000d9d3be7992.xml
+    scale: 1.5
+  bowls_7c43116dbe35797aea5000d9d3be799_run2:
+    euler_xyz: 0.0 0.0 1.0509399506061023
+    mass: 1.2
+    obj_xml_file: bowls/7c43116dbe35797aea5000d9d3be7992.xml
+    scale: 0.7
+  bowls_804092c488e7c8e420d3c05c08e26_run0:
+    euler_xyz: 0.0 0.0 1.9308906145081755
+    mass: 1.2
+    obj_xml_file: bowls/804092c488e7c8e420d3c05c08e26f.xml
+    scale: 1.5
+  bowls_804092c488e7c8e420d3c05c08e26_run1:
+    euler_xyz: 0.0 0.0 1.7604767235982908
+    mass: 1.2
+    obj_xml_file: bowls/804092c488e7c8e420d3c05c08e26f.xml
+    scale: 1.5
+  bowls_804092c488e7c8e420d3c05c08e26_run2:
+    euler_xyz: 0.0 0.0 1.3401872781879134
+    mass: 1.2
+    obj_xml_file: bowls/804092c488e7c8e420d3c05c08e26f.xml
+    scale: 1.2
+  bowls_899af991203577f019790c8746d79a6_run0:
+    euler_xyz: 0.0 0.0 0.36081121967460417
+    mass: 1.2
+    obj_xml_file: bowls/899af991203577f019790c8746d79a6f.xml
+    scale: 0.7
+  bowls_899af991203577f019790c8746d79a6_run1:
+    euler_xyz: 0.0 0.0 2.054003005498516
+    mass: 1.2
+    obj_xml_file: bowls/899af991203577f019790c8746d79a6f.xml
+    scale: 1.2
+  bowls_899af991203577f019790c8746d79a6_run2:
+    euler_xyz: 0.0 0.0 0.10786993784458465
+    mass: 1.2
+    obj_xml_file: bowls/899af991203577f019790c8746d79a6f.xml
+    scale: 0.7
+  bowls_8d1f575e9223b28b8183a4a81361b9_run0:
+    euler_xyz: 0.0 0.0 1.8127210048944684
+    mass: 1.2
+    obj_xml_file: bowls/8d1f575e9223b28b8183a4a81361b94.xml
+    scale: 1.2
+  bowls_8d1f575e9223b28b8183a4a81361b9_run1:
+    euler_xyz: 0.0 0.0 0.8864411329676242
+    mass: 1.2
+    obj_xml_file: bowls/8d1f575e9223b28b8183a4a81361b94.xml
+    scale: 0.7
+  bowls_8d1f575e9223b28b8183a4a81361b9_run2:
+    euler_xyz: 0.0 0.0 0.2191861993969548
+    mass: 1.2
+    obj_xml_file: bowls/8d1f575e9223b28b8183a4a81361b94.xml
+    scale: 1.2
+  bowls_8d457deaf22394da65c5c31ac688ec_run0:
+    euler_xyz: 0.0 0.0 0.43551231624570536
+    mass: 1.2
+    obj_xml_file: bowls/8d457deaf22394da65c5c31ac688ec4.xml
+    scale: 1.2
+  bowls_8d457deaf22394da65c5c31ac688ec_run1:
+    euler_xyz: 0.0 0.0 0.9686269629515938
+    mass: 1.2
+    obj_xml_file: bowls/8d457deaf22394da65c5c31ac688ec4.xml
+    scale: 1.5
+  bowls_8d457deaf22394da65c5c31ac688ec_run2:
+    euler_xyz: 0.0 0.0 1.970328579152914
+    mass: 1.2
+    obj_xml_file: bowls/8d457deaf22394da65c5c31ac688ec4.xml
+    scale: 0.7
+  bowls_9024177b7ed352f45126f17934e1780_run0:
+    euler_xyz: 0.0 0.0 1.1521106006189414
+    mass: 1.2
+    obj_xml_file: bowls/9024177b7ed352f45126f17934e17803.xml
+    scale: 1.5
+  bowls_9024177b7ed352f45126f17934e1780_run1:
+    euler_xyz: 0.0 0.0 2.905300379498265
+    mass: 1.2
+    obj_xml_file: bowls/9024177b7ed352f45126f17934e17803.xml
+    scale: 1.5
+  bowls_9024177b7ed352f45126f17934e1780_run2:
+    euler_xyz: 0.0 0.0 2.4932622066944257
+    mass: 1.2
+    obj_xml_file: bowls/9024177b7ed352f45126f17934e17803.xml
+    scale: 1.5
+  bowls_95ac294f47fd7d87e0b49f27ced29e_run0:
+    euler_xyz: 0.0 0.0 2.1467855294373117
+    mass: 1.2
+    obj_xml_file: bowls/95ac294f47fd7d87e0b49f27ced29e3.xml
+    scale: 1.2
+  bowls_95ac294f47fd7d87e0b49f27ced29e_run1:
+    euler_xyz: 0.0 0.0 2.660214083619899
+    mass: 1.2
+    obj_xml_file: bowls/95ac294f47fd7d87e0b49f27ced29e3.xml
+    scale: 1.5
+  bowls_95ac294f47fd7d87e0b49f27ced29e_run2:
+    euler_xyz: 0.0 0.0 0.6376879583974754
+    mass: 1.2
+    obj_xml_file: bowls/95ac294f47fd7d87e0b49f27ced29e3.xml
+    scale: 1.5
+  bowls_9ea66797afeb86196ea1c514a0de6d2_run0:
+    euler_xyz: 0.0 0.0 0.6097400563418083
+    mass: 1.2
+    obj_xml_file: bowls/9ea66797afeb86196ea1c514a0de6d2d.xml
+    scale: 1.2
+  bowls_9ea66797afeb86196ea1c514a0de6d2_run1:
+    euler_xyz: 0.0 0.0 2.2638813675804
+    mass: 1.2
+    obj_xml_file: bowls/9ea66797afeb86196ea1c514a0de6d2d.xml
+    scale: 0.7
+  bowls_9ea66797afeb86196ea1c514a0de6d2_run2:
+    euler_xyz: 0.0 0.0 2.798387833046153
+    mass: 1.2
+    obj_xml_file: bowls/9ea66797afeb86196ea1c514a0de6d2d.xml
+    scale: 0.7
+  bowls_a0ac0c76dbb4b7685430c0f7a585e67_run0:
+    euler_xyz: 0.0 0.0 2.469813683960361
+    mass: 1.2
+    obj_xml_file: bowls/a0ac0c76dbb4b7685430c0f7a585e679.xml
+    scale: 1.5
+  bowls_a0ac0c76dbb4b7685430c0f7a585e67_run1:
+    euler_xyz: 0.0 0.0 0.5851038020223435
+    mass: 1.2
+    obj_xml_file: bowls/a0ac0c76dbb4b7685430c0f7a585e679.xml
+    scale: 1.5
+  bowls_a0ac0c76dbb4b7685430c0f7a585e67_run2:
+    euler_xyz: 0.0 0.0 0.8246948240377142
+    mass: 1.2
+    obj_xml_file: bowls/a0ac0c76dbb4b7685430c0f7a585e679.xml
+    scale: 1.2
+  bowls_a593e8863200fdb0664b3b9b23ddfcb_run0:
+    euler_xyz: 0.0 0.0 0.42152289617702404
+    mass: 1.2
+    obj_xml_file: bowls/a593e8863200fdb0664b3b9b23ddfcbc.xml
+    scale: 0.7
+  bowls_a593e8863200fdb0664b3b9b23ddfcb_run1:
+    euler_xyz: 0.0 0.0 0.02592839253288034
+    mass: 1.2
+    obj_xml_file: bowls/a593e8863200fdb0664b3b9b23ddfcbc.xml
+    scale: 1.2
+  bowls_a593e8863200fdb0664b3b9b23ddfcb_run2:
+    euler_xyz: 0.0 0.0 2.97838581175503
+    mass: 1.2
+    obj_xml_file: bowls/a593e8863200fdb0664b3b9b23ddfcbc.xml
+    scale: 1.5
+  bowls_a73d531b90965199e5f6d587dbc348b_run0:
+    euler_xyz: 0.0 0.0 2.955874643547497
+    mass: 1.2
+    obj_xml_file: bowls/a73d531b90965199e5f6d587dbc348b5.xml
+    scale: 1.2
+  bowls_a73d531b90965199e5f6d587dbc348b_run1:
+    euler_xyz: 0.0 0.0 2.4189579920802387
+    mass: 1.2
+    obj_xml_file: bowls/a73d531b90965199e5f6d587dbc348b5.xml
+    scale: 0.7
+  bowls_a73d531b90965199e5f6d587dbc348b_run2:
+    euler_xyz: 0.0 0.0 1.3014745318399816
+    mass: 1.2
+    obj_xml_file: bowls/a73d531b90965199e5f6d587dbc348b5.xml
+    scale: 0.7
+  bowls_a95e0d8b37f8ca436a3309b77df3f95_run0:
+    euler_xyz: 0.0 0.0 0.9651137729266106
+    mass: 1.2
+    obj_xml_file: bowls/a95e0d8b37f8ca436a3309b77df3f951.xml
+    scale: 0.7
+  bowls_a95e0d8b37f8ca436a3309b77df3f95_run1:
+    euler_xyz: 0.0 0.0 2.110019325229737
+    mass: 1.2
+    obj_xml_file: bowls/a95e0d8b37f8ca436a3309b77df3f951.xml
+    scale: 0.7
+  bowls_a95e0d8b37f8ca436a3309b77df3f95_run2:
+    euler_xyz: 0.0 0.0 3.089104168677493
+    mass: 1.2
+    obj_xml_file: bowls/a95e0d8b37f8ca436a3309b77df3f951.xml
+    scale: 1.5
+  bowls_afb6bf20c56e86f3d8fdbcba78c8402_run0:
+    euler_xyz: 0.0 0.0 1.932420723289535
+    mass: 1.2
+    obj_xml_file: bowls/afb6bf20c56e86f3d8fdbcba78c84028.xml
+    scale: 0.7
+  bowls_afb6bf20c56e86f3d8fdbcba78c8402_run1:
+    euler_xyz: 0.0 0.0 2.7054499586792327
+    mass: 1.2
+    obj_xml_file: bowls/afb6bf20c56e86f3d8fdbcba78c84028.xml
+    scale: 0.7
+  bowls_afb6bf20c56e86f3d8fdbcba78c8402_run2:
+    euler_xyz: 0.0 0.0 0.7501761082034032
+    mass: 1.2
+    obj_xml_file: bowls/afb6bf20c56e86f3d8fdbcba78c84028.xml
+    scale: 0.7
+  bowls_b69e25e7ab9b829215b14098c484b7c_run0:
+    euler_xyz: 0.0 0.0 2.8956744949785764
+    mass: 1.2
+    obj_xml_file: bowls/b69e25e7ab9b829215b14098c484b7c1.xml
+    scale: 1.5
+  bowls_b69e25e7ab9b829215b14098c484b7c_run1:
+    euler_xyz: 0.0 0.0 2.07928339853867
+    mass: 1.2
+    obj_xml_file: bowls/b69e25e7ab9b829215b14098c484b7c1.xml
+    scale: 0.7
+  bowls_b69e25e7ab9b829215b14098c484b7c_run2:
+    euler_xyz: 0.0 0.0 0.18382756458620134
+    mass: 1.2
+    obj_xml_file: bowls/b69e25e7ab9b829215b14098c484b7c1.xml
+    scale: 0.7
+  bowls_be3c2533130dd3da55f46d55537192b_run0:
+    euler_xyz: 0.0 0.0 1.5367209029611542
+    mass: 1.2
+    obj_xml_file: bowls/be3c2533130dd3da55f46d55537192b6.xml
+    scale: 1.2
+  bowls_be3c2533130dd3da55f46d55537192b_run1:
+    euler_xyz: 0.0 0.0 3.088133287506135
+    mass: 1.2
+    obj_xml_file: bowls/be3c2533130dd3da55f46d55537192b6.xml
+    scale: 1.2
+  bowls_be3c2533130dd3da55f46d55537192b_run2:
+    euler_xyz: 0.0 0.0 2.999724958228967
+    mass: 1.2
+    obj_xml_file: bowls/be3c2533130dd3da55f46d55537192b6.xml
+    scale: 1.5
+  bowls_bed9f618bef8d3e9f6d436d018e2b50_run0:
+    euler_xyz: 0.0 0.0 1.1550199406429158
+    mass: 1.2
+    obj_xml_file: bowls/bed9f618bef8d3e9f6d436d018e2b50f.xml
+    scale: 1.5
+  bowls_bed9f618bef8d3e9f6d436d018e2b50_run1:
+    euler_xyz: 0.0 0.0 0.4700950331896023
+    mass: 1.2
+    obj_xml_file: bowls/bed9f618bef8d3e9f6d436d018e2b50f.xml
+    scale: 1.5
+  bowls_bed9f618bef8d3e9f6d436d018e2b50_run2:
+    euler_xyz: 0.0 0.0 1.2169046622553883
+    mass: 1.2
+    obj_xml_file: bowls/bed9f618bef8d3e9f6d436d018e2b50f.xml
+    scale: 1.5
+  bowls_c0f57c7f98d2581c744a455c7eef0ae_run0:
+    euler_xyz: 0.0 0.0 0.46921882471493287
+    mass: 1.2
+    obj_xml_file: bowls/c0f57c7f98d2581c744a455c7eef0ae5.xml
+    scale: 1.5
+  bowls_c0f57c7f98d2581c744a455c7eef0ae_run1:
+    euler_xyz: 0.0 0.0 1.2168506762637392
+    mass: 1.2
+    obj_xml_file: bowls/c0f57c7f98d2581c744a455c7eef0ae5.xml
+    scale: 0.7
+  bowls_c0f57c7f98d2581c744a455c7eef0ae_run2:
+    euler_xyz: 0.0 0.0 0.3149203438883055
+    mass: 1.2
+    obj_xml_file: bowls/c0f57c7f98d2581c744a455c7eef0ae5.xml
+    scale: 1.2
+  bowls_c2882316451828fd7945873d861da51_run0:
+    euler_xyz: 0.0 0.0 1.6425626710440864
+    mass: 1.2
+    obj_xml_file: bowls/c2882316451828fd7945873d861da519.xml
+    scale: 0.7
+  bowls_c2882316451828fd7945873d861da51_run1:
+    euler_xyz: 0.0 0.0 1.5243629569153754
+    mass: 1.2
+    obj_xml_file: bowls/c2882316451828fd7945873d861da519.xml
+    scale: 0.7
+  bowls_c2882316451828fd7945873d861da51_run2:
+    euler_xyz: 0.0 0.0 0.6983129158196664
+    mass: 1.2
+    obj_xml_file: bowls/c2882316451828fd7945873d861da519.xml
+    scale: 1.2
+  bowls_c399bfee7f25f0ff95aab58c1db71c1_run0:
+    euler_xyz: 0.0 0.0 1.4422176732694414
+    mass: 1.2
+    obj_xml_file: bowls/c399bfee7f25f0ff95aab58c1db71c10.xml
+    scale: 1.2
+  bowls_c399bfee7f25f0ff95aab58c1db71c1_run1:
+    euler_xyz: 0.0 0.0 0.07414720208863321
+    mass: 1.2
+    obj_xml_file: bowls/c399bfee7f25f0ff95aab58c1db71c10.xml
+    scale: 1.5
+  bowls_c399bfee7f25f0ff95aab58c1db71c1_run2:
+    euler_xyz: 0.0 0.0 1.3957885747923864
+    mass: 1.2
+    obj_xml_file: bowls/c399bfee7f25f0ff95aab58c1db71c10.xml
+    scale: 0.7
+  bowls_c6be3b333b1f7ec9d42a2a5a47e9ed_run0:
+    euler_xyz: 0.0 0.0 1.5509103563428022
+    mass: 1.2
+    obj_xml_file: bowls/c6be3b333b1f7ec9d42a2a5a47e9ed5.xml
+    scale: 1.2
+  bowls_c6be3b333b1f7ec9d42a2a5a47e9ed_run1:
+    euler_xyz: 0.0 0.0 1.9102949462132268
+    mass: 1.2
+    obj_xml_file: bowls/c6be3b333b1f7ec9d42a2a5a47e9ed5.xml
+    scale: 0.7
+  bowls_c6be3b333b1f7ec9d42a2a5a47e9ed_run2:
+    euler_xyz: 0.0 0.0 2.886776271218073
+    mass: 1.2
+    obj_xml_file: bowls/c6be3b333b1f7ec9d42a2a5a47e9ed5.xml
+    scale: 1.5
+  bowls_c82e28d7f713f07a5a15f0bff2482ab_run0:
+    euler_xyz: 0.0 0.0 1.0028435788118224
+    mass: 1.2
+    obj_xml_file: bowls/c82e28d7f713f07a5a15f0bff2482ab8.xml
+    scale: 1.5
+  bowls_c82e28d7f713f07a5a15f0bff2482ab_run1:
+    euler_xyz: 0.0 0.0 0.7422568874481131
+    mass: 1.2
+    obj_xml_file: bowls/c82e28d7f713f07a5a15f0bff2482ab8.xml
+    scale: 0.7
+  bowls_c82e28d7f713f07a5a15f0bff2482ab_run2:
+    euler_xyz: 0.0 0.0 3.1092573192156814
+    mass: 1.2
+    obj_xml_file: bowls/c82e28d7f713f07a5a15f0bff2482ab8.xml
+    scale: 1.2
+  bowls_ce48ffb418b99996912a38ce5826ebb_run0:
+    euler_xyz: 0.0 0.0 1.129237827931931
+    mass: 1.2
+    obj_xml_file: bowls/ce48ffb418b99996912a38ce5826ebb8.xml
+    scale: 1.5
+  bowls_ce48ffb418b99996912a38ce5826ebb_run1:
+    euler_xyz: 0.0 0.0 0.956926882756195
+    mass: 1.2
+    obj_xml_file: bowls/ce48ffb418b99996912a38ce5826ebb8.xml
+    scale: 1.2
+  bowls_ce48ffb418b99996912a38ce5826ebb_run2:
+    euler_xyz: 0.0 0.0 0.9792222680944281
+    mass: 1.2
+    obj_xml_file: bowls/ce48ffb418b99996912a38ce5826ebb8.xml
+    scale: 0.7
+  bowls_ce905d4381d4daf65287b12a83c64b8_run0:
+    euler_xyz: 0.0 0.0 1.8014603110943084
+    mass: 1.2
+    obj_xml_file: bowls/ce905d4381d4daf65287b12a83c64b85.xml
+    scale: 1.5
+  bowls_ce905d4381d4daf65287b12a83c64b8_run1:
+    euler_xyz: 0.0 0.0 2.5297911253232734
+    mass: 1.2
+    obj_xml_file: bowls/ce905d4381d4daf65287b12a83c64b85.xml
+    scale: 1.2
+  bowls_ce905d4381d4daf65287b12a83c64b8_run2:
+    euler_xyz: 0.0 0.0 2.4721274249355627
+    mass: 1.2
+    obj_xml_file: bowls/ce905d4381d4daf65287b12a83c64b85.xml
+    scale: 0.7
+  bowls_cfac22c8ca3339b83ce5cb00b21d958_run0:
+    euler_xyz: 0.0 0.0 1.9663910336565413
+    mass: 1.2
+    obj_xml_file: bowls/cfac22c8ca3339b83ce5cb00b21d9584.xml
+    scale: 1.5
+  bowls_cfac22c8ca3339b83ce5cb00b21d958_run1:
+    euler_xyz: 0.0 0.0 1.9161192762240362
+    mass: 1.2
+    obj_xml_file: bowls/cfac22c8ca3339b83ce5cb00b21d9584.xml
+    scale: 1.5
+  bowls_cfac22c8ca3339b83ce5cb00b21d958_run2:
+    euler_xyz: 0.0 0.0 1.632586485900994
+    mass: 1.2
+    obj_xml_file: bowls/cfac22c8ca3339b83ce5cb00b21d9584.xml
+    scale: 0.7
+  bowls_db180e4f9a75ae717ba6f8f10959534_run0:
+    euler_xyz: 0.0 0.0 1.024216487443879
+    mass: 1.2
+    obj_xml_file: bowls/db180e4f9a75ae717ba6f8f10959534c.xml
+    scale: 1.2
+  bowls_db180e4f9a75ae717ba6f8f10959534_run1:
+    euler_xyz: 0.0 0.0 0.9999476840929955
+    mass: 1.2
+    obj_xml_file: bowls/db180e4f9a75ae717ba6f8f10959534c.xml
+    scale: 1.5
+  bowls_db180e4f9a75ae717ba6f8f10959534_run2:
+    euler_xyz: 0.0 0.0 1.933632796667711
+    mass: 1.2
+    obj_xml_file: bowls/db180e4f9a75ae717ba6f8f10959534c.xml
+    scale: 1.2
+  bowls_e30e5cbc54a62b023c143af07c12991_run0:
+    euler_xyz: 0.0 0.0 2.0064851698635815
+    mass: 1.2
+    obj_xml_file: bowls/e30e5cbc54a62b023c143af07c12991a.xml
+    scale: 1.5
+  bowls_e30e5cbc54a62b023c143af07c12991_run1:
+    euler_xyz: 0.0 0.0 3.033176280100657
+    mass: 1.2
+    obj_xml_file: bowls/e30e5cbc54a62b023c143af07c12991a.xml
+    scale: 1.5
+  bowls_e30e5cbc54a62b023c143af07c12991_run2:
+    euler_xyz: 0.0 0.0 2.1780495072451576
+    mass: 1.2
+    obj_xml_file: bowls/e30e5cbc54a62b023c143af07c12991a.xml
+    scale: 0.7
+  bowls_e3e57a94be495771f54e1b6f41fdd78_run0:
+    euler_xyz: 0.0 0.0 0.7160711375610349
+    mass: 1.2
+    obj_xml_file: bowls/e3e57a94be495771f54e1b6f41fdd78a.xml
+    scale: 1.2
+  bowls_e3e57a94be495771f54e1b6f41fdd78_run1:
+    euler_xyz: 0.0 0.0 0.8194537279026198
+    mass: 1.2
+    obj_xml_file: bowls/e3e57a94be495771f54e1b6f41fdd78a.xml
+    scale: 0.7
+  bowls_e3e57a94be495771f54e1b6f41fdd78_run2:
+    euler_xyz: 0.0 0.0 1.8710050021378204
+    mass: 1.2
+    obj_xml_file: bowls/e3e57a94be495771f54e1b6f41fdd78a.xml
+    scale: 1.5
+  bowls_e4c871d1d5e3c49844b2fa2cac0778f_run0:
+    euler_xyz: 0.0 0.0 2.990765455693282
+    mass: 1.2
+    obj_xml_file: bowls/e4c871d1d5e3c49844b2fa2cac0778f5.xml
+    scale: 1.2
+  bowls_e4c871d1d5e3c49844b2fa2cac0778f_run1:
+    euler_xyz: 0.0 0.0 2.6227373897151187
+    mass: 1.2
+    obj_xml_file: bowls/e4c871d1d5e3c49844b2fa2cac0778f5.xml
+    scale: 0.7
+  bowls_e4c871d1d5e3c49844b2fa2cac0778f_run2:
+    euler_xyz: 0.0 0.0 2.556897436246651
+    mass: 1.2
+    obj_xml_file: bowls/e4c871d1d5e3c49844b2fa2cac0778f5.xml
+    scale: 1.2
+  bowls_e816066ac8281e2ecf70f9641eb9770_run0:
+    euler_xyz: 0.0 0.0 0.1221706760176795
+    mass: 1.2
+    obj_xml_file: bowls/e816066ac8281e2ecf70f9641eb97702.xml
+    scale: 0.7
+  bowls_e816066ac8281e2ecf70f9641eb9770_run1:
+    euler_xyz: 0.0 0.0 1.599102097513907
+    mass: 1.2
+    obj_xml_file: bowls/e816066ac8281e2ecf70f9641eb97702.xml
+    scale: 1.5
+  bowls_e816066ac8281e2ecf70f9641eb9770_run2:
+    euler_xyz: 0.0 0.0 2.9980561795374854
+    mass: 1.2
+    obj_xml_file: bowls/e816066ac8281e2ecf70f9641eb97702.xml
+    scale: 0.7
+  bowls_f2cb15fb793e7fa244057c22211862_run0:
+    euler_xyz: 0.0 0.0 2.0553452997507544
+    mass: 1.2
+    obj_xml_file: bowls/f2cb15fb793e7fa244057c222118625.xml
+    scale: 0.7
+  bowls_f2cb15fb793e7fa244057c22211862_run1:
+    euler_xyz: 0.0 0.0 1.95008842229768
+    mass: 1.2
+    obj_xml_file: bowls/f2cb15fb793e7fa244057c222118625.xml
+    scale: 0.7
+  bowls_f2cb15fb793e7fa244057c22211862_run2:
+    euler_xyz: 0.0 0.0 1.1355306157612393
+    mass: 1.2
+    obj_xml_file: bowls/f2cb15fb793e7fa244057c222118625.xml
+    scale: 1.2
+  bowls_fa61e604661d4aa66658ecd96794a1c_run0:
+    euler_xyz: 0.0 0.0 2.645080220305214
+    mass: 1.2
+    obj_xml_file: bowls/fa61e604661d4aa66658ecd96794a1cd.xml
+    scale: 1.5
+  bowls_fa61e604661d4aa66658ecd96794a1c_run1:
+    euler_xyz: 0.0 0.0 0.26987885694419117
+    mass: 1.2
+    obj_xml_file: bowls/fa61e604661d4aa66658ecd96794a1cd.xml
+    scale: 1.5
+  bowls_fa61e604661d4aa66658ecd96794a1c_run2:
+    euler_xyz: 0.0 0.0 1.4262703476423002
+    mass: 1.2
+    obj_xml_file: bowls/fa61e604661d4aa66658ecd96794a1cd.xml
+    scale: 1.2
+  bowls_faa200741fa93abb47ec7417da5d353_run0:
+    euler_xyz: 0.0 0.0 2.7313965836748184
+    mass: 1.2
+    obj_xml_file: bowls/faa200741fa93abb47ec7417da5d353d.xml
+    scale: 1.2
+  bowls_faa200741fa93abb47ec7417da5d353_run1:
+    euler_xyz: 0.0 0.0 0.9573634262911604
+    mass: 1.2
+    obj_xml_file: bowls/faa200741fa93abb47ec7417da5d353d.xml
+    scale: 1.5
+  bowls_faa200741fa93abb47ec7417da5d353_run2:
+    euler_xyz: 0.0 0.0 1.5968528959702486
+    mass: 1.2
+    obj_xml_file: bowls/faa200741fa93abb47ec7417da5d353d.xml
+    scale: 1.5
+  bowls_fc77ad0828db2caa533e44d90297dd6_run0:
+    euler_xyz: 0.0 0.0 2.766470173064426
+    mass: 1.2
+    obj_xml_file: bowls/fc77ad0828db2caa533e44d90297dd6e.xml
+    scale: 0.7
+  bowls_fc77ad0828db2caa533e44d90297dd6_run1:
+    euler_xyz: 0.0 0.0 0.46332722127736076
+    mass: 1.2
+    obj_xml_file: bowls/fc77ad0828db2caa533e44d90297dd6e.xml
+    scale: 1.2
+  bowls_fc77ad0828db2caa533e44d90297dd6_run2:
+    euler_xyz: 0.0 0.0 1.3138406322262468
+    mass: 1.2
+    obj_xml_file: bowls/fc77ad0828db2caa533e44d90297dd6e.xml
+    scale: 1.2

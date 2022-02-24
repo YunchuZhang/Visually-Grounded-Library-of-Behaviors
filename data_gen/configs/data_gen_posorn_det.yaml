@@ -1,0 +1,51 @@
+max_path_length: 50
+num_rollouts: 5
+accept_threshold: 0.8
+env_name: 'FetchPickAndPlace-v1'
+#env_base_xml_file: 'fetch/pick_and_place_fetch_with_cam.xml'
+env_base_xml_file: 'fetch/pick_and_place_stiff_table.xml'
+#this file is in quantize-gym/gym/envs/robotics/assets/fetch
+n_robot_dof: 8
+
+init_info: {'center_of_table': [1.3, 0.75, 0.4],
+            'objs': {'object0': {'pos': "-0.08#0.08 -0.15#0.15 0.1" }}
+           }
+
+
+randomize_color: True
+
+use_detector: True
+detector:
+    fn: detector.detector_pcsub:DetectorPCSub
+    params:
+        camera_radius: 0.65  # since we discussed we want cameras to be far
+        #camera_yaw: [0, 350, 36]  # 0-350 with gap of 36 in between
+        camera_yaw_list: [0, 60, 300]
+        camera_pitch: [40, 41, 2]  # [20, 40, 60]
+        camera_lookat_pos: [1.3, 0.75, 0.45]  ## wanted to make it a bit higher
+        table_top: [1.3, 0.75, 0.4]
+        table_T_camR: [0, 0, 0.05]  # copied from fish config
+
+        #model_config_file: '/home/htung/2020/pytorch_disco//checkpoints/MUJOCO_OFFLINE/train_rgb_occ_det_as2/config.pkl'
+        #ckpt_dict: "{'model': '/home/htung/2020/pytorch_disco/checkpoints/MUJOCO_OFFLINE/train_rgb_occ_det_as2/model-200000.pth'}"
+
+
+
+# for debugging
+save_image: False # for debugging
+render: False #False # for debugging
+visualize_bbox: False #False # for debugging
+remove_site: True # remove sites when rendering data
+train_val_test_ratios: [1, 0, 0]
+
+
+randomize_color: True
+repeat: 1
+
+camera_radius: 0.5
+camera_pitch: [20, 60, 20]
+camera_yaw: [0, 350, 36]
+camera_lookat_pos: [1.3, 0.75, 0.4]
+
+table_top: [1.3, 0.75, 0.4]
+table_T_camR: [0, 0, 0.05]

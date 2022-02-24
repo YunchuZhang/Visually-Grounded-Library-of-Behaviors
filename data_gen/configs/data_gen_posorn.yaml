@@ -1,0 +1,32 @@
+max_path_length: 50
+num_rollouts: 5
+accept_threshold: 0.8
+env_name: 'FetchPickAndPlace-v1'
+#env_base_xml_file: 'fetch/pick_and_place_fetch_with_cam.xml'
+env_base_xml_file: 'fetch/pick_and_place_stiff_table.xml'
+#this file is in quantize-gym/gym/envs/robotics/assets/fetch
+n_robot_dof: 8
+
+init_info: {'center_of_table': [1.3, 0.75, 0.4],
+            'objs': {'object0': {'pos': "-0.08#0.08 -0.15#0.15 0.1" }}
+           }
+
+
+# for debugging
+save_image: False # for debugging
+render: False #False # for debugging
+visualize_bbox: False #False # for debugging
+remove_site: True # remove sites when rendering data
+train_val_test_ratios: [1, 0, 0]
+
+
+randomize_color: True
+repeat: 4
+
+camera_radius: 0.5
+camera_pitch: [20, 60, 20]
+camera_yaw: [0, 350, 36]
+camera_lookat_pos: [1.3, 0.75, 0.4]
+
+table_top: [1.3, 0.75, 0.4]
+table_T_camR: [0, 0, 0.05]

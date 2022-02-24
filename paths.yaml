@@ -1,0 +1,37 @@
+# FORMAT
+# hostname:
+#     username:
+#         mesh_dir: 
+
+
+Rishis-MacBook-Pro.local:
+    gspat:
+        baseline_dir: '/Users/gspat/quant_codes/quantize_baselines'
+        gym_dir: '/Users/gspat/quant_codes/quantize-gym'
+        root_dir: '/Users/gspat/quant_codes/quantized_policies'
+        mesh_root_dir: '/Users/gspat/quant_codes/project_data/quan_meshes/'
+MacBook-Pro-4.local:
+    sfish0101:
+        baseline_dir: '/Users/sfish0101/Documents/2020/Spring/quantize_baselines'
+        gym_dir: '/Users/sfish0101/Documents/2020/Spring/quantize-gym'
+        root_dir: '/Users/sfish0101/Documents/2020/Spring/quantized_policies'
+        mesh_root_dir: '/Users/sfish0101/Documents/2020/Spring/quan_meshes/'
+        grnn_dir: '/Users/sfish0101/Documents/2020/Spring/pytorch_disco'
+        6dof_graspnet_dir: '/Users/sfish0101/Documents/2020/Spring/pointnet_6d_grasp/6dof-graspnet'
+
+compute-*:
+    htung:
+        baseline_dir: '/home/htung/2020/quantize_baselines'
+        gym_dir: '/home/htung/2020/quantize-gym'
+        root_dir: '/home/htung/2020/quantized_policies'
+        mesh_root_dir: "/projects/katefgroup/quantized_policies/quan_meshes" 
+        #'/home/htung/2020/quan_meshes/'
+        grnn_dir: '/home/htung/2020/pytorch_disco'
+        6dof_graspnet_dir: '/home/htung/2020/pointnet_6d_grasp/6dof-graspnet'
+
+yunchu-MacBook-Pro.local:
+    yunchuz:
+        baseline_dir: '/Users/yunchuz/Downloads/cmurl/fetch/fetchtemp/quantize_baselines/baselines'
+        gym_dir: '/Users/yunchuz/Downloads/cmurl/fetch/fetch_new/quantize-gym'
+        root_dir: '/Users/yunchuz/Downloads/cmurl/fetch/fetch_new/quantized_policies'
+        mesh_root_dir: '/Users/yunchuz/Downloads/quan_meshes'

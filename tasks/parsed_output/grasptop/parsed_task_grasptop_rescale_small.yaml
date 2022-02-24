@@ -1,0 +1,116 @@
+accept_threshold: 0.8
+bbox_indicator: false
+camera_fov_y: 45
+camera_img_height: 128
+camera_img_width: 128
+camera_lookat_pos:
+- 1.3
+- 0.75
+- 0.4
+camera_pitch:
+- 40
+- 41
+- 2
+camera_radius: 0.5
+camera_recon_scene: true
+camera_save_image: false
+camera_yaw:
+- 0
+- 350
+- 36
+camera_yaw_list:
+- 300
+- 0
+- 60
+env_base_xml_file: fetch/pick_and_place_fetch_with_cam.xml
+env_name: FetchPickAndPlace-v1
+max_path_length: 50
+n_robot_dof: 4
+num_rollouts: 5
+num_threads: 5
+selector: &id002 !!python/object/new:addict.addict.Dict
+  args:
+  - !!python/tuple
+    - fn
+    - selector.tensor3d_features_selector:Tensor3DFeatSelector
+  - !!python/tuple
+    - params
+    - &id001 !!python/object/new:addict.addict.Dict
+      args:
+      - !!python/tuple
+        - cluster_pkl_file
+        - ./trained_models/vis/MUJOCO_OFFLINE/test_train_viewpred_occ2/clusters.pkl
+      - !!python/tuple
+        - model_type
+        - mujoco_offline
+      - !!python/tuple
+        - model_config_file
+        - ./trained_models/checkpoints/MUJOCO_OFFLINE/train_viewpred_occ2/config.pkl
+      - !!python/tuple
+        - ckpt_dict
+        - '{''model'': ''./trained_models/checkpoints/MUJOCO_OFFLINE/train_viewpred_occ2/model-40000.pth''}'
+      dictitems:
+        ckpt_dict: '{''model'': ''./trained_models/checkpoints/MUJOCO_OFFLINE/train_viewpred_occ2/model-40000.pth''}'
+        cluster_pkl_file: ./trained_models/vis/MUJOCO_OFFLINE/test_train_viewpred_occ2/clusters.pkl
+        model_config_file: ./trained_models/checkpoints/MUJOCO_OFFLINE/train_viewpred_occ2/config.pkl
+        model_type: mujoco_offline
+      state: *id001
+  dictitems:
+    fn: selector.tensor3d_features_selector:Tensor3DFeatSelector
+    params: *id001
+  state: *id002
+table_T_camR:
+- 0
+- 0
+- 0
+table_top:
+- 1.3
+- 0.75
+- 0.4
+train_val_test_ratios:
+- 0.5
+- 0.5
+- 0.5
+clusters:
+  c0:
+    expert_name: grasp_from_rim_controller
+    fn: policy.grasp_from_rim_controller:GraspFromRimController
+    params:
+      model_name: null
+      policy_model_path: ''
+      policy_name: grasp_from_rim_controller
+  c1:
+    expert_name: grasp_from_center_controller
+    fn: policy.grasp_from_center_controller:GraspFromCenterController
+    params:
+      max_path_length: 110
+      model_name: null
+      policy_model_path: ''
+      policy_name: grasp_from_center_controller
+objs:
+  159e56c18906830278d8f8c02c47cde0:
+    class_id: 0
+    cluster_id: c0
+    obj_xml_file: cups/159e56c18906830278d8f8c02c47cde0.xml
+    scale: 1.2
+  899af991203577f019790c8746d79a6f:
+    class_id: 1
+    cluster_id: c0
+    obj_xml_file: bowls/899af991203577f019790c8746d79a6f.xml
+    scale: 2.0
+  bottle:
+    class_id: 2
+    cluster_id: c0
+    obj_xml_file: robotsuite_objects_centered/bottle.xml
+  dice:
+    class_id: 2
+    cluster_id: c0
+    obj_xml_file: robotsuite_objects_centered/dice.xml
+  glass:
+    class_id: 2
+    cluster_id: c1
+    obj_xml_file: robotsuite_objects_centered/glass.xml
+  pen:
+    class_id: 2
+    cluster_id: c1
+    obj_xml_file: robotsuite_objects_centered/pen.xml

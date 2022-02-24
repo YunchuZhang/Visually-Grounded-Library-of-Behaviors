@@ -1,0 +1,14 @@
+max_path_length: 50
+num_rollouts: 5
+accept_threshold: 0.8
+n_robot_dof: 8
+env_name: 'FetchPickAndPlace-v1'
+env_base_xml_file: 'fetch/pick_and_place_stiff_table_kp10000.xml'
+init_info: {'center_of_table': [1.3, 0.75, 0.4],
+#            'objs': {'object0': {'pos': "-0.08#0.08 -0.15#0.15 0.1" }}
+            'objs': {'object0': {'pos': "-0.08#0.08 -0.02#0.02 0.1" }}
+           }
+
+initial_policies:
+    grasp_from_rim_controller:
+        fn: policy.pose_reacher:PoseReacher

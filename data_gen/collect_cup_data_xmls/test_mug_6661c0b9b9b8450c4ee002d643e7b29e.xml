@@ -1,0 +1,82 @@
+<mujoco>
+
+    <compiler angle="radian" coordinate="local" meshdir="" texturedir="" />
+    <option timestep="0.002">
+        <flag warmstart="enable" />
+    </option>
+    <include file="shared_mug_6661c0b9b9b8450c4ee002d643e7b29e.xml" />
+    <worldbody>
+
+        <geom condim="3" material="floor_mat" name="floor0" pos="0 0 0" size="1.05 0.7 1" type="plane" />
+        <body name="floor0" pos="0 0 0">
+            
+        </body>
+
+        <body name="table0" pos="0 0 0.2">
+            <geom condim="3" friction="0.1 0.005 0.0001" mass="2000" material="table_mat" name="table0" size="0.625 0.45 0.2" type="box" />
+        </body>
+        
+
+        <body name="object0" pos="0.0 0.0 0.46">
+            <camera name="yunchu_view" pos="0.025 0.025 3.02" />
+            <camera euler="3.1415 0 0" fovy="50" name="head_camera_rgb" pos="0 0 0" />
+            <joint damping="0.01" name="object0:joint" type="free" />
+
+            <geom condim="4" density="3.566684277752461" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_0" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="0.796306746363454" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_1" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="0.9497855382641994" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_2" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.3787762393349694" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_3" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="2.0317652848672294" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_4" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="2.9520298750996146" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_5" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.4820556713966702" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_6" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="2.6169179833862874" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_7" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="3.1321307656112185" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_8" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.3054523586590525" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_9" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="2.4544734791843874" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_10" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="2.298065082375905" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_11" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="3.5171482138757515" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_12" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.8110007545468658" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_13" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.7476755282868524" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_14" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.9296466124134173" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_15" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.507969137991871" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_16" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.497399868084403" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_17" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.507616706685859" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_18" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.4968306720280145" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_19" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.9185177941075653" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_20" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="0.0041176036573263314" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_21" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.311918160890519" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_22" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.8916206913542597" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_23" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="0.9744386510299066" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_24" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.062089008768932" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_25" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.1581381795954238" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_26" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="0.8503479458987002" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_27" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.417172170946041" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_28" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="0.47884230182041615" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_29" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.7335687232761927" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_30" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="2.2516965163106537" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_31" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="0.9156422583841808" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_32" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="0.805202735714489" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_33" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="0.8591534526266088" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_34" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.064013377781434" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_35" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.0220102224025145" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_36" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.5277882352633059" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_37" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.018921492345139" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_38" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.5274002945571756" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_39" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.5019106119782666" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_40" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="2.2414495395533107" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_41" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="24.794682183709295" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_42" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="0.04846232369028084" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_43" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.4564307764649171" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_44" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="0.8904905937923375" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_45" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="0.00336779362135151" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_46" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.4568227950929258" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_47" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.5232341824664046" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_48" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="0.9023981169994432" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_49" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+        <geom condim="4" density="1.4084204696921963" friction="2 0.3 0.1" group="1" material="ceramic" mesh="6661c0b9b9b8450c4ee002d643e7b29e_mesh_50" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh" />
+      </body>
+
+        <light ambient="0.2 0.2 0.2" castshadow="false" diffuse="0.8 0.8 0.8" dir="0 0 -1" directional="true" name="light0" pos="0 0 4" specular="0.3 0.3 0.3" />
+    </worldbody>
+
+    <actuator />
+</mujoco>

@@ -1,0 +1,67 @@
+<!-- same env as pick_and_place.xml, but with cameras -->
+<mujoco>
+	<compiler angle="radian" coordinate="local" meshdir="../stls/fetch" texturedir="../textures" />
+	<option timestep="0.002">
+		<flag warmstart="enable" />
+	</option>
+
+	<include file="shared.xml" />
+	
+	<worldbody>
+		<geom condim="3" material="floor_mat" name="floor0" pos="0.8 0.75 0" size="0.85 0.7 1" type="plane" />
+		<body name="floor0" pos="0.8 0.75 0">
+			<site name="target0" pos="0 0 0.5" rgba="1 0 0 1" size="0.02 0.02 0.02" type="sphere" />
+		</body>
+
+		<include file="robot.xml" />
+		
+		<body name="table0" pos="1.3 0.75 0.2"> <!--- table is at 1.3, 0.75, 0.2, table top is at 1.3, 0.75, 0.4 -->
+			<geom mass="2000" material="table_mat" size="0.30 0.35 0.2" type="box" />
+		</body>
+		
+		<!--<camera pos="0.025 0.025 3.02" name="yunchu_view" />-->
+        <!-- <camera euler="3.1415 0 0" fovy="50" name="ext_camera_0" pos="0 0 0"></camera>-->
+		
+		<body name="object0" pos="0.025 0.025 0.025">
+			<joint name="object0:joint" type="free" />
+			<!--<joint damping="0.01" name="object0:joint" type="free" />-->
+			<geom contype='0' conaffinity='0' name="object0" size="0.025 0.025 0.025" type="box" />
+			<!--<geom condim="4" mass="0.1" material="block_mat" name="object0" size="0.025 0.025 0.025" type="box" friction="2 0.3 0.1" solimp="0.99 0.99 0.01" solref="0.01 1"/>-->
+			<site name="object0" pos="0 0 0" rgba="0 0 1 1" size="0.02 0.02 0.02" type="sphere" />
+		</body>
+
+		<body name="ext_camera_0" pos="1.3 0.75 0.8">
+			<joint damping="0.01" name="ext_camera_0:joint" type="free" />
+			<geom contype='0' conaffinity='0' name="ext_camera_0" size="0.025 0.025 0.025" type="box"/>
+			<camera euler="0 0 0" fovy="45" name="ext_camera_0" pos="0 0 0"></camera>
+		</body>
+
+        <body name="ref_cam" pos="1.3 0.25 0.5" zaxis="0 -1 0" >
+	        <camera fovy="45.0" name="ref_cam" />
+	    </body>
+
+        <site name="origin" pos="0 0 0" rgba="1 0 0 1" size="0.02 0.02 0.02" type="sphere" />
+        <site name="x" pos="0.5 0 0" rgba="1 0 0 1" size="0.01 0.01 0.01" type="sphere" />
+        <site name="y" pos="0 0.5 0" rgba="0 1 0 1" size="0.01 0.01 0.01" type="sphere" />
+        <site name="z" pos="0 0 0.5" rgba="0 0 1 1" size="0.01 0.01 0.01" type="sphere" />
+        <site name="x_axis" pos="0.25 0 0" rgba="1 0 0 1" size="0.25 0.01 0.01" type="box" />
+        <site name="y_axis" pos="0 0.25 0" rgba="0 1 0 1" size="0.01 0.25 0.01" type="box" />
+        <site name="z_axis" pos="0 0 0.25" rgba="0 0 1 1" size="0.01 0.01 0.25" type="box" />
+
+        <site name="origin_t" pos="1.3 0.75 0.4" rgba="1 0 0 1.0" size="0.02 0.02 0.02" type="sphere" />
+        <site name="x_t" pos="1.8 0.75 0.4" rgba="1 0 0 1.0" size="0.01 0.01 0.01" type="sphere" />
+        <site name="y_t" pos="1.3 1.25 0.4" rgba="0 1 0 1.0" size="0.01 0.01 0.01" type="sphere" />
+        <site name="z_t" pos="1.3 0.75 0.9" rgba="0 0 1 1.0" size="0.01 0.01 0.01" type="sphere" />
+        <site name="x_t_axis" pos="1.55 0.75 0.4" rgba="1 0 0 1.0" size="0.25 0.01 0.01" type="box" />
+        <site name="y_t_axis" pos="01.3 1.0 0.4" rgba="0 1 0 1.0" size="0.01 0.25 0.01" type="box" />
+        <site name="z_t_axis" pos="1.3 0.75 0.65" rgba="0 0 1 1.0" size="0.01 0.01 0.25" type="box" />
+
+
+		<light ambient="0.2 0.2 0.2" castshadow="false" diffuse="0.8 0.8 0.8" dir="0 0 -1" directional="true" name="light0" pos="0 0 4" specular="0.3 0.3 0.3" />
+	</worldbody>
+
+	<actuator>
+		<position ctrllimited="true" ctrlrange="0 0.2" joint="robot0:l_gripper_finger_joint" kp="2000" name="robot0:l_gripper_finger_joint" user="1" />
+		<position ctrllimited="true" ctrlrange="0 0.2" joint="robot0:r_gripper_finger_joint" kp="2000" name="robot0:r_gripper_finger_joint" user="1" />
+	</actuator>
+</mujoco>

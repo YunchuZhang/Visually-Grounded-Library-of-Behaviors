@@ -5,7 +5,7 @@ We propose a method for manipulating diverse objects across a wide range of init
 
 -------
 
-![Overview](https://github.com/YunchuZhang/Visually-Grounded-Library-of-Behaviors/blob/main/image/overview.png)
+![Overview](https://github.com/YunchuZhang/Visually-Grounded-Library-of-Behaviors/blob/main/images/overview.png)
 
 -------
 # Codebase set up

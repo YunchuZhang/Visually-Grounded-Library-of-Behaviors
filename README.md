@@ -78,4 +78,16 @@ check command lines in run_compress.sh
 ## generate data for training metric learning
     sh run_data_gen.sh
 ## metric learning with GRNN
-    follow the readme inside pytorch_disco folder
+    please follow the readme inside pytorch_disco folder and commands in quantize_training/run.sh
+# Train with real dataset
+## installation:
+    please follow the commands inside quantize_training/run.sh
+# Citation 
+```bibtex
+@inproceedings{yang2021visually,
+  title={Visually-Grounded Library of Behaviors for Manipulating Diverse Objects across Diverse Configurations and Views},
+  author={Yang, Jingyun and Tung, Hsiao-Yu and Zhang, Yunchu and Pathak, Gaurav and Pokle, Ashwini and Atkeson, Christopher G and Fragkiadaki, Katerina},
+  booktitle={5th Annual Conference on Robot Learning},
+  year={2021}
+}
+```

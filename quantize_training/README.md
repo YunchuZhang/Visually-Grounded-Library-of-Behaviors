@@ -10,7 +10,7 @@ python -W ignore main.py MUJOCO_OFFLINE --exp_name=train_viewpred_occ  --run_nam
 
 
 # load model
-We provide our pre-trained model and raw real data [here](https://github.com/user/repo/blob/branch/other_file.md).  
+We provide our pre-trained model and raw real data [here](https://drive.google.com/drive/folders/1eXLVr1F2R_fVTkgsXuQzM_0lQP36gp_w?usp=sharing).  
 You may need to put the data and raw folder in quantize_training folder, and put checkpoints folder in pytorch_disco folder.
 
 if specified load path with loadname, then it will use the specified loadname

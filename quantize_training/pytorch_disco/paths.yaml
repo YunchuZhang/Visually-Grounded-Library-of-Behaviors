@@ -1,0 +1,27 @@
+^compute.*:
+    htung$:
+        data_root_dir: '/projects/katefgroup/quantized_policies/data' #/projects/katefgroup/shared_quant_models'
+        dump_dir: "/home/htung/2020/pytorch_disco_dump"
+
+matrix-*:
+    htung$:
+        data_root_dir: '/projects/katefgroup/quantized_policies/data' #/projects/katefgroup/shared_quant_models'
+        dump_dir: "/home/htung/2020/pytorch_disco_dump"
+
+
+#aws
+ip-*:
+    ubuntu:
+        data_root_dir: '/home/ubuntu/datasets/'
+        dump_dir: "/projects/katefgroup/gauravp/touch_project"
+
+aw-m17-R2:
+    htung:
+
+        data_root_dir: '/home/htung/Documents/2020/Fall/htung0101_quantized_policies/data' #/projects/katefgroup/shared_quant_models'
+        dump_dir: "/home/htung/Documents/2020/Fall/pytorch_disco_dump"
+
+nel:
+    sirdome:
+        data_root_dir: '/home/sirdome/workspace/quantize_training/data'
+        dump_dir: "/home/sirdome/workspace/pytorch_disco_dump"

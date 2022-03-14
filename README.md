@@ -1,14 +1,15 @@
 # Visually-Grounded-Library-of-Behaviors
+[Project Website](https://yunchuzhang.github.io/vbes.github.io/)&nbsp;&nbsp;•&nbsp;&nbsp;[PDF](https://openreview.net/forum?id=sIVC-oZN1PQ)&nbsp;&nbsp;•&nbsp;&nbsp;Conference on Robot Learning (CoRL) 2021
 
 ## Abstract
 We propose a method for manipulating diverse objects across a wide range of initial and goal configurations and camera placements. We disentangle the standard image-to-action mapping into two separate modules: (1) a behavior selector which conditions on intrinsic and semantically-rich object appearance features to select the behaviors that can successfully perform the desired tasks on the object in hand, and (2) a library of behaviors each of which conditions on extrinsic and abstract object properties to predict actions to execute over time. Our framework outperforms various learning and non-learning based baselines in both simulated and real robot tasks. 
 
--------
+
 
 ![Overview](https://github.com/YunchuZhang/Visually-Grounded-Library-of-Behaviors/blob/main/images/overview.png)
 
--------
-# Codebase set up
+
+# Installation
 
 ## openAI baseline and gym setup
 set up baseline and openai gym path in paths.yaml 

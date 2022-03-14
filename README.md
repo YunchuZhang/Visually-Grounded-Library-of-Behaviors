@@ -23,9 +23,10 @@ download object mesh and xml data from Shapenet:
 and put it at ../quan_meshes. Remember to add this path to your paths.yaml
 
 
-## installation:
 
-### baseline env
+
+### baseline env setup
+```shell
 conda create --name py36-baselines python=3.6
 pip install tensorflow-gpu==1.14
 
@@ -57,20 +58,20 @@ conda install libgcc
 conda install -c conda-forge mesalib
 conda install -c menpo osmesa
 conda install -c anaconda mesa-libgl-cos6-x86_64ex
-
-Put gaurav mesh under /projects/katefgroup/gaurav_meshes/meshes
-/Users/sfish0101/Documents/2020/Spring/quantize-gym/gym/envs/robotics/assets/stls
+```
+Put our preprocessed mesh under [mesh](https://drive.google.com/drive/folders/1eXLVr1F2R_fVTkgsXuQzM_0lQP36gp_w?usp=sharing) 
+to quantize-gym/gym/envs/robotics/assets/stls
 
 
 if you plan to run with selector using trained features
-
-   pip install munch
-   pip install torch==1.4.0
-   pip install tensorboardX
-   pip install scikit-image
-   pip install torchvision
-   pip install sklearn
-
+```shell
+ pip install munch
+ pip install torch==1.4.0
+ pip install tensorboardX
+ pip install scikit-image
+ pip install torchvision
+ pip install sklearn
+```
 # Run the code
 ## given a list of initial policies, assign objects to the policies
 check command lines in run_compress.sh

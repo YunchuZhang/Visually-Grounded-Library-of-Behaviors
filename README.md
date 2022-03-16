@@ -10,80 +10,93 @@ We propose a method for manipulating diverse objects across a wide range of init
 
 
 # Installation
+**Step 1.** Recommended: install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) with Python 3.7.
 
-## openAI baseline and gym setup
-set up baseline and openai gym path in paths.yaml 
-  
-  Install the quantize-gym inside the folder
-## dataset set up
-place trained models under this repo
-ex. trained_models/fetch_cup_loss_obs/model_name/..
-
-download object mesh and xml data from Shapenet:
-and put it at ../quan_meshes. Remember to add this path to your paths.yaml
-
-
-
-
-### baseline env setup
 ```shell
-conda create --name py36-baselines python=3.6
-pip install tensorflow-gpu==1.14
+curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh -b -u
+echo $'\nexport PATH=~/miniconda3/bin:"${PATH}"\n' >> ~/.profile  # Add Conda to PATH.
+source ~/.profile
+conda init
+```
 
-In baseline: python setup.py install
-In gym: pip install -e .
+**Step 2.** Create and activate Conda environment, then install GCC and Python packages.
 
-pip install pyyaml
-pip install ipdb
+```shell
+conda create --name vbe python=3.7 -y
+conda activate vbe
+sudo apt-get update
+sudo apt-get -y install gcc libgl1-mesa-dev
+conda env update --file vbe.yaml
+```
+
+**Step 3.** Set up related packages path and download our shared [data&mesh](https://drive.google.com/drive/folders/1eXLVr1F2R_fVTkgsXuQzM_0lQP36gp_w?usp=sharing) 
+```shell
+
+## gym environment setup
+Install the vbe-gym inside the folder by running 
+pip install -e.
+change gym path inside paths.yaml to the vbe-gym path
+
+After that, installing the following packages:
+
 pip install trimesh (for gym)
-pip install matplotlib
-
 pip install dm_control
 pip install open3d==0.8.0.0
-pip install transformations
-pip install ordered_set
-pip install attrdict
-pip install bounding-box
-pip install addict
-pip install click
-pip install click
 
 # install mujoco
 # put the license at ~/.mujoco/mjkey.txt
 pip install install -U 'mujoco-py<2.1,>=2.0'
 
 conda install libgcc
-
-
 conda install -c conda-forge mesalib
 conda install -c menpo osmesa
 conda install -c anaconda mesa-libgl-cos6-x86_64ex
-```
-Put our preprocessed mesh under [mesh](https://drive.google.com/drive/folders/1eXLVr1F2R_fVTkgsXuQzM_0lQP36gp_w?usp=sharing) 
-to quantize-gym/gym/envs/robotics/assets/stls
 
 
-if you plan to run with selector using trained features
-```shell
- pip install munch
- pip install torch==1.4.0
- pip install tensorboardX
- pip install scikit-image
- pip install torchvision
- pip install sklearn
+## dataset set up 
+
+download object mesh and xml data from Shapenet:
+and put it at ../quan_meshes. Remember to add this path to your paths.yaml
+Put our preprocessed mesh stl files to /gym/envs/robotics/assets/stls
 ```
+
 # Run the code
-## given a list of initial policies, assign objects to the policies
-check command lines in run_compress.sh
-    sh run_compress.sh
+**Step 1.1** Generating training data and affordance label for the training set in simulation.
+```
+sh run_data_gen.sh
+sh run_compress.sh
+```
 
-## generate data for training metric learning
-    sh run_data_gen.sh
-## metric learning with GRNN
-    please follow the readme inside pytorch_disco folder and commands in quantize_training/run.sh
-# Train with real dataset
-## installation:
-    please follow the commands inside quantize_training/run.sh
+**Step 1.2** Processing real data to the same pkl format and visualize them.
+```shell
+python training/transfer.py
+python training/vis.py
+```
+
+
+
+**Step 2** Training our model.
+```
+python main.py [MODEL NAME] -- exp_name=[exp name in your exp config file] --run_name=[a name for this run]
+
+eg.training with 3D affordance model
+
+python -W ignore main.py MUJOCO_OFFLINE_METRIC --exp_name=plate_0612_load --run_name=plate_0612_r2_cluttered
+
+eg.training with 2D affordance model
+
+python -W ignore main.py MUJOCO_OFFLINE_METRIC_2D --exp_name=plate_0612_load --run_name=train_2d_0827
+
+for more usage, please check other commands in training/run.sh
+
+```
+**Step 3** Evaluating model .
+```
+python -W ignore main.py MUJOCO_OFFLINE_METRIC --exp_name=test_train_plate_0612_load --run_name=test_train_plate_0612_load
+```
+
+
 # Citation 
 ```bibtex
 @inproceedings{yang2021visually,
